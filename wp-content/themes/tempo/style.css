@@ -1,0 +1,16 @@
+.align-none {text-align: none;}
+.align-left {text-align: left;}
+.align-center {text-align: center;}
+.align-justify {text-align: justify;}
+.align-right {text-align: right;}
+.alignleft, .alignright {margin-top: 10px;margin-bottom: 10px;}
+.alignnone, .aligncenter {margin-top: 25px;margin-bottom: 25px;}
+.alignleft {float: left;margin-right: 15px;}
+.alignright {float: right;margin-left: 15px;}
+.aligncenter {clear: both;display: block;margin-left: auto;margin-right: auto;text-align: center;}
+.sticky, .gallery-caption, .screen-reader-text, .bypostauthor {}
+.wp-caption, .wp-caption p {color: #ababab;font-family: Arial,sans-serif;font-size: 14px;line-height: 26px;max-width: 100%;}
+section .wp-caption p, section .wp-caption p.wp-caption-text {color: #ababab;font-family: Arial,sans-serif;font-size: 14px;line-height: 26px;margin: 22px 0px;}
+.wp-caption img {display: block;margin: 0px auto;}
+div.gallery dl.gallery-item img, div.gallery dl.gallery-item img a {border: none !important;}
+#gallery-1 .gallery-caption {color: #ababab;font-family: Arial,sans-serif;font-size: 14px;line-height: 26px;margin: 30px 0px;}
