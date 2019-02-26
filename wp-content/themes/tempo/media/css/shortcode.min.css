@@ -1,0 +1,263 @@
+body .tempo-shortcode.max {margin-left: auto;margin-right: auto;}
+body .tempo-shortcode.max.center {text-align: center;}
+body .tempo-shortcode.max.left {text-align: left;}
+body .tempo-shortcode.max.right {text-align: right;}
+body .tempo-shortcode.alert, body .tempo-shortcode.alert.message {border-left: 5px solid #d1d1d1;background-color: #f9f9f9;color: #454545;font-size: 14px;line-height: 24px;padding: 13px 18px 13px 52px;margin-bottom: 20px;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+body .tempo-shortcode.alert i, body .tempo-shortcode.alert.message i {color: #d1d1d1;float: left;display: block;font-size: 18px;margin-right: 16px;margin-left: -34px;}
+body .tempo-shortcode.alert.notice {border-left: 5px solid #d5a042;}
+body .tempo-shortcode.alert.notice i {color: #d5a042;}
+body .tempo-shortcode.alert.warning {border-left: 5px solid #d86c6c;}
+body .tempo-shortcode.alert.warning i {color: #d86c6c;}
+body .tempo-shortcode.alert.success {border-left: 5px solid #92c522;}
+body .tempo-shortcode.alert.success i {color: #92c522;}
+body .tempo-shortcode.alert.help {border-left: 5px solid #66b1db;}
+body .tempo-shortcode.alert.help i {color: #66b1db;}
+body .tempo-shortcode.alert.info {border-left: 5px solid #8471cd;}
+body .tempo-shortcode.alert.info i {color: #8471cd;}
+body .tempo-shortcode.button {border: 0;opacity: .8;filter: alpha(opacity=80);-webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out;}
+body .tempo-shortcode.button:hover {opacity: 1;filter: alpha(opacity=100);}
+body .tempo-shortcode.columns .column, body .tempo-shortcode.columns .column p {font-size: 15px;line-height: 32px;}
+body .tempo-shortcode.counters .counter-item {color: #787878;font-weight: 400;padding-top: 20px;padding-bottom: 20px;text-align: center;}
+body .tempo-shortcode.counters .counter-item span {color: #454545;font-weight: 600;}
+body .tempo-shortcode.counters .counter-item .counter-description {color: #999;font-weight: 300;margin-top: 15px;text-transform: uppercase;}
+@media (min-width:1200px) {body .tempo-shortcode.counters .counter-item.col-lg-6, body .tempo-shortcode.counters .counter-item.col-lg-6 span {font-size: 48px;line-height: 48px;}
+	body .tempo-shortcode.counters .counter-item.col-lg-6 .counter-description {font-size: 18px;line-height: 24px;}
+	body .tempo-shortcode.counters .counter-item.col-lg-4, body .tempo-shortcode.counters .counter-item.col-lg-4 span {font-size: 42px;line-height: 42px;}
+	body .tempo-shortcode.counters .counter-item.col-lg-4 .counter-description {font-size: 17px;line-height: 23px;}
+	body .tempo-shortcode.counters .counter-item.col-lg-3, body .tempo-shortcode.counters .counter-item.col-lg-3 span {font-size: 36px;line-height: 36px;}
+	body .tempo-shortcode.counters .counter-item.col-lg-3 .counter-description {font-size: 16px;line-height: 22px;}}
+@media (min-width:992px) and (max-width:1199px) {body .tempo-shortcode.counters .counter-item.col-lg-6, body .tempo-shortcode.counters .counter-item.col-lg-6 span {font-size: 42px;line-height: 42px;}
+	body .tempo-shortcode.counters .counter-item.col-lg-6 .counter-description {font-size: 17px;line-height: 23px;}
+	body .tempo-shortcode.counters .counter-item.col-lg-4, body .tempo-shortcode.counters .counter-item.col-lg-4 span {font-size: 36px;line-height: 36px;}
+	body .tempo-shortcode.counters .counter-item.col-lg-4 .counter-description {font-size: 16px;line-height: 22px;}
+	body .tempo-shortcode.counters .counter-item.col-lg-3, body .tempo-shortcode.counters .counter-item.col-lg-3 span {font-size: 28px;line-height: 28px;}
+	body .tempo-shortcode.counters .counter-item.col-lg-3 .counter-description {font-size: 15px;line-height: 21px;}}
+@media (min-width:768px) and (max-width:991px) {body .tempo-shortcode.counters .counter-item.col-lg-6, body .tempo-shortcode.counters .counter-item.col-lg-3, body .tempo-shortcode.counters .counter-item.col-lg-6 span, body .tempo-shortcode.counters .counter-item.col-lg-3 span {font-size: 36px;line-height: 36px;}
+	body .tempo-shortcode.counters .counter-item.col-lg-6 .counter-description, body .tempo-shortcode.counters .counter-item.col-lg-3 .counter-description {font-size: 16px;line-height: 22px;}
+	body .tempo-shortcode.counters .counter-item.col-lg-4, body .tempo-shortcode.counters .counter-item.col-lg-4 span {font-size: 28px;line-height: 28px;}
+	body .tempo-shortcode.counters .counter-item.col-lg-4 .counter-description {font-size: 14px;line-height: 20px;}}
+@media (min-width:481px) and (max-width:767px) {body .tempo-shortcode.counters .counter-item.col-lg-6, body .tempo-shortcode.counters .counter-item.col-lg-4, body .tempo-shortcode.counters .counter-item.col-lg-3, body .tempo-shortcode.counters .counter-item.col-lg-6 span, body .tempo-shortcode.counters .counter-item.col-lg-4 span, body .tempo-shortcode.counters .counter-item.col-lg-3 span {font-size: 28px;line-height: 28px;}
+	body .tempo-shortcode.counters .counter-item.col-lg-6 .counter-description, body .tempo-shortcode.counters .counter-item.col-lg-4 .counter-description, body .tempo-shortcode.counters .counter-item.col-lg-3 .counter-description {font-size: 14px;line-height: 20px;}}
+@media (max-width:480px) {body .tempo-shortcode.counters .counter-item.col-lg-6, body .tempo-shortcode.counters .counter-item.col-lg-4, body .tempo-shortcode.counters .counter-item.col-lg-3, body .tempo-shortcode.counters .counter-item.col-lg-6 span, body .tempo-shortcode.counters .counter-item.col-lg-4 span, body .tempo-shortcode.counters .counter-item.col-lg-3 span {font-size: 28px;line-height: 28px;}
+	body .tempo-shortcode.counters .counter-item.col-lg-6 .counter-description, body .tempo-shortcode.counters .counter-item.col-lg-4 .counter-description, body .tempo-shortcode.counters .counter-item.col-lg-3 .counter-description {font-size: 14px;line-height: 20px;}}
+@media (max-width:480px) {body .tempo-shortcode.counters {margin-top: 30px;}
+	body .tempo-shortcode.counters .counter-item {display: block;width: 100%;}}
+body .tempo-shortcode.dropcap {display: inline-block;font-family: Serif;font-weight: 700;font-size: 32px;line-height: 40px;height: 40px;width: 40px;text-align: center;}
+body .tempo-shortcode.dropcap, body .tempo-shortcode.dropcap.square {-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+body .tempo-shortcode.dropcap.circle {-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;}
+body .tempo-shortcode.gmap h3.zeon-marker-title {margin-top: 10px;font-family: Helvetica,sans-serif;font-size: 1.3em;}
+body .tempo-shortcode.icon {text-align: center;display: inline-block;}
+body .tempo-shortcode.list ol, body .tempo-shortcode.list ul {list-style: none;margin: 0;padding: 0;}
+body .tempo-shortcode.list ol li, body .tempo-shortcode.list ul li {list-style: none;padding: 0;margin-top: 24px;}
+body .tempo-shortcode.list ol li, body .tempo-shortcode.list ul li, body .tempo-shortcode.list ol li div, body .tempo-shortcode.list ul li div {color: #666;font-weight: 300;}
+body .tempo-shortcode.list ol li i, body .tempo-shortcode.list ul li i {display: block;float: left;text-align: center;font-style: normal;}
+body .tempo-shortcode.list ol li:before, body .tempo-shortcode.list ul li:before, body .tempo-shortcode.list ol li::before, body .tempo-shortcode.list ul li::before, body .tempo-shortcode.list ol li:after, body .tempo-shortcode.list ul li:after, body .tempo-shortcode.list ol li::after, body .tempo-shortcode.list ul li::after {display: table;content: " ";}
+body .tempo-shortcode.list ol li:after, body .tempo-shortcode.list ul li:after, body .tempo-shortcode.list ol li::after, body .tempo-shortcode.list ul li::after {clear: both;}
+body .tempo-shortcode.list ol li:first-child, body .tempo-shortcode.list ul li:first-child {margin-top: 0;}
+body .tempo-shortcode.list ol li i[class^="icon-"], body .tempo-shortcode.list ul li i[class^="icon-"], body .tempo-shortcode.list ol li i[class*="icon-"], body .tempo-shortcode.list ul li i[class*="icon-"], body .tempo-shortcode.list ol li i[class^="marker-"], body .tempo-shortcode.list ul li i[class^="marker-"], body .tempo-shortcode.list ol li i[class*="marker-"], body .tempo-shortcode.list ul li i[class*="marker-"] {line-height: 48px;width: 48px;height: 48px;margin-right: 22px;}
+body .tempo-shortcode.list ol li i[class^="icon-"], body .tempo-shortcode.list ul li i[class^="icon-"], body .tempo-shortcode.list ol li i[class*="icon-"], body .tempo-shortcode.list ul li i[class*="icon-"] {font-family: "fontello";font-style: normal;font-weight: normal;font-variant: normal;speak: none;text-align: center;text-decoration: inherit;text-transform: none;}
+body .tempo-shortcode.list ol li i[class^="marker-"], body .tempo-shortcode.list ul li i[class^="marker-"], body .tempo-shortcode.list ol li i[class*="marker-"], body .tempo-shortcode.list ul li i[class*="marker-"] {font-size: 20px;font-weight: 600;}
+body .tempo-shortcode.list ol li div, body .tempo-shortcode.list ul li div {font-size: 14px;line-height: 24px;margin-left: 70px;}
+body .tempo-shortcode.list.small li {margin-top: 20px;}
+body .tempo-shortcode.list.small li:first-child {margin-top: 0;}
+body .tempo-shortcode.list.small li i[class^="icon-"], body .tempo-shortcode.list.small li i[class*="icon-"], body .tempo-shortcode.list.small li i[class^="marker-"], body .tempo-shortcode.list.small li i[class*="marker-"] {font-style: normal;line-height: 38px;width: 38px;height: 38px;margin-right: 18px;}
+body .tempo-shortcode.list.small li i[class^="icon-"], body .tempo-shortcode.list.small li i[class*="icon-"] {font-family: "fontello";font-style: normal;font-weight: normal;font-variant: normal;speak: none;text-align: center;text-decoration: inherit;text-transform: none;}
+body .tempo-shortcode.list.small li i[class^="marker-"], body .tempo-shortcode.list.small li i[class*="marker-"] {font-size: 16px;font-weight: 900;}
+body .tempo-shortcode.list.small li div {font-size: 13px;line-height: 18px;margin-top: 2px;margin-left: 56px;}
+body .tempo-shortcode.list.large li {margin-top: 30px;}
+body .tempo-shortcode.list.large li:first-child {margin-top: 0;}
+body .tempo-shortcode.list.large li i[class^="icon-"], body .tempo-shortcode.list.large li i[class*="icon-"], body .tempo-shortcode.list.large li i[class^="marker-"], body .tempo-shortcode.list.large li i[class*="marker-"] {line-height: 60px;width: 60px;height: 60px;margin-right: 25px;}
+body .tempo-shortcode.list.large li i[class^="icon-"], body .tempo-shortcode.list.large li i[class*="icon-"] {font-family: "fontello";font-style: normal;font-weight: normal;font-variant: normal;speak: none;text-align: center;text-decoration: inherit;text-transform: none;}
+body .tempo-shortcode.list.large li i[class^="marker-"], body .tempo-shortcode.list.large li i[class*="marker-"] {font-size: 26px;font-weight: 900;}
+body .tempo-shortcode.list.large li div {font-size: 16px;line-height: 24px;margin-top: 5px;margin-left: 85px;}
+body .tempo-shortcode.list.circled li i {-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;}
+body .tempo-shortcode.list.rounded li i {-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+body .tempo-shortcode.list.rounded.small li i {-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+body .tempo-shortcode.list.rounded.large li i {-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+body .tempo-shortcode.message {padding: 10px 8px 10px 18px;width: 100%;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+@media (max-width:480px) {body .tempo-shortcode.message {padding: 10px 12px 8px 12px;}}
+body .tempo-shortcode.message .content {display: table;vertical-align: middle;width: 100%;}
+body .tempo-shortcode.message .content:after {display: table;content: "";clear: both;}
+body .tempo-shortcode.message div.message-text {display: table-cell;vertical-align: middle;min-width: 75%;font-size: 16px;line-height: 28px;padding: 0;}
+body .tempo-shortcode.message div.message-text.large {font-size: 18px;line-height: 30px;}
+body .tempo-shortcode.message div.message-text.small {font-size: 15px;line-height: 26px;}
+@media (max-width:480px) {body .tempo-shortcode.message div.message-text, body .tempo-shortcode.message div.message-text.large, body .tempo-shortcode.message div.message-text.small {font-size: 13px;line-height: 24px;}}
+@media (max-width:480px) {body .tempo-shortcode.message div.message-text {display: block;width: 100%;text-align: center;}}
+body .tempo-shortcode.message div.message-button {display: table-cell;width: auto;text-align: right;}
+body .tempo-shortcode.message div.message-button .tempo-shortcode.button {margin: 0 0 0 20px;}
+@media (max-width:480px) {body .tempo-shortcode.message div.message-button {display: block;width: 100%;margin-top: 15px;text-align: center;}
+	body .tempo-shortcode.message div.message-button .tempo-shortcode.button {display: block;margin: 0;width: 100%;}}
+body .tempo-shortcode.notify {border: 0;color: #262b30;padding: 30px;margin: 0;display: block;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+body .tempo-shortcode.notify a {border-bottom: 3px solid rgba(0,0,0,0);}
+body .tempo-shortcode.notify a:hover {border-bottom: 3px solid rgba(0,0,0,.1);}
+body .tempo-shortcode.notify.note {background-color: #f7f7f7;}
+body .tempo-shortcode.notify.attention {background-color: #fbecb1;}
+body .tempo-shortcode.notify.attention a {color: #6d5806;}
+body .tempo-shortcode.notify.attention a:hover {color: #473a04;}
+body .tempo-shortcode.notify.alert {background-color: #ffe3e5;}
+body .tempo-shortcode.notify.alert a {color: #950055;}
+body .tempo-shortcode.notify.alert a:hover {color: #5a0033;}
+body .tempo-shortcode.notify.success {background-color: #e4ffba;}
+body .tempo-shortcode.notify.success a {color: #416c00;}
+body .tempo-shortcode.notify.success a:hover {color: #2a4400;}
+body .tempo-shortcode.notify.help {background-color: #d9f6fe;}
+body .tempo-shortcode.notify.help a {color: #034c60;}
+body .tempo-shortcode.notify.help a:hover {color: #022d3a;}
+body .tempo-shortcode.notify.info {background-color: #e6dfff;}
+body .tempo-shortcode.notify.info a {color: #170069;}
+body .tempo-shortcode.notify.info a:hover {color: #0e0042;}
+body .tempo-shortcode.notify h4.notify-title {margin-top: 0;color: inherit;}
+body .tempo-shortcode.notify div.notify-content {line-height: 28px;font-size: 14px;color: inherit;opacity: .8;filter: alpha(opacity=80);}
+body .tempo-shortcode.social a {color: #fff;display: inline-block;text-align: center;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+body .tempo-shortcode.social a.tempo-icon-instagram {background-color: #00749c;}
+body .tempo-shortcode.social a.tempo-icon-github {background-color: #0084c5;}
+body .tempo-shortcode.social a.tempo-icon-gitlab {background-color: #31353e;}
+body .tempo-shortcode.social a.tempo-icon-picasa {background-color: #415e5f;}
+body .tempo-shortcode.social a.tempo-icon-evernote {background-color: #7ac142;}
+body .tempo-shortcode.social a.tempo-icon-vimeo {background-color: #00beff;}
+body .tempo-shortcode.social a.tempo-icon-vimeo-circled {background-color: #00beff;}
+body .tempo-shortcode.social a.tempo-icon-twitter {background-color: #00b0ef;}
+body .tempo-shortcode.social a.tempo-icon-skype {background-color: #00b3f2;}
+body .tempo-shortcode.social a.tempo-icon-renren {background-color: #0d80e4;}
+body .tempo-shortcode.social a.tempo-icon-rdio {background-color: #006ed4;}
+body .tempo-shortcode.social a.tempo-icon-linkedin {background-color: #0082b2;}
+body .tempo-shortcode.social a.tempo-icon-behance {background-color: #06f;}
+body .tempo-shortcode.social a.tempo-icon-dropbox {background-color: #0083d1;}
+body .tempo-shortcode.social a.tempo-icon-vkontakte {background-color: #4e729a;}
+body .tempo-shortcode.social a.tempo-icon-facebook {background-color: #265999;}
+body .tempo-shortcode.social a.tempo-icon-tumblr {background-color: #174863;}
+body .tempo-shortcode.social a.tempo-icon-dribbble {background-color: #ff2788;}
+body .tempo-shortcode.social a.tempo-icon-flickr {background-color: #0062dd;}
+body .tempo-shortcode.social a.tempo-icon-stumbleupon {background-color: #ff2419;}
+body .tempo-shortcode.social a.tempo-icon-lastfm {background-color: #fb0000;}
+body .tempo-shortcode.social a.tempo-icon-gplus {background-color: #f32e31;}
+body .tempo-shortcode.social a.tempo-icon-google-circles {background-color: #f32e31;}
+body .tempo-shortcode.social a.tempo-icon-youtube-play {background-color: #cd201f;}
+body .tempo-shortcode.social a.tempo-icon-youtube {background-color: #cd201f;}
+body .tempo-shortcode.social a.tempo-icon-pinterest {background-color: #ef0021;}
+body .tempo-shortcode.social a.tempo-icon-smashing {background-color: #ff462c;}
+body .tempo-shortcode.social a.tempo-icon-soundcloud {background-color: #ff4f00;}
+body .tempo-shortcode.social a.tempo-icon-reddit {background-color: #ee5831;}
+body .tempo-shortcode.social a.tempo-icon-flattr {background-color: #ff6f00;}
+body .tempo-shortcode.social a.tempo-icon-odnoklassniki {background-color: #f58220;}
+body .tempo-shortcode.social a.tempo-icon-mixi {background-color: #d1ad5a;}
+body .tempo-shortcode.social a.tempo-icon-rss {background-color: #ff7600;}
+body .tempo-shortcode.social.small {margin: 27px -3px;}
+body .tempo-shortcode.social.small a {width: 32px;height: 32px;margin: 3px;font-size: 18px;line-height: 32px;}
+body .tempo-shortcode.social.normal {margin: 26px -4px;}
+body .tempo-shortcode.social.normal a {width: 46px;height: 46px;margin: 4px;font-size: 24px;line-height: 46px;}
+body .tempo-shortcode.social.large {margin: 25px -5px;}
+body .tempo-shortcode.social.large a {width: 52px;height: 52px;margin: 5px;font-size: 24px;line-height: 52px;}
+body .tempo-shortcode.social.squared a {-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;}
+body .tempo-shortcode.social.circled a {-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;}
+body .tempo-shortcode.social.rounded a {-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+body .tempo-shortcode.timeline {position: relative;}
+body .tempo-shortcode.timeline div.timeline {background: #dedede;content: "";position: absolute;top: 0;left: 50%;height: 100%;width: 4px;margin-left: -2px;}
+body .tempo-shortcode.timeline div.timeline-item {padding-top: 15px;padding-left: 30px;margin-top: 30px;margin-bottom: 30px;}
+body .tempo-shortcode.timeline div.timeline-item span.timeline-item-index {background: #39b54a;color: #fff;display: block;position: absolute;font-size: 19px;font-weight: 600;line-height: 46px;width: 46px;height: 46px;margin-top: -7px;text-align: center;}
+body .tempo-shortcode.timeline div.timeline-item span.timeline-item-dot {border: 2px solid #dedede;background: #fff;position: absolute;display: block;height: 24px;width: 24px;margin-top: 6px;overflow: hidden;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;}
+body .tempo-shortcode.timeline div.timeline-item span.timeline-item-dot span.dot-inner {display: block;margin-top: 4px;margin-left: 4px;height: 10px;width: 10px;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;}
+body .tempo-shortcode.timeline div.timeline-item h3 {color: #333;font-size: 20px;line-height: 32px;margin-top: 0;margin-bottom: 10px;}
+body .tempo-shortcode.timeline div.timeline-item div.timeline-description {font-size: 15px;font-weight: 400;line-height: 24px;}
+body .tempo-shortcode.timeline div.col-md-offset-0.col-lg-offset-0 div.timeline-item {padding-right: 30px;text-align: right;}
+@media (min-width:768px) {body .tempo-shortcode.timeline div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-index {right: 0;margin-right: -91px;}
+	body .tempo-shortcode.timeline div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-dot {right: 0;margin-right: -12px;}}
+body .tempo-shortcode.timeline div.col-md-offset-6.col-lg-offset-6 div.timeline-item {padding-left: 30px;text-align: left;}
+@media (min-width:768px) {body .tempo-shortcode.timeline div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-index {margin-left: -140px;}
+	body .tempo-shortcode.timeline div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-dot {margin-left: -57px;}}
+body .tempo-shortcode.timeline.small div.timeline-item span.timeline-item-index {font-size: 16px;line-height: 36px;width: 36px;height: 36px;margin-top: -2px;}
+@media (min-width:768px) {body .tempo-shortcode.timeline.small div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-index {right: 0;margin-right: -81px;}}
+@media (min-width:768px) {body .tempo-shortcode.timeline.small div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-index {margin-left: -130px;}}
+body .tempo-shortcode.timeline.large div.timeline-item span.timeline-item-index {font-size: 22px;line-height: 56px;width: 56px;height: 56px;margin-top: -12px;}
+@media (min-width:768px) {body .tempo-shortcode.timeline.large div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-index {right: 0;margin-right: -103px;}}
+@media (min-width:768px) {body .tempo-shortcode.timeline.large div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-index {margin-left: -148px;}}
+body .tempo-shortcode.timeline.circled div.timeline-item span.timeline-item-index {-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;}
+body .tempo-shortcode.timeline.rounded div.timeline-item span.timeline-item-index {-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+body .tempo-shortcode.timeline.rounded .small div.timeline-item span.timeline-item-index {-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+body .tempo-shortcode.timeline.rounded .large div.timeline-item span.timeline-item-index {-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+@media (min-width:768px) and (max-width:991px) {body .tempo-shortcode.timeline div.timeline-item br {display: none;font-size: 0;line-height: 0;clear: none;}}
+@media (min-width:481px) and (max-width:767px) {body .tempo-shortcode.timeline div.timeline {left: 93px;}
+	body .tempo-shortcode.timeline div.col-md-offset-0.col-lg-offset-0 div.timeline-item, body .tempo-shortcode.timeline div.col-md-offset-6.col-lg-offset-6 div.timeline-item {padding-left: 138px;text-align: left;}
+	body .tempo-shortcode.timeline div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-index, body .tempo-shortcode.timeline div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-index {margin-left: -138px;}
+	body .tempo-shortcode.timeline div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-dot, body .tempo-shortcode.timeline div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-dot {margin-left: -57px;}
+	body .tempo-shortcode.timeline.small div.timeline {left: 83px;}
+	body .tempo-shortcode.timeline.small div.col-md-offset-0.col-lg-offset-0 div.timeline-item, body .tempo-shortcode.timeline.small div.col-md-offset-6.col-lg-offset-6 div.timeline-item {padding-left: 128px;text-align: left;}
+	body .tempo-shortcode.timeline.small div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-index, body .tempo-shortcode.timeline.small div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-index {margin-left: -128px;}
+	body .tempo-shortcode.timeline.small div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-dot, body .tempo-shortcode.timeline.small div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-dot {margin-left: -57px;}
+	body .tempo-shortcode.timeline.large div.timeline {left: 103px;}
+	body .tempo-shortcode.timeline.large div.col-md-offset-0.col-lg-offset-0 div.timeline-item, body .tempo-shortcode.timeline.large div.col-md-offset-6.col-lg-offset-6 div.timeline-item {padding-left: 148px;text-align: left;}
+	body .tempo-shortcode.timeline.large div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-index, body .tempo-shortcode.timeline.large div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-index {margin-left: -148px;}
+	body .tempo-shortcode.timeline.large div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-dot, body .tempo-shortcode.timeline.large div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-dot {margin-left: -57px;}}
+@media (max-width:480px) {body .tempo-shortcode.timeline div.timeline, body .tempo-shortcode.timeline.small div.timeline, body .tempo-shortcode.timeline.large div.timeline {left: 2px;}
+	body .tempo-shortcode.timeline div.timeline-item br, body .tempo-shortcode.timeline.small div.timeline-item br, body .tempo-shortcode.timeline.large div.timeline-item br {display: none;font-size: 0;line-height: 0;clear: none;}
+	body .tempo-shortcode.timeline div.col-md-offset-0.col-lg-offset-0 div.timeline-item, body .tempo-shortcode.timeline.small div.col-md-offset-0.col-lg-offset-0 div.timeline-item, body .tempo-shortcode.timeline.large div.col-md-offset-0.col-lg-offset-0 div.timeline-item, body .tempo-shortcode.timeline div.col-md-offset-6.col-lg-offset-6 div.timeline-item, body .tempo-shortcode.timeline.small div.col-md-offset-6.col-lg-offset-6 div.timeline-item, body .tempo-shortcode.timeline.large div.col-md-offset-6.col-lg-offset-6 div.timeline-item {padding-left: 32px;text-align: left;}
+	body .tempo-shortcode.timeline div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-index, body .tempo-shortcode.timeline.small div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-index, body .tempo-shortcode.timeline.large div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-index, body .tempo-shortcode.timeline div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-index, body .tempo-shortcode.timeline.small div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-index, body .tempo-shortcode.timeline.large div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-index {position: relative;margin-bottom: 30px;}
+	body .tempo-shortcode.timeline div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-dot, body .tempo-shortcode.timeline.small div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-dot, body .tempo-shortcode.timeline.large div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-dot, body .tempo-shortcode.timeline div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-dot, body .tempo-shortcode.timeline.small div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-dot, body .tempo-shortcode.timeline.large div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-dot {margin-left: -42px;}
+	body .tempo-shortcode.timeline div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-dot, body .tempo-shortcode.timeline div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-dot {margin-top: -64px;}
+	body .tempo-shortcode.timeline.small div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-dot, body .tempo-shortcode.timeline.small div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-dot {margin-top: -59px;}
+	body .tempo-shortcode.timeline.large div.col-md-offset-0.col-lg-offset-0 div.timeline-item span.timeline-item-dot, body .tempo-shortcode.timeline.large div.col-md-offset-6.col-lg-offset-6 div.timeline-item span.timeline-item-dot {margin-top: -69px;}}
+body .tempo-shortcode.testimonials {max-width: 860px;margin: 80px auto;padding-left: 120px;position: relative;}
+@media (max-width:767px) {body .tempo-shortcode.testimonials {padding-left: 0;}}
+body .tempo-shortcode.testimonials h3.headline {font-size: 30px;font-weight: bold;line-height: 42px;margin-top: 0;}
+@media (max-width:767px) {body .tempo-shortcode.testimonials h3.headline {font-size: 24px;line-height: 36px;padding-left: 88px;}}
+@media (max-width:540px) {body .tempo-shortcode.testimonials h3.headline {padding-left: 0;text-align: center;}}
+body .tempo-shortcode.testimonials h3.headline small {color: #26ad60;display: block;font-size: 16px;line-height: 24px;font-weight: normal;font-style: italic;}
+@media (max-width:767px) {body .tempo-shortcode.testimonials h3.headline small {font-size: 14px;line-height: 22px;}}
+body .tempo-shortcode.testimonials i.tempo-icon-quote-left {background: #f3f3f3;color: #26ad60;overflow: hidden;position: absolute;width: 70px;height: 70px;text-align: center;line-height: 70px;font-size: 24px;top: 20px;left: 0;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;}
+@media (max-width:767px) {body .tempo-shortcode.testimonials i.tempo-icon-quote-left {top: -45px;width: 36px;height: 36px;line-height: 36px;font-size: 16px;}}
+@media (max-width:540px) {body .tempo-shortcode.testimonials i.tempo-icon-quote-left {display: none;}}
+body .tempo-shortcode.testimonials.has-title i.tempo-icon-quote-left {top: 15px;}
+@media (max-width:767px) {body .tempo-shortcode.testimonials.has-title i.tempo-icon-quote-left {width: 58px;height: 58px;line-height: 58px;font-size: 20px;top: -18px;left: 0;}}
+body .tempo-shortcode.testimonials.has-content i.tempo-icon-quote-left {top: 25px;}
+@media (max-width:767px) {body .tempo-shortcode.testimonials.has-content i.tempo-icon-quote-left {width: 58px;height: 58px;line-height: 58px;font-size: 20px;top: -12px;left: 0;}}
+body .tempo-shortcode.testimonials.has-title.has-content i.tempo-icon-quote-left {top: 50px;}
+@media (max-width:767px) {body .tempo-shortcode.testimonials.has-title.has-content i.tempo-icon-quote-left {width: 58px;height: 58px;line-height: 58px;font-size: 20px;top: 0;left: 0;}}
+@media (max-width:540px) {body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow {margin-top: 60px;}}
+body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-prev, body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-next {position: absolute;top: -24px;-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;-webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out;}
+@media (max-width:540px) {body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-prev, body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-next {top: -30px;}}
+body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-prev:not(.btn-empty):not(.btn-hover-empty), body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-next:not(.btn-empty):not(.btn-hover-empty), body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-prev:not(.btn-empty):not(.btn-hover-empty):before, body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-next:not(.btn-empty):not(.btn-hover-empty):before, body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-prev:not(.btn-empty):not(.btn-hover-empty)::before, body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-next:not(.btn-empty):not(.btn-hover-empty)::before {background: transparent;color: #3a4043;display: block;width: 28px;height: 30px;margin: 0;padding: 0;-webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none;opacity: 1;filter: alpha(opacity=100);-webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out;}
+body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-prev:not(.btn-empty):not(.btn-hover-empty):before, body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-next:not(.btn-empty):not(.btn-hover-empty):before, body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-prev:not(.btn-empty):not(.btn-hover-empty)::before, body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-next:not(.btn-empty):not(.btn-hover-empty)::before {font-size: 26px;line-height: 30px;font-family: "fontello";font-style: normal;font-weight: normal;speak: none;display: inline-block;text-decoration: inherit;text-align: center;font-variant: normal;text-transform: none;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-prev:not(.btn-empty):not(.btn-hover-empty):hover, body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-next:not(.btn-empty):not(.btn-hover-empty):hover, body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-prev:not(.btn-empty):not(.btn-hover-empty):hover:before, body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-next:not(.btn-empty):not(.btn-hover-empty):hover:before, body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-prev:not(.btn-empty):not(.btn-hover-empty):hover::before, body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-next:not(.btn-empty):not(.btn-hover-empty):hover::before {background: transparent;color: #26ad60;}
+body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-prev {right: 28px;left: inherit;text-align: left;}
+body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-prev:before, body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-prev::before {content: "";}
+@media (max-width:540px) {body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-prev {right: 50%;}}
+body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-next {right: 0;text-align: right;}
+body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-next:before, body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-next::before {content: "";}
+@media (max-width:540px) {body .tempo-shortcode.testimonials div.testimonials-wrapper.tempo-slideshow button.slick-next {left: 50%;}}
+body .tempo-shortcode.testimonials div.testimonials-wrapper blockquote.testimonial {border: 0;padding: 0;margin: 0;}
+@media (max-width:540px) {body .tempo-shortcode.testimonials div.testimonials-wrapper blockquote.testimonial {text-align: center;}}
+body .tempo-shortcode.testimonials div.testimonials-wrapper blockquote.testimonial, body .tempo-shortcode.testimonials div.testimonials-wrapper blockquote.testimonial p {color: #8b8b8b;font-size: 18px;line-height: 30px;font-style: italic;letter-spacing: .35px;}
+@media (max-width:767px) {body .tempo-shortcode.testimonials div.testimonials-wrapper blockquote.testimonial, body .tempo-shortcode.testimonials div.testimonials-wrapper blockquote.testimonial p {font-size: 14px;line-height: 26px;letter-spacing: 0;}}
+body .tempo-shortcode.testimonials div.testimonials-wrapper blockquote.testimonial p {margin-top: 30px;margin-bottom: 30px;}
+@media (max-width:767px) {body .tempo-shortcode.testimonials div.testimonials-wrapper blockquote.testimonial p {margin-top: 26px;margin-bottom: 26px;}}
+body .tempo-shortcode.testimonials div.testimonials-wrapper blockquote.testimonial p:first-child {margin-top: 0;}
+body .tempo-shortcode.testimonials div.testimonials-wrapper blockquote.testimonial p:last-child {margin-bottom: 0;}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer {margin-top: 34px;}
+@media (max-width:767px) {body .tempo-shortcode.testimonials div.testimonials-wrapper footer {margin-top: 30px;}}
+@media (max-width:540px) {body .tempo-shortcode.testimonials div.testimonials-wrapper footer {text-align: center;}}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer span.avatar-wrapper {display: block;overflow: hidden;position: relative;float: left;width: 60px;height: 60px;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;-webkit-box-shadow: 2px 3px 5px rgba(0,0,0,.2);-moz-box-shadow: 2px 3px 5px rgba(0,0,0,.2);box-shadow: 2px 3px 5px rgba(0,0,0,.2);}
+@media (max-width:767px) {body .tempo-shortcode.testimonials div.testimonials-wrapper footer span.avatar-wrapper {width: 54px;height: 54px;margin-top: 2px;}}
+@media (max-width:540px) {body .tempo-shortcode.testimonials div.testimonials-wrapper footer span.avatar-wrapper {float: none;margin: 20px auto;}}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer span.avatar-wrapper img {margin: 0;padding: 0;width: 100% !important;height: auto !important;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;-webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none;}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer span.avatar-wrapper a:not(.more-link):not(.tempo-btn):not(.btn):not(.button) {background: rgba(0,0,0,0);position: absolute;display: block;top: 0;left: 0;width: 100%;height: 100%;-webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out;}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer span.avatar-wrapper a:not(.more-link):not(.tempo-btn):not(.btn):not(.button) i {display: block;color: rgba(255,255,255,0);font-size: 22px;line-height: 60px;width: 100%;height: 100%;text-align: center;}
+@media (max-width:767px) {body .tempo-shortcode.testimonials div.testimonials-wrapper footer span.avatar-wrapper a:not(.more-link):not(.tempo-btn):not(.btn):not(.button) i {font-size: 20px;line-height: 54px;}}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer span.avatar-wrapper a:not(.more-link):not(.tempo-btn):not(.btn):not(.button):before {display: none;}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer span.avatar-wrapper a:not(.more-link):not(.tempo-btn):not(.btn):not(.button):hover {background: rgba(0,0,0,.3);}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer span.avatar-wrapper a:not(.more-link):not(.tempo-btn):not(.btn):not(.button):hover:before {display: none;}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer span.avatar-wrapper a:not(.more-link):not(.tempo-btn):not(.btn):not(.button):hover i {color: #fff;}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer cite {margin-left: 90px;margin-top: 0;}
+@media (max-width:767px) {body .tempo-shortcode.testimonials div.testimonials-wrapper footer cite {margin-left: 90px;}}
+@media (max-width:540px) {body .tempo-shortcode.testimonials div.testimonials-wrapper footer cite {display: block;margin: 20px auto 0 auto;text-align: center;}}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer cite:before {display: none;}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer cite a {display: block;font-size: 20px;line-height: 34px;font-weight: bold;color: #8c8c8c;text-decoration: underline;}
+@media (max-width:767px) {body .tempo-shortcode.testimonials div.testimonials-wrapper footer cite a {font-size: 18px;line-height: 30px;}}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer cite a:before {display: none;}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer cite a:hover {color: #3a4043;}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer cite a:hover:before {display: none;}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer cite span {display: block;color: #26ad60;font-size: 16px;line-height: 30px;font-weight: bold;font-style: italic;}
+@media (max-width:767px) {body .tempo-shortcode.testimonials div.testimonials-wrapper footer cite span {font-size: 14px;line-height: 24px;}}
+body .tempo-shortcode.testimonials div.testimonials-wrapper footer:after {content: "";display: table;clear: both;}
+body .tempo-shortcode.testimonials.has-title div.testimonials-wrapper button.slick-prev, body .tempo-shortcode.testimonials.has-title div.testimonials-wrapper button.slick-next {top: -52px;}
+body .tempo-shortcode.testimonials.has-content div.testimonials-wrapper button.slick-prev, body .tempo-shortcode.testimonials.has-content div.testimonials-wrapper button.slick-next {top: -50px;}
+body .tempo-shortcode.testimonials.has-title.has-content div.testimonials-wrapper button.slick-prev, body .tempo-shortcode.testimonials.has-title.has-content div.testimonials-wrapper button.slick-next {top: -65px;}
