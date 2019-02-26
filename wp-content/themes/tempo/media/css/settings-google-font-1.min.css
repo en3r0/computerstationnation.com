@@ -1,0 +1,10 @@
+header.tempo-header div.tempo-header-partial.tempo-portfolio h1.tempo-headline {font-family: "Domine",serif;}
+header.tempo-header div.tempo-header-partial .tempo-header-headline {font-family: "Domine",serif;}
+h1, h2, h3, h4, h5, h6 {font-family: "Domine",serif;}
+.tempo-gallery[class^="tempo-gallery-colls-"] figure div.tempo-gallery-title, .tempo-gallery[class*="tempo-gallery-colls-"] figure div.tempo-gallery-title {font-family: "Domine",serif;}
+blockquote {font-family: "Domine",serif;}
+cite, q {font: 700 18px "Domine",serif;}
+article.tempo-article.grid div.tempo-content h3.tempo-title, article.tempo-article.portfolio div.tempo-content h3.tempo-title {font-family: "Domine",serif;}
+.tempo-gallery[class^="tempo-gallery-colls-"] div.tempo-gallery-title, .tempo-gallery[class*="tempo-gallery-colls-"] div.tempo-gallery-title {font-family: "Domine",serif;}
+body .tempo-shortcode.dropcap {font-family: "Domine",serif;}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta cite {font-family: "Domine",serif;}
