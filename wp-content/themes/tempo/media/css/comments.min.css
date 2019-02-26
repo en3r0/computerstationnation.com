@@ -1,0 +1,76 @@
+div.tempo-hentry+div.tempo-comments-wrapper {border-top: 1px solid rgba(0,0,0,.1);margin-top: 30px;}
+@media (max-width:991px) {div.tempo-hentry+div.tempo-comments-wrapper {margin-top: 26px;}}
+@media (max-width:767px) {div.tempo-hentry+div.tempo-comments-wrapper {margin-top: 20px;}}
+@media (max-width:520px) {div.tempo-hentry+div.tempo-comments-wrapper {margin-top: 15px;}}
+section.tempo-section.page div.comments-list-collapse {border-top: 1px solid rgba(0,0,0,.1);padding-top: 30px;}
+@media (max-width:991px) {section.tempo-section.page div.comments-list-collapse {padding-top: 26px;}}
+@media (max-width:767px) {section.tempo-section.page div.comments-list-collapse {padding-top: 20px;}}
+@media (max-width:520px) {section.tempo-section.page div.comments-list-collapse {padding-top: 15px;}}
+div.tempo-comments-wrapper {display: none;}
+div.tempo-comments-wrapper.tempo-not-collapsing {display: block;}
+div.tempo-comments-wrapper.tempo-not-collapsing+div.comments-list-collapse {display: none;}
+div.tempo-comments-wrapper h3.tempo-comments-title {margin-top: 30px;padding-bottom: 28px;border-bottom: 1px solid rgba(0,0,0,.1);}
+@media (max-width:991px) {div.tempo-comments-wrapper h3.tempo-comments-title {margin-top: 26px;padding-bottom: 24px;}}
+@media (max-width:767px) {div.tempo-comments-wrapper h3.tempo-comments-title {margin-top: 20px;padding-bottom: 18px;}}
+@media (max-width:520px) {div.tempo-comments-wrapper h3.tempo-comments-title {margin-top: 15px;padding-bottom: 14px;}}
+div.tempo-comments-wrapper ol.tempo-comments-list {margin: 0;padding: 0;}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment {list-style: none;margin: 0;padding: 30px 0;border-bottom: 1px solid rgba(0,0,0,.1);}
+@media (max-width:991px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment {padding: 26px 0;}}
+@media (max-width:767px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment {padding: 20px 0;}}
+@media (max-width:520px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment {padding: 15px 0;}}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment header img {float: left;margin: 0 23px 0 0;width: 62px !important;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;}
+@media (max-width:991px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment header img {margin: 0 20px 0 0;width: 55px !important;}}
+@media (max-width:767px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment header img {margin: 0 15px 0 0;width: 40px !important;}}
+@media (max-width:520px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment header img {margin: 0 15px 0 0;width: 30px !important;}}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta cite {font-family: serif;font-weight: 700;font-size: 24px;line-height: 30px;margin: 5px 0;padding: 0;}
+@media (max-width:991px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta cite {font-size: 22px;line-height: 28px;}}
+@media (max-width:767px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta cite {font-size: 20px;line-height: 26px;}}
+@media (max-width:520px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta cite {font-size: 18px;line-height: 24px;}}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta cite, div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta cite a {color: #232730;}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta cite span.tempo-author-tag {background: #026ed6;color: #fff;font-family: sans-serif;font-size: 14px;font-weight: 600;margin-right: 10px;padding: 4px 12px;vertical-align: 3px;text-transform: uppercase;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+@media (max-width:991px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta cite span.tempo-author-tag {font-size: 13px;padding: 3px 10px;}}
+@media (max-width:767px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta cite span.tempo-author-tag {font-size: 12px;padding: 3px 8px;}}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta time {display: block;font-size: 14px;font-weight: 600;color: #abaeb6;margin-left: 85px;margin-top: -10px;}
+@media (max-width:991px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta time {margin-left: 75px;font-size: 13px;}}
+@media (max-width:767px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta time {margin-left: 55px;font-size: 12px;}}
+@media (max-width:520px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta time {margin-left: 45px;font-size: 12px;}}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta time span {color: #65686e;}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta span.comment-replay {display: block;float: right;line-height: 28px;}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta span.comment-replay a {background: #f6f6f6;border: 0;color: #ccc;font-size: 14px;font-weight: 600;line-height: 20px;margin: 0;padding: 4px 12px;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta span.comment-replay a:hover {color: #949494;}
+@media (max-width:991px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta span.comment-replay a {font-size: 13px;line-height: 18px;}}
+@media (max-width:767px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta span.comment-replay a {font-size: 12px;line-height: 16px;}}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment div.comment-quote {padding-left: 85px;margin-top: 15px;}
+@media (max-width:991px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment div.comment-quote {padding-left: 75px;margin-top: 14px;line-height: 38px;}}
+@media (max-width:767px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment div.comment-quote {padding-left: 55px;margin-top: 13px;line-height: 24px;}}
+@media (max-width:520px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment div.comment-quote {padding-left: 45px;margin-top: 12px;line-height: 20px;}}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment div.comment-quote em.comment-awaiting-moderation {color: #c00;display: block;}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment ul.children {margin-top: 0;padding-top: 30px;}
+@media (max-width:991px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment ul.children {padding-top: 26px;}}
+@media (max-width:767px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment ul.children {padding-top: 20px;}}
+@media (max-width:520px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment ul.children {padding-top: 15px;}}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment ul.children li.comment {border-top: 1px solid rgba(0,0,0,.1);border-bottom: 0;list-style: none;padding: 30px 0;}
+@media (max-width:991px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment ul.children li.comment {padding: 26px 0;}}
+@media (max-width:767px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment ul.children li.comment {padding: 20px 0;}}
+@media (max-width:520px) {div.tempo-comments-wrapper ol.tempo-comments-list li.comment ul.children li.comment {padding: 15px 0;}}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment ul.children li.comment:last-child {margin-bottom: 0;padding-bottom: 0;}
+div.tempo-comments-wrapper div.comment-respond {margin-top: 60px;}
+@media (max-width:991px) {div.tempo-comments-wrapper div.comment-respond {margin-top: 52px;}}
+@media (max-width:767px) {div.tempo-comments-wrapper div.comment-respond {margin-top: 40px;}}
+@media (max-width:520px) {div.tempo-comments-wrapper div.comment-respond {margin-top: 28px;}}
+div.tempo-comments-wrapper div.comment-respond h3.comment-reply-title {line-height: 56px;}
+div.tempo-comments-wrapper div.comment-respond h3.comment-reply-title small {font-family: sans-serif;font-weight: 600;font-size: 80%;text-decoration: none;}
+div.tempo-comments-wrapper div.comment-respond h3.comment-reply-title small a {border: 0;}
+div.tempo-comments-wrapper div.comment-respond form.comment-form p.input {display: inline-block;float: left;margin: 0 5% 30px 0;width: 30%;}
+div.tempo-comments-wrapper div.comment-respond form.comment-form p.input input {max-width: 100%;}
+div.tempo-comments-wrapper div.comment-respond form.comment-form p.input.comment-form-url {margin-right: 0;}
+div.tempo-comments-wrapper div.comment-respond form.comment-form div.textarea p.comment-form-comment {margin-top: 0;}
+div.tempo-comments-wrapper div.comment-respond form.comment-form div.textarea p.comment-form-comment textarea {display: block;max-width: 100%;width: 100%;}
+div.tempo-comments-wrapper div.comment-respond form.comment-form p.form-submit {margin: 0;}
+div.tempo-comments-wrapper div.comment-respond form.comment-form p.form-submit input[type="submit"] {background-color: #337ab7;border-color: #337ab7;color: #fff;}
+div.tempo-comments-wrapper div.comment-respond form.comment-form p.form-submit input[type="submit"]:hover {background-color: transparent;color: #337ab7;}
+div.tempo-comments-wrapper div.comment-respond p.comment-subscription-form {margin: 40px 0 10px 0;}
+@media (max-width:991px) {div.tempo-comments-wrapper div.comment-respond p.comment-subscription-form {margin-top: 34px 0 10px 0;}}
+@media (max-width:767px) {div.tempo-comments-wrapper div.comment-respond p.comment-subscription-form {margin-top: 40px 0 10px 0;}}
+@media (max-width:520px) {div.tempo-comments-wrapper div.comment-respond p.comment-subscription-form {margin-top: 26px 0 10px 0;}}
+div.tempo-comments-wrapper div.comment-respond p.comment-subscription-form+p.comment-subscription-form {margin: 10px 0 0 0;}
