@@ -1,0 +1,178 @@
+.tempo-field {}
+.tempo-field .tempo-field-input input[type="text"], .tempo-field .tempo-field-input input[type="url"], .tempo-field .tempo-field-input input[type="number"], .tempo-field .tempo-field-input input[type="range"], .tempo-field .tempo-field-input input[type="email"], .tempo-field .tempo-field-input select, .tempo-field .tempo-field-input textarea {background-color: #fff;border: 1px solid #dedede;font-family: Roboto,sans-serif,Arial,serif;font-size: 13px;line-height: 18px;color: #787878;width: 100%;padding: 7px 10px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;-webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.tempo-field .tempo-field-input input[type="text"]:focus, .tempo-field .tempo-field-input input[type="url"]:focus, .tempo-field .tempo-field-input input[type="number"]:focus, .tempo-field .tempo-field-input input[type="range"]:focus, .tempo-field .tempo-field-input input[type="email"]:focus, .tempo-field .tempo-field-input select:focus, .tempo-field .tempo-field-input textarea:focus {border: 1px solid rgba(0,114,188,.5);color: #333;-webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none;outline: 0;outline: none;outline: 0 none \9;outline: unset;outline-width: 0;outline-style: none;outline-color: rgba(255,255,255,0);outline-offset: 0;filter: -;}
+@media ( max-width: 782px ) {.tempo-field .tempo-field-input input[type="text"], .tempo-field .tempo-field-input input[type="url"], .tempo-field .tempo-field-input input[type="number"], .tempo-field .tempo-field-input input[type="range"], .tempo-field .tempo-field-input input[type="email"], .tempo-field .tempo-field-input select, .tempo-field .tempo-field-input textarea {font-size: 13px;font-weight: normal;}}
+.tempo-field .tempo-field-input input[type="tel"], .tempo-field .tempo-field-input input[type="url"], .tempo-field .tempo-field-input input[type="text"], .tempo-field .tempo-field-input input[type="email"], .tempo-field .tempo-field-input input[type="phone"], .tempo-field .tempo-field-input input[type="number"], .tempo-field .tempo-field-input input[type="password"], .tempo-field .tempo-field-input select {height: 32px;line-height: 16px;}
+.tempo-field .tempo-field-input select, .tempo-field .tempo-field-input textarea, .tempo-field .tempo-field-input input[type="range"] {width: 100%;}
+.tempo-field .tempo-field-input input[type="range"] {padding-left: 0px;padding-right: 0px;}
+.tempo-field .tempo-field-input textarea {min-height: 250px;}
+.tempo-field .tempo-field-input textarea#zeon-gmap-marker-description {min-height: 234px;}
+.tempo-field .tempo-field-input textarea#tempo-audio-description {min-height: 126px;}
+.tempo-field .tempo-field-input select {padding: 3px 10px;font-size: 13px;}
+@media ( max-width: 782px ) {.tempo-field .tempo-field-input select {font-size: 13px;font-weight: normal;}}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {.tempo-field .tempo-field-input select {-webkit-appearance: menulist-button !important;min-height: 32px !important;height: 32px !important;padding: 3px 10px !important;line-height: 32px !important;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}}
+.tempo-field .tempo-field-input select[multiple="multiple"] {-webkit-appearance: menulist-button !important;min-height: 83px !important;height: 83px !important;}
+.tempo-field .tempo-field-input .languages-flags {float: right;margin-top: -25px;}
+.tempo-field .tempo-field-input .languages-flags a {width: 18px;margin-right: 5px;opacity: .4;filter: alpha(opacity=40);}
+.tempo-field .tempo-field-input .languages-flags a img {width: 18px;}
+.tempo-field .tempo-field-input .languages-flags a, .tempo-field .tempo-field-input .languages-flags a:focus, .tempo-field .tempo-field-input .languages-flags a:hover, .tempo-field .tempo-field-input .languages-flags a:link, .tempo-field .tempo-field-input .languages-flags a:vlink, .tempo-field .tempo-field-input .languages-flags a:alink, .tempo-field .tempo-field-input .languages-flags a img, .tempo-field .tempo-field-input .languages-flags a:focus img, .tempo-field .tempo-field-input .languages-flags a:hover img, .tempo-field .tempo-field-input .languages-flags a:link img, .tempo-field .tempo-field-input .languages-flags a:vlink img, .tempo-field .tempo-field-input .languages-flags a:alink img {background: none;border: none;-webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none;outline: 0;outline: none;outline: 0 none \9;outline: unset;outline-width: 0;outline-style: none;outline-color: rgba(255,255,255,0);outline-offset: 0;filter: -;}
+@media ( max-width: 782px ) {.tempo-field .tempo-field-input .languages-flags a a {width: 24px;margin-left: 2px;}
+	.tempo-field .tempo-field-input .languages-flags a a img {width: 24px;}}
+.tempo-field .tempo-field-input .languages-flags a:hover, .tempo-field .tempo-field-input .languages-flags a.current-lang {opacity: 1;filter: alpha(opacity=100);}
+.tempo-field .tempo-field-input textarea.tempo-lang, .tempo-field .tempo-field-input input.tempo-lang {display: none;}
+.tempo-field .tempo-field-input textarea.tempo-lang.current-lang, .tempo-field .tempo-field-input input.tempo-lang.current-lang {display: block;}
+.tempo-field.tempo-textarea-small .tempo-field-input textarea {min-height: 120px;}
+.tempo-field .tempo-field-title label {display: block;color: #333;font-family: "Open Sans",sans-serif,Arial,serif;font-size: 14px;font-weight: 400;margin-left: 3px;}
+.tempo-field .tempo-field-title small.tempo-description {color: #9f9f9f;display: block;font-family: Roboto,sans-serif,Arial,serif;font-size: 12px;line-height: 20px;margin-left: 3px;}
+.tempo-field .tempo-field-title small.tempo-description code {padding: 0px 5px;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;}
+.tempo-field.tempo-upload .tempo-field-input input[type="url"] {width: -webkit-calc(100% - 111px);width: -moz-calc(100% - 111px);width: calc(100% - 111px);}
+.tempo-field.tempo-upload .tempo-field-input .tempo-button {float: right;margin-left: 15px;margin-right: 0px;}
+.tempo-field.tempo-color div.wp-picker-holder {position: absolute;z-index: 2;}
+.tempo-field.tempo-color input.tempo-pickcolor {padding: 2px;width: 75px;}
+@media screen and (max-width: 782px) {.tempo-field.tempo-color .tempo-field-title {margin-bottom: 10px;}
+	.tempo-field.tempo-color span {display: block;}
+	.tempo-field.tempo-color input.tempo-pickcolor {padding: 7px;width: 173px;}
+	.tempo-field.tempo-color input.button.button-small.wp-picker-default {margin-bottom: 3px;}}
+.tempo-field.tempo-logic .tempo-input-logic {background: #666;display: block;height: 40px;width: 70px;-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;-webkit-transition: all .5s ease-in-out;-moz-transition: all .5s ease-in-out;transition: all .5s ease-in-out;-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);box-shadow: inset 0 1px 2px rgba(0,0,0,.1);-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.tempo-field.tempo-logic .tempo-input-logic:hover {cursor: pointer;}
+.tempo-field.tempo-logic .tempo-input-logic .tempo-state {background: #fff;position: absolute;display: block;width: 26px;height: 26px;margin: 7px;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;-webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,.1);-moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,.1);box-shadow: 0px 1px 1px 1px rgba(0,0,0,.1);-webkit-transition: all .5s ease-in-out;-moz-transition: all .5s ease-in-out;transition: all .5s ease-in-out;}
+.tempo-field.tempo-logic .tempo-input-logic.is-on {background: #56b67d;}
+.tempo-field.tempo-logic .tempo-input-logic.is-on .tempo-state {margin: 7px 7px 7px 37px;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select {background: #fff;border: 1px solid #d6d6d6;width: 51px;height: 51px;display: table;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;valign: middle;vertical-align: central;vertical-align: middle;text-align: center;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;-webkit-box-pack: center;-moz-box-pack: center;-webkit-justify-content: center;justify-content: center;-ms-flex-pack: center;-webkit-box-align: center;-moz-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-value {display: inherit;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-value:hover {cursor: pointer;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-value i {width: 33px;height: 33px;text-align: center;font-size: 22px;line-height: 33px;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-value i:before {font-size: 22px;line-height: 33px;text-align: center;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options {display: none;background-color: #fff;position: fixed;z-index: 99999;top: 8px;right: 8px;left: 8px;bottom: 8px;-webkit-box-shadow: 0 0px 10px 50px rgba(0,0,0,.7);-moz-box-shadow: 0 0px 10px 50px rgba(0,0,0,.7);box-shadow: 0 0px 10px 50px rgba(0,0,0,.7);}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-header {background: #f9f9f9;margin: 1px;text-align: left;-webkit-box-shadow: 0 0px 2px 0px rgba(0,0,0,.2);-moz-box-shadow: 0 0px 2px 0px rgba(0,0,0,.2);box-shadow: 0 0px 2px 0px rgba(0,0,0,.2);}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-header span {display: inline-block;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-header span.tempo-icon-search {width: 200px;display: inline-block;padding: 1px 3px 3px 2px;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-header span.tempo-icon-search:before, .tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-header span.tempo-icon-search::before {content: "";display: none;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-header span.tempo-icon-search input {width: 100%;height: 30px;}
+@media (max-width: 500px) {.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-header span.tempo-icon-search {display: block;width: -webkit-calc(100% - 45px);width: -moz-calc(100% - 45px);width: calc(100% - 45px);}}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-header span.tempo-icon-search-hint {color: #999;font-size: 12px;margin-left: 10px;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-header span.tempo-icon-search-hint b {color: #454545;}
+@media (max-width: 500px) {.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-header span.tempo-icon-search-hint {display: block;margin-left: 5px;padding: 5px 0px;}}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-header span.tempo-icon-options-cancel {float: right;margin-top: 7px;margin-right: 10px;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-header span.tempo-icon-options-cancel a {color: #cdcdcd;font-size: 24px;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-header span.tempo-icon-options-cancel a:hover {color: #999;}
+@media (max-width: 500px) {.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-header span.tempo-icon-options-cancel {margin-top: -29px;}}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-content {position: fixed;overflow-y: scroll;bottom: 8px;right: 8px;top: 48px;left: 8px;}
+@media (max-width: 500px) {.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-content {top: 74px;}}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-content .tempo-icon-select-option {float: left;width: 45px;height: 45px;margin: 1px;border: 2px solid #fff;display: inline-block;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;valign: middle;vertical-align: central;vertical-align: middle;text-align: center;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;-webkit-box-pack: center;-moz-box-pack: center;-webkit-justify-content: center;justify-content: center;-ms-flex-pack: center;-webkit-box-align: center;-moz-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-content .tempo-icon-select-option:hover {border-color: #8dc63f;cursor: pointer;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-content .tempo-icon-select-option.selected {border-color: #00aeef;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-content .tempo-icon-select-option i {width: 33px;height: 33px;text-align: center;font-size: 22px;line-height: 33px;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-content .tempo-icon-select-option i:before, .tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options div.tempo-icon-select-options-content .tempo-icon-select-option i::before {font-size: 22px;line-height: 33px;text-align: center;}
+.tempo-field.tempo-icon_select div.tempo-input-icon-select .tempo-icon-select-options.enabled {display: block;}
+.tempo-field.tempo-image_select div.tempo-input-image-select {background: #fff;border: 1px solid #d6d6d6;width: 51px;height: 51px;display: table;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;valign: middle;vertical-align: central;vertical-align: middle;text-align: center;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;-webkit-box-pack: center;-moz-box-pack: center;-webkit-justify-content: center;justify-content: center;-ms-flex-pack: center;-webkit-box-align: center;-moz-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.tempo-field.tempo-image_select div.tempo-input-image-select.tempo-image-select-pos-left .tempo-image-select-values {margin: 51px 43px 0px -43px;}
+.tempo-field.tempo-image_select div.tempo-input-image-select.tempo-image-select-cols-3 .tempo-image-select-values {width: 153px;}
+.tempo-field.tempo-image_select div.tempo-input-image-select.tempo-image-select-cols-3.tempo-image-select-pos-right .tempo-image-select-values {margin: 51px 145px 0px -145px;}
+.tempo-field.tempo-image_select div.tempo-input-image-select.tempo-image-select-cols-4 .tempo-image-select-values {width: 204px;}
+.tempo-field.tempo-image_select div.tempo-input-image-select.tempo-image-select-cols-4.tempo-image-select-pos-right .tempo-image-select-values {margin: 51px 196px 0px -196px;}
+.tempo-field.tempo-image_select div.tempo-input-image-select.tempo-image-select-cols-5 .tempo-image-select-values {width: 255px;}
+.tempo-field.tempo-image_select div.tempo-input-image-select.tempo-image-select-cols-5.tempo-image-select-pos-right .tempo-image-select-values {margin: 51px 247px 0px -247px;}
+.tempo-field.tempo-image_select div.tempo-input-image-select .tempo-image-select-value {display: inherit;}
+.tempo-field.tempo-image_select div.tempo-input-image-select .tempo-image-select-value:hover {cursor: pointer;}
+.tempo-field.tempo-image_select div.tempo-input-image-select .tempo-image-select-values {display: none;background-color: #fff;border: 1px solid #b6b6b6;position: absolute;}
+.tempo-field.tempo-image_select div.tempo-input-image-select .tempo-image-select-values .tempo-image-select-option {float: left;width: 45px;height: 45px;margin: 1px;border: 2px solid #fff;display: inline-block;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;valign: middle;vertical-align: central;vertical-align: middle;text-align: center;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;-webkit-box-pack: center;-moz-box-pack: center;-webkit-justify-content: center;justify-content: center;-ms-flex-pack: center;-webkit-box-align: center;-moz-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.tempo-field.tempo-image_select div.tempo-input-image-select .tempo-image-select-values .tempo-image-select-option:hover {border-color: #8dc63f;cursor: pointer;}
+.tempo-field.tempo-image_select div.tempo-input-image-select .tempo-image-select-values .tempo-image-select-option.selected {border-color: #00aeef;}
+.tempo-field.tempo-image_select div.tempo-input-image-select:hover .tempo-image-select-values {display: block;}
+.tempo-field.linear {margin-bottom: 40px;}
+.tempo-field.linear .tempo-field-title {float: left;}
+.tempo-field.linear .tempo-field-title label {margin-bottom: 1px;}
+.tempo-field.linear .tempo-field-title small.tempo-description {margin-bottom: 9px;}
+.tempo-field.linear.title-middle .tempo-field-title label {margin-top: 7px;}
+.tempo-field.linear .tempo-field-input {float: right;}
+.tempo-field.linear.tempo-int .tempo-field-title, .tempo-field.linear.tempo-number .tempo-field-title {width: -webkit-calc(100% - 105px);width: -moz-calc(100% - 105px);width: calc(100% - 105px);}
+.tempo-field.linear.tempo-int .tempo-field-input, .tempo-field.linear.tempo-number .tempo-field-input {max-width: 80px;}
+.tempo-field.linear.tempo-select .tempo-field-input {max-width: 90px;}
+.tempo-field.linear.tempo-select .tempo-field-label {width: -webkit-calc(100% - 115px);width: -moz-calc(100% - 115px);width: calc(100% - 115px);}
+.tempo-field.linear.tempo-color .tempo-field-label {width: -webkit-calc(100% - 260px);width: -moz-calc(100% - 260px);width: calc(100% - 260px);}
+@media ( max-width: 782px ) {.tempo-field.linear.tempo-color .tempo-field-label {width: 100%;}
+	.tempo-field.linear.tempo-color .tempo-field-input {display: block;float: none;}}
+.tempo-field.linear:last-child {margin-bottom: 0px;}
+.tempo-field.across {margin-bottom: 40px;}
+.tempo-field.across .tempo-field-title label {margin-bottom: 10px;}
+.tempo-field.across .tempo-field-title small.tempo-description {margin-bottom: 15px;}
+.tempo-field.across:last-child {margin-bottom: 0px;}
+.tempo-field.social {margin-bottom: 20px;}
+.tempo-field.social div.tempo-field-icon i {color: #fff;display: block;font-size: 18px;float: left;line-height: 34px;width: 34px;height: 34px;margin: 1px 17px 0px 3px;text-align: center;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-instagram {background-color: #00749c;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-github {background-color: #0084c5;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-gitlab {background-color: #31353e;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-picasa {background-color: #415e5f;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-evernote {background-color: #7ac142;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-vimeo {background-color: #00beff;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-vimeo-circled {background-color: #00beff;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-twitter {background-color: #00b0ef;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-skype {background-color: #00b3f2;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-renren {background-color: #0d80e4;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-rdio {background-color: #006ed4;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-linkedin {background-color: #0082b2;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-behance {background-color: #06f;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-dropbox {background-color: #0083d1;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-vkontakte {background-color: #4e729a;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-facebook {background-color: #265999;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-tumblr {background-color: #174863;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-dribbble {background-color: #ff2788;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-flickr {background-color: #0062dd;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-stumbleupon {background-color: #ff2419;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-lastfm {background-color: #fb0000;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-gplus {background-color: #f32e31;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-google-circles {background-color: #f32e31;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-youtube-play {background-color: #cd201f;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-youtube {background-color: #cd201f;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-pinterest {background-color: #ef0021;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-smashing {background-color: #ff462c;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-soundcloud {background-color: #ff4f00;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-reddit {background-color: #ee5831;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-flattr {background-color: #ff6f00;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-odnoklassniki {background-color: #f58220;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-mixi {background-color: #d1ad5a;}
+.tempo-field.social div.tempo-field-icon i.tempo-icon-rss {background-color: #ff7600;}
+.tempo-field.social div.tempo-field-input {float: right;width: -webkit-calc(100% - 55px);width: -moz-calc(100% - 55px);width: calc(100% - 55px);}
+.tempo-field-social {margin-bottom: 20px;}
+.tempo-field-social .tempo-field-title label {margin-bottom: 0px;}
+.tempo-field-social .tempo-field-input {float: right;width: -webkit-calc(100% - 55px);width: -moz-calc(100% - 55px);width: calc(100% - 55px);}
+.tempo-field-social i:before {width: 34px;line-height: 34px;text-align: center;}
+.tempo-field-social i.tempo-icon-rss {background-color: #ff7600;}
+.tempo-field-social i.tempo-icon-smashing {background-color: #ff462c;}
+.tempo-field-social i.tempo-icon-flickr {background-color: #0062dd;}
+.tempo-field-social i.tempo-icon-vimeo {background-color: #00beff;}
+.tempo-field-social i.tempo-icon-twitter {background-color: #00b0ef;}
+.tempo-field-social i.tempo-icon-facebook {background-color: #265999;}
+.tempo-field-social i.tempo-icon-gplus {background-color: #f32e31;}
+.tempo-field-social i.tempo-icon-pinterest {background-color: #ef0021;}
+.tempo-field-social i.tempo-icon-tumblr {background-color: #174863;}
+.tempo-field-social i.tempo-icon-linkedin {background-color: #0082b2;}
+.tempo-field-social i.tempo-icon-dribbble {background-color: #ff2788;}
+.tempo-field-social i.tempo-icon-stumbleupon {background-color: #ff2419;}
+.tempo-field-social i.tempo-icon-lastfm {background-color: #fb0000;}
+.tempo-field-social i.tempo-icon-github {background-color: #0084c5;}
+.tempo-field-social i.tempo-icon-instagram {background-color: #00749c;}
+.tempo-field-social i.tempo-icon-dropbox {background-color: #0083d1;}
+.tempo-field-social i.tempo-icon-evernote {background-color: #7ac142;}
+.tempo-field-social i.tempo-icon-flattr {background-color: #ff6f00;}
+.tempo-field-social i.tempo-icon-odnoklassniki {background-color: #f58220;}
+.tempo-field-social i.tempo-icon-skype {background-color: #00b3f2;}
+.tempo-field-social i.tempo-icon-renren {background-color: #0d80e4;}
+.tempo-field-social i.tempo-icon-picasa {background-color: #415e5f;}
+.tempo-field-social i.tempo-icon-soundcloud {background-color: #ff4f00;}
+.tempo-field-social i.tempo-icon-mixi {background-color: #d1ad5a;}
+.tempo-field-social i.tempo-icon-behance {background-color: #06f;}
+.tempo-field-social i.tempo-icon-google-circles {background-color: #f32e31;}
+.tempo-field-social i.tempo-icon-youtube-play {background-color: #cd201f;}
+.tempo-field-social i.tempo-icon-youtube {background-color: #cd201f;}
+.tempo-field-social i.tempo-icon-vkontakte {background-color: #4e729a;}
+.tempo-field-social i.tempo-icon-rdio {background-color: #006ed4;}
+.tempo-field-social:last-child {margin-bottom: 0px;}
+.tempo-no-margin {margin: 0px;}
+div.widget div.tempo-icon_select {margin: 1em 0;}
+div.widget input[type="text"], div.widget input[type="url"], div.widget input[type="number"], div.widget input[type="range"], div.widget input[type="email"], div.widget select, div.widget textarea {width: 100%;}
+div.widget label {font-weight: bold;line-height: 30px;color: #000;}
+div.widget label input[type="text"], div.widget label input[type="url"], div.widget label input[type="number"], div.widget label input[type="range"], div.widget label input[type="email"], div.widget label select, div.widget label textarea {color: #666;line-height: 18px;font-size: 13px;font-weight: normal;}
+div.widget .tempo-field .tempo-field-title label {font-weight: bold;line-height: 30px;color: #000;}
+div.upload-category-image input.category-image {padding: 8px;float: left;width: -webkit-calc(95% - 100px);width: -moz-calc(95% - 100px);width: calc(95% - 100px);}
