@@ -1,0 +1,40 @@
+@media ( max-width: 767px ) {.container {padding-left: 40px;padding-right: 40px;}}
+@media ( max-width: 480px ) {.container {padding-left: 20px;padding-right: 20px;}}
+div.tempo-website-wrapper {max-width: 1170px;width: 100%;margin: 0px auto;-webkit-box-shadow: 0px 0px 50px 1px rgba(0,0,0,.4);-moz-box-shadow: 0px 0px 50px 1px rgba(0,0,0,.4);box-shadow: 0px 0px 50px 1px rgba(0,0,0,.4);}
+div.tempo-website-wrapper div#tempo-page.tempo-page {background-color: #fff;}
+@media ( max-width: 1199px ) {div.tempo-website-wrapper {max-width: 100%;margin: 0px auto;}}
+#map_canvas img, div.gm-style img, .tempo-map-canvas img {max-width: none !important;}
+.tempo-navigation ul {list-style: none;margin: 0px;padding: 0px;font-size: 0px;line-height: 0px;}
+.tempo-navigation ul li {font-size: 14px;line-height: 24px;display: inline-block;}
+ul.tempo-navigation {list-style: none;margin: 0px;padding: 0px;font-size: 0px;line-height: 0px;}
+ul.tempo-navigation li {font-size: 14px;line-height: 24px;display: inline-block;}
+ul.tempo-navigation ul {list-style: none;margin: 0px;padding: 0px;font-size: 0px;line-height: 0px;}
+ul.tempo-navigation ul li {font-size: 14px;line-height: 24px;display: inline-block;}
+.overflow-wrapper {display: block;position: relative;overflow: hidden;}
+.image-background {background-position: center center;background-repeat: no-repeat;}
+*:hover > .effect-scale {-webkit-transform: scale(1.2);-moz-transform: scale(1.2);transform: scale(1.2);}
+*:hover > .effect-rotate {-webkit-transform: rotate(5deg);-moz-transform: rotate(5deg);transform: rotate(5deg);}
+*:hover > .effect-scale-rotate {-webkit-transform: scale(1.2) rotate(5deg);-moz-transform: scale(1.2) rotate(5deg);transform: scale(1.2) rotate(5deg);}
+.tempo-thumbnail-wrapper:hover .effect-scale {-webkit-transform: scale(1.2);-moz-transform: scale(1.2);transform: scale(1.2);}
+.tempo-thumbnail-wrapper:hover .effect-rotate {-webkit-transform: rotate(5deg);-moz-transform: rotate(5deg);transform: rotate(5deg);}
+.tempo-thumbnail-wrapper:hover .effect-scale-rotate {-webkit-transform: scale(1.2) rotate(5deg);-moz-transform: scale(1.2) rotate(5deg);transform: scale(1.2) rotate(5deg);}
+div.embed-vimeo, span.embed-youtube {position: relative;}
+div.embed-vimeo iframe, span.embed-youtube iframe, div.embed-vimeo video.tempo-video-embed, span.embed-youtube video.tempo-video-embed {display: block;margin-left: auto;margin-right: auto;border: 0px;margin: 0px;padding: 0px;}
+.tempo-video-thumbnail, .tempo-vimeo-thumbnail, .tempo-youtube-thumbnail {position: relative;}
+.tempo-video-thumbnail div.embed-vimeo, .tempo-vimeo-thumbnail div.embed-vimeo, .tempo-youtube-thumbnail div.embed-vimeo, .tempo-video-thumbnail span.embed-youtube, .tempo-vimeo-thumbnail span.embed-youtube, .tempo-youtube-thumbnail span.embed-youtube, .tempo-video-thumbnail iframe, .tempo-vimeo-thumbnail iframe, .tempo-youtube-thumbnail iframe, .tempo-video-thumbnail video.tempo-video-embed, .tempo-vimeo-thumbnail video.tempo-video-embed, .tempo-youtube-thumbnail video.tempo-video-embed {border: 0px;margin: 0px;padding: 0px;width: 100%;height: 100%;}
+.tempo-youtube-background {position: absolute;width: 100%;height: 100%;}
+.tempo-youtube-background .container {position: relative;width: 100%;height: 100%;overflow: hidden;z-index: 1;}
+.tempo-youtube-background.fixed .container {position: fixed;}
+.tempo-youtube-background #tempo-youtube-player {position: absolute;}
+.tempo-youtube-background .shield {width: 100%;height: 100%;z-index: 2;position: absolute;left: 0;top: 0;}
+.tempo-flex-container {position: absolute;left: 0;width: 100%;display: table;display: -webkit-box;display: -moz-box;display: -ms-box;display: -ms-flexbox;display: -webkit-flex;display: -ms-flex;display: flexbox;display: flex;-webkit-flex-direction: row;-moz-flex-direction: row;-ms-flex-direction: row;-o-flex-direction: row;flex-direction: row;height: 100%;}
+.tempo-flex-container.tempo-valign-top {-webkit-align-content: flex-start;-moz-align-content: flex-start;-ms-align-content: flex-start;-o-align-content: flex-start;align-content: flex-start;-webkit-align-items: flex-start;-moz-align-items: flex-start;-ms-align-items: flex-start;-o-align-items: flex-start;align-items: flex-start;-webkit-flex-align: start;-moz-flex-align: start;-ms-flex-align: start;-o-flex-align: start;flex-align: start;-webkit-box-align: start;-moz-box-align: start;-ms-box-align: start;-o-box-align: start;box-align: start;-webkit-box-pack: start;-moz-box-pack: start;-ms-box-pack: start;-o-box-pack: start;box-pack: start;}
+.tempo-flex-container.tempo-valign-top .tempo-flex-item {-webkit-align-self: flex-start;-moz-align-self: flex-start;-ms-align-self: flex-start;-o-align-self: flex-start;align-self: flex-start;}
+.tempo-flex-container.tempo-valign-middle {-webkit-align-content: flex-start;-moz-align-content: flex-start;-ms-align-content: flex-start;-o-align-content: flex-start;align-content: flex-start;-webkit-align-items: flex-start;-moz-align-items: flex-start;-ms-align-items: flex-start;-o-align-items: flex-start;align-items: flex-start;-webkit-flex-align: start;-moz-flex-align: start;-ms-flex-align: start;-o-flex-align: start;flex-align: start;-webkit-box-align: start;-moz-box-align: start;-ms-box-align: start;-o-box-align: start;box-align: start;-webkit-box-pack: start;-moz-box-pack: start;-ms-box-pack: start;-o-box-pack: start;box-pack: start;}
+.tempo-flex-container.tempo-valign-middle .tempo-flex-item {-webkit-align-self: center;-moz-align-self: center;-ms-align-self: center;-o-align-self: center;align-self: center;}
+.tempo-flex-container.tempo-valign-bottom {-webkit-align-content: flex-start;-moz-align-content: flex-start;-ms-align-content: flex-start;-o-align-content: flex-start;align-content: flex-start;-webkit-align-items: flex-start;-moz-align-items: flex-start;-ms-align-items: flex-start;-o-align-items: flex-start;align-items: flex-start;-webkit-flex-align: start;-moz-flex-align: start;-ms-flex-align: start;-o-flex-align: start;flex-align: start;-webkit-box-align: start;-moz-box-align: start;-ms-box-align: start;-o-box-align: start;box-align: start;-webkit-box-pack: start;-moz-box-pack: start;-ms-box-pack: start;-o-box-pack: start;box-pack: start;}
+.tempo-flex-container.tempo-valign-bottom .tempo-flex-item {-webkit-align-self: flex-end;-moz-align-self: flex-end;-ms-align-self: flex-end;-o-align-self: flex-end;align-self: flex-end;}
+.tempo-flex-container .tempo-flex-item {width: 100%;}
+.tempo-flex-container .tempo-flex-item.tempo-align-left {text-align: left;}
+.tempo-flex-container .tempo-flex-item.tempo-align-center {text-align: center;}
+.tempo-flex-container .tempo-flex-item.tempo-align-right {text-align: right;}
