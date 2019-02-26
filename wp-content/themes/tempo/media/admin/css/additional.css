@@ -1,0 +1,31 @@
+.tempo-social {text-align: center;}
+.tempo-social a.social-item {display: inline-block;font-variant: normal;font-style: normal;font-weight: normal;width: 38px;height: 38px;margin-left: 5px;padding: 0px;margin-top: 0px;margin-bottom: 0px;text-align: center;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+.tempo-social a.social-item i, .tempo-social a.social-item i:before {color: #fff;font-size: 16px;font-variant: normal;font-style: normal;font-weight: normal;line-height: 38px;width: 38px;height: 38px;}
+.tempo-social a.social-item.facebook {background: #265999;border-bottom: 1px solid #002767;margin-left: 0px;}
+.tempo-social a.social-item.gplus {border-bottom: 1px solid #c10000;background: #f32e31;}
+.tempo-social a.social-item.twitter {border-bottom: 1px solid #007ebd;background: #00b0ef;}
+.tempo-social a.social-item.pinterest {border-bottom: 1px solid #9a0000;background: #ef0021;}
+.tempo-social a.social-item.mail {border-bottom: 1px solid #2d6700;background: #5f992f;}
+.tempo-center {text-align: center;}
+.tempo-left {text-align: left;}
+.tempo-right {text-align: right;}
+.tempo-features-diff-wrapper {margin-right: 0px;}
+@media screen and (max-width: 782px) {.tempo-features-diff-wrapper {margin-right: 10px;}}
+.tempo-features-diff-wrapper .tempo-features-diff {width: 100%;background: #fff;border: 1px solid #f0f0f0;border-collapse: collapse;}
+.tempo-features-diff-wrapper .tempo-features-diff th {font-family: Montserrat,sans-serif,Arial,serif;font-size: 18px;text-transform: uppercase;font-weight: bold;}
+.tempo-features-diff-wrapper .tempo-features-diff th small {font-family: Roboto,sans-serif,Arial,serif;font-size: 11px;color: #999;font-weight: normal;text-transform: none;}
+.tempo-features-diff-wrapper .tempo-features-diff th a small {color: #0074a2;}
+.tempo-features-diff-wrapper .tempo-features-diff th a small:hover {color: #2ea2cc;}
+.tempo-features-diff-wrapper .tempo-features-diff td, .tempo-features-diff-wrapper .tempo-features-diff th {padding: 8px 15px;border: 1px solid #f0f0f0;}
+.tempo-features-diff-wrapper .tempo-features-diff tr:hover td {background: #f9f9f9;}
+.tempo-features-diff-wrapper .tempo-features-diff td strong {color: #000;}
+.tempo-features-diff-wrapper .tempo-features-diff .tempo-free, .tempo-features-diff-wrapper .tempo-features-diff .tempo-premium {width: 25%;text-align: center;color: #666;font-size: 13px;}
+.tempo-features-diff-wrapper .tempo-features-diff .tempo-free i.tempo-icon-ok-circle-1, .tempo-features-diff-wrapper .tempo-features-diff .tempo-premium i.tempo-icon-ok-circle-1 {color: #8ac13c;}
+.tempo-features-diff-wrapper .tempo-features-diff .tempo-free i.tempo-icon-ok-circle-1:before, .tempo-features-diff-wrapper .tempo-features-diff .tempo-premium i.tempo-icon-ok-circle-1:before {font-size: 14px;}
+.tempo-features-diff-wrapper .tempo-features-diff .tempo-free i.tempo-icon-cancel-circled-2, .tempo-features-diff-wrapper .tempo-features-diff .tempo-premium i.tempo-icon-cancel-circled-2 {color: red;}
+.tempo-features-diff-wrapper .tempo-features-diff .tempo-free i.tempo-icon-cancel-circled-2:before, .tempo-features-diff-wrapper .tempo-features-diff .tempo-premium i.tempo-icon-cancel-circled-2:before {font-size: 16px;}
+.tempo-features-diff-wrapper span.upgrade-hint {float: right;margin: 20px 3px 0px 0px;}
+.tempo-features-diff-wrapper a.tempo-premium-upgrade {display: inline-block;float: right;margin: 20px auto;text-align: center;padding: 15px 25px;font-size: 18px;font-weight: bold;line-height: 18px;text-transform: uppercase;letter-spacing: 1px;}
+.tempo-features-diff-wrapper a.tempo-premium-upgrade i {margin-right: 9px;}
+.tempo-features-diff-wrapper a.tempo-premium-upgrade small {color: rgba(255,255,255,.7);display: block;font-size: 11px;font-weight: normal;margin-top: 5px;margin-bottom: -5px;letter-spacing: .05em;}
+.tempo-support a.tempo-button {text-transform: uppercase;}
