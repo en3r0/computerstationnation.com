@@ -1,0 +1,12 @@
+body, html {font-family: "Open Sans",sans-serif;}
+header.tempo-header div.tempo-topper div.tempo-site-identity a.tempo-site-title {font-family: "Open Sans",sans-serif;}
+.hentry h3, .hentry h4, .hentry h5, .hentry h6 {font-family: "Open Sans",sans-serif;}
+body .tempo-shortcode.gmap h3.zeon-marker-title {font-family: "Open Sans",sans-serif;}
+div.tempo-comments-wrapper ol.tempo-comments-list li.comment header span.tempo-comment-meta cite span.tempo-author-tag {font-family: "Open Sans",sans-serif;}
+div.tempo-comments-wrapper div.comment-respond h3.comment-reply-title {font-family: "Open Sans",sans-serif;}
+article.tempo-article.classic div.tempo-author h4 {font-family: "Open Sans",sans-serif;}
+aside.header-sidebar div.widget h3.widget-title {font-family: "Open Sans",sans-serif;}
+aside div.widget h4.widget-title {font-family: "Open Sans",sans-serif;}
+aside div.widget.zeon_widget_posts ul li h5, aside div.widget.zeon_widget_posts_list ul li h5 {font-family: "Open Sans",sans-serif;}
+aside.tempo-footer div.widget h5.widget-title {font-family: "Open Sans",sans-serif;}
+aside.tempo-footer.dark-sidebars div.widget.zeon_widget_posts ul li h5, aside.tempo-footer.dark-sidebars div.widget.zeon_widget_posts_list ul li h5 {font-family: "Open Sans",sans-serif;}
