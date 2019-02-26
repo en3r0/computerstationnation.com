@@ -1,0 +1,4 @@
+.tempo-flex-container .tempo-flex-item {display: table-cell;}
+.tempo-flex-container.tempo-valign-top, .tempo-flex-container.tempo-valign-top .tempo-flex-item {valign: top;vertical-align: top;}
+.tempo-flex-container.tempo-valign-middle, .tempo-flex-container.tempo-valign-middle .tempo-flex-item {valign: middle;vertical-align: middle;}
+.tempo-flex-container.tempo-valign-bottom, .tempo-flex-container.tempo-valign-bottom .tempo-flex-item {valign: bottom;vertical-align: bottom;}
