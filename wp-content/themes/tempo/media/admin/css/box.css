@@ -1,0 +1,43 @@
+.tempo-button {background-color: #0072bc;border: 0px;border-color: transparent;border-style: none;display: inline-block;font-family: Roboto,sans-serif,Arial,serif;font-size: 12px;font-weight: 300;color: #fff;padding: 9px 15px;margin: 0px 5px;text-shadow: none;text-decoration: none;-webkit-box-shadow: 0 3px 0px #005993;-moz-box-shadow: 0 3px 0px #005993;box-shadow: 0 3px 0px #005993;opacity: .85;filter: alpha(opacity=85);-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.tempo-button:hover {color: #fff;cursor: pointer;opacity: 1;filter: alpha(opacity=100);}
+.tempo-button:focus {color: #fff;-webkit-box-shadow: 0 1px 0px #005993;-moz-box-shadow: 0 1px 0px #005993;box-shadow: 0 1px 0px #005993;outline: 0;outline: thin dotted \9;}
+.tempo-button.large-button, .tempo-button.tempo-reset-options, .tempo-button.tempo-submit-options {line-height: 18px;padding: 12px 25px;}
+.tempo-button.tempo-submit-options {margin-right: 0px;}
+.tempo-button.tempo-reset-options {background: #197b30;margin-left: 0px;-webkit-box-shadow: 0 3px 0px #125923;-moz-box-shadow: 0 3px 0px #125923;box-shadow: 0 3px 0px #125923;}
+.tempo-button.tempo-reset-options:focus {-webkit-box-shadow: 0 1px 0px #125923;-moz-box-shadow: 0 1px 0px #125923;box-shadow: 0 1px 0px #125923;}
+div.tempo-notification {background: #f6f6f6;font-family: "Open Sans",sans-serif,Arial,serif;font-size: 12px;line-height: 18px;color: #999;padding: 10px 20px;margin: 20px 0px 40px 0px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;-webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,.2);-moz-box-shadow: 0 0 1px 0 rgba(0,0,0,.2);box-shadow: 0 0 1px 0 rgba(0,0,0,.2);}
+div.tempo-notification.tempo-admin-page-notification {margin-bottom: 20px;}
+div.tempo-notification.tempo-page-update, div.tempo-notification.tempo-page-reset {margin: 0px 0px 15px 0px;}
+div.tempo-notification.tempo-custom-sidebar {margin: 5px 0px 5px 0px;-webkit-border-radius: 0px;-moz-border-radius: 0px;border-radius: 0px;}
+div.tempo-notification > strong {color: #333;display: inline-block;font-size: 14px;text-transform: uppercase;}
+div.tempo-notification > strong + p {margin-top: 8px;}
+div.tempo-notification p {margin-top: 0px;margin-bottom: 0px;}
+div.tempo-notification a {text-decoration: none;}
+div.tempo-notification.info {border-left: 5px solid #0072bc;}
+div.tempo-notification.notify {border-left: 5px solid #ddd;}
+div.tempo-notification.success {border-left: 5px solid #8ac13c;}
+div.tempo-notification.wrong {border-left: 5px solid #ea9431;}
+div.tempo-notification.error {border-left: 5px solid #d32c2c;}
+div.postbox div.tempo-notification, div.tempo-box div.tempo-notification {background: #fff;color: #787878;-webkit-box-shadow: 0 0 1px 0px rgba(0,0,0,.2);-moz-box-shadow: 0 0 1px 0px rgba(0,0,0,.2);box-shadow: 0 0 1px 0px rgba(0,0,0,.2);}
+div.postbox div.tempo-custom-sidebar, div.tempo-box div.tempo-custom-sidebar {font-size: 13px;color: #000;}
+div.postbox div.tempo-custom-sidebar a.tempo-remove-sidebar, div.tempo-box div.tempo-custom-sidebar a.tempo-remove-sidebar {color: rgba(0,0,0,.2);font-size: 18px;float: right;margin-right: -5px;-webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out;}
+div.postbox div.tempo-custom-sidebar a.tempo-remove-sidebar:hover, div.tempo-box div.tempo-custom-sidebar a.tempo-remove-sidebar:hover {color: #d00;}
+div.tempo-notification-wrapper, div.tempo-notification-wrapper.center {text-align: center;}
+div.tempo-notification-wrapper.left {text-align: left;}
+div.tempo-notification-wrapper.right {text-align: right;}
+div.tempo-notification-wrapper div.tempo-notification {display: inline-block;}
+.inside > div.tempo-notification:last-child {margin-bottom: 10px;}
+.inside > div.tempo-notification p br + a {display: block;margin-top: 8px;}
+.tempo-box {background: #fcfcfc;padding: 20px;margin-bottom: 20px;-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);-moz-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);}
+.tempo-box .tempo-box-header {border-bottom: 1px solid #e8e8e8;margin-bottom: 25px;padding-bottom: 10px;}
+.tempo-box .tempo-box-header h3 {color: #232323;font-family: Montserrat,sans-serif,Arial,serif;font-size: 18px;font-weight: 400;line-height: 24px;margin: 0px 0px 0px 3px;padding: 0px;}
+.tempo-box .tempo-box-header small {color: #999;display: block;margin: 3px 0px 0px 4px;}
+div#poststuff div.postbox div.inside {background-color: #fcfcfc;margin-top: 0px;padding-top: 6px;}
+div#poststuff div.postbox div.inside div.tempo-field {margin-top: 0px;margin-bottom: 0px;padding: 15px 0px;}
+div#poststuff div.postbox div.inside div.tempo-field.tempo-hidden {display: none;}
+div#poststuff div.postbox div.inside .tempo-box {-webkit-box-shadow: 0 0px 2px 0 rgba(0,0,0,.3);-moz-box-shadow: 0 0px 2px 0 rgba(0,0,0,.3);box-shadow: 0 0px 2px 0 rgba(0,0,0,.3);}
+div#poststuff div#side-sortables div.postbox div.inside div.tempo-field {padding: 15px 0px;}
+div#poststuff div#side-sortables div.postbox div.inside div.tempo-field.tempo-hidden {display: none;}
+div.tempo-shortcode.gmap h3.zeon-marker-title {margin-top: 10px;font-family: "Open Sans",sans-serif;font-size: 1.3em;}
+div.media-modal-content p.media-types.media-types-required-info {background-color: rgba(0,0,0,.1);font-size: 0px;line-height: 1px;height: 1px;margin: 16px auto;}
+div.media-modal-content select.tempo-select {width: 100%;height: 32px;}
