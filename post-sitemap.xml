@@ -2,79 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://computerstationnation.com/blog/</loc>
-		<lastmod>2019-02-15T12:30:15+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://computerstationnation.com/my-current-computer-station/</loc>
-		<lastmod>2018-11-01T10:39:45+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://computerstationnation.com/choosing-a-computer-case/</loc>
-		<lastmod>2018-11-15T13:21:26+00:00</lastmod>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/metallic-gear-neo-g-mini-mini-itx-computer-case.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://computerstationnation.com/unboxing-the-metallic-gear-neo-g-mini-my-next-pc-case/</loc>
-		<lastmod>2018-11-26T12:56:02+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://computerstationnation.com/unboxing-the-amd-ryzen-2700-processor/</loc>
-		<lastmod>2018-12-05T21:50:48+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://computerstationnation.com/unboxing-the-evga-supernova-650-g-power-supply/</loc>
-		<lastmod>2018-12-07T14:48:58+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://computerstationnation.com/uboxing-the-asrock-phantom-gaming-radeon-rx580/</loc>
-		<lastmod>2018-12-10T22:16:03+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://computerstationnation.com/unboxing-the-g-skill-trident-z-rgb-ram/</loc>
-		<lastmod>2018-12-11T13:52:07+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://computerstationnation.com/unboxing-the-asus-rog-strix-x470-i-gaming/</loc>
-		<lastmod>2018-12-12T12:20:30+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://computerstationnation.com/unboxing-the-hp-ex920-m-2-nvme-ssd/</loc>
-		<lastmod>2018-12-14T12:49:26+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://computerstationnation.com/build-log-part-1-poop-stain-on-my-heat-sink/</loc>
-		<lastmod>2018-12-17T12:52:18+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://computerstationnation.com/build-log-part-2-this-aint-goin-well/</loc>
-		<lastmod>2018-12-19T12:40:48+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://computerstationnation.com/behind-the-scenes-of-the-final-pc-build-log-video/</loc>
-		<lastmod>2019-01-17T12:56:43+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://computerstationnation.com/build-log-complete-metallic-gear-neo-g-mini-final-video/</loc>
-		<lastmod>2019-01-24T12:54:10+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://computerstationnation.com/can-gaming-computers-be-used-for-work/</loc>
-		<lastmod>2019-01-25T12:45:07+00:00</lastmod>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/gaming-computer-used-for-work.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/esports-gaming-computers-action.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/gaming-pc-and-work-pc.jpg</image:loc>
-		</image:image>
+		<lastmod>2019-02-27T12:42:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://computerstationnation.com/autonomous-smartdesk-2-review/</loc>
-		<lastmod>2019-02-15T12:30:15+00:00</lastmod>
+		<lastmod>2019-02-27T12:41:22+00:00</lastmod>
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/02/epic-workstation-on-standing-desk.jpg</image:loc>
 			<image:title><![CDATA[epic-workstation-on-standing-desk]]></image:title>
@@ -94,6 +26,74 @@
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/02/autonomous-standing-desk-controls.jpg</image:loc>
 		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/build-log-complete-metallic-gear-neo-g-mini-final-video/</loc>
+		<lastmod>2019-02-27T12:41:24+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/behind-the-scenes-of-the-final-pc-build-log-video/</loc>
+		<lastmod>2019-02-27T12:41:25+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/build-log-part-2-this-aint-goin-well/</loc>
+		<lastmod>2019-02-27T12:41:26+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/unboxing-the-hp-ex920-m-2-nvme-ssd/</loc>
+		<lastmod>2019-02-27T12:41:27+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/build-log-part-1-poop-stain-on-my-heat-sink/</loc>
+		<lastmod>2019-02-27T12:41:27+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/unboxing-the-asus-rog-strix-x470-i-gaming/</loc>
+		<lastmod>2019-02-27T12:41:28+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/unboxing-the-g-skill-trident-z-rgb-ram/</loc>
+		<lastmod>2019-02-27T12:41:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/uboxing-the-asrock-phantom-gaming-radeon-rx580/</loc>
+		<lastmod>2019-02-27T12:41:39+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/unboxing-the-evga-supernova-650-g-power-supply/</loc>
+		<lastmod>2019-02-27T12:41:44+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/unboxing-the-amd-ryzen-2700-processor/</loc>
+		<lastmod>2019-02-27T12:41:54+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/can-gaming-computers-be-used-for-work/</loc>
+		<lastmod>2019-02-27T12:41:55+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/gaming-computer-used-for-work.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/esports-gaming-computers-action.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/gaming-pc-and-work-pc.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/unboxing-the-metallic-gear-neo-g-mini-my-next-pc-case/</loc>
+		<lastmod>2019-02-27T12:41:56+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/choosing-a-computer-case/</loc>
+		<lastmod>2019-02-27T12:41:58+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/metallic-gear-neo-g-mini-mini-itx-computer-case.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/my-current-computer-station/</loc>
+		<lastmod>2019-02-27T12:42:15+00:00</lastmod>
 	</url>
 </urlset>
 <!-- XML Sitemap generated by Yoast SEO -->
