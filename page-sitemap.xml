@@ -29,32 +29,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://computerstationnation.com/desks/roll-around-computer-desks/</loc>
-		<lastmod>2020-01-01T11:06:49+00:00</lastmod>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/regular-computer-desk-with-wheels.jpg</image:loc>
-			<image:title><![CDATA[regular-computer-desk-with-wheels]]></image:title>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/regular-computer-desk-with-wheels.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/stylish-computer-desk-on-wheels.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/small-sit-to-stand-rolling-desk.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/large-sit-to-stand-rolling-desk.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/standing-only-mobile-desk.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/standing-desk-podium-lectern.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://computerstationnation.com/desks/computer-desks-with-electrical-outlets/</loc>
 		<lastmod>2020-01-01T11:12:07+00:00</lastmod>
 		<image:image>
@@ -351,6 +325,14 @@
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/minimal-floating-desk-curved-ends-orange22modern.jpg</image:loc>
 			<image:title><![CDATA[minimal-floating-desk-curved-ends-orange22modern]]></image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/desks/roll-around-computer-desks/</loc>
+		<lastmod>2020-03-19T20:18:07+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/regular-computer-desk-with-wheels.jpg</image:loc>
+			<image:title><![CDATA[regular-computer-desk-with-wheels]]></image:title>
 		</image:image>
 	</url>
 </urlset>
