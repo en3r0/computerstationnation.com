@@ -254,29 +254,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://computerstationnation.com/desks/desks-for-triple-monitors/</loc>
-		<lastmod>2020-03-18T12:49:24+00:00</lastmod>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/03/tripple-monitors-with-desk.jpg</image:loc>
-			<image:title><![CDATA[tripple-monitors-with-desk]]></image:title>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/triple-monitor-realspace-magellan-l-desk.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/03/tripple-monitors-with-desk.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/ikea-micke-3-monitor-setup.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/triple-monitor-clamp-mount-mechanism.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/triple-monitor-setup-plp-style.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://computerstationnation.com/desks/gaming-desks/</loc>
 		<lastmod>2020-03-18T13:26:00+00:00</lastmod>
 		<image:image>
@@ -333,6 +310,29 @@
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/regular-computer-desk-with-wheels.jpg</image:loc>
 			<image:title><![CDATA[regular-computer-desk-with-wheels]]></image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/desks/desks-for-triple-monitors/</loc>
+		<lastmod>2020-03-20T13:03:53+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/03/tripple-monitors-with-desk.jpg</image:loc>
+			<image:title><![CDATA[tripple-monitors-with-desk]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/triple-monitor-realspace-magellan-l-desk.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/03/tripple-monitors-with-desk.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/ikea-micke-3-monitor-setup.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/triple-monitor-clamp-mount-mechanism.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/triple-monitor-setup-plp-style.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
