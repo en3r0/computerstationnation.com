@@ -254,30 +254,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://computerstationnation.com/desks/gaming-desks/</loc>
-		<lastmod>2020-03-18T13:26:00+00:00</lastmod>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/turismo-racing-light-up-gaming-desk-setup-4-monitors.jpg</image:loc>
-			<image:title><![CDATA[turismo-racing-light-up-gaming-desk-setup-4-monitors]]></image:title>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/turismo-racing-light-up-gaming-desk-setup-4-monitors.jpg</image:loc>
-			<image:caption><![CDATA[turismo racing gaming desk]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/best-gaming-desk-under-100-atlantic-1.jpg</image:loc>
-			<image:caption><![CDATA[Desk for computer gaming]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/cheap-gaming-desk-eclipse.jpg</image:loc>
-			<image:caption><![CDATA[Atlantic Store computer desk]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/clear-glass-gaming-desk-techni-sport-rigel.jpg</image:loc>
-			<image:caption><![CDATA[Rigel Clear Glass Desk]]></image:caption>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://computerstationnation.com/monitors/computer-monitors-for-work/</loc>
 		<lastmod>2020-03-18T13:39:06+00:00</lastmod>
 		<image:image>
@@ -333,6 +309,30 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/triple-monitor-setup-plp-style.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/desks/gaming-desks/</loc>
+		<lastmod>2020-03-23T20:47:41+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/turismo-racing-light-up-gaming-desk-setup-4-monitors.jpg</image:loc>
+			<image:title><![CDATA[turismo-racing-light-up-gaming-desk-setup-4-monitors]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/turismo-racing-light-up-gaming-desk-setup-4-monitors.jpg</image:loc>
+			<image:caption><![CDATA[turismo racing gaming desk]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/best-gaming-desk-under-100-atlantic-1.jpg</image:loc>
+			<image:caption><![CDATA[Desk for computer gaming]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/cheap-gaming-desk-eclipse.jpg</image:loc>
+			<image:caption><![CDATA[Atlantic Store computer desk]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/clear-glass-gaming-desk-techni-sport-rigel.jpg</image:loc>
+			<image:caption><![CDATA[Rigel Clear Glass Desk]]></image:caption>
 		</image:image>
 	</url>
 </urlset>
