@@ -97,22 +97,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://computerstationnation.com/desks/</loc>
-		<lastmod>2020-01-01T21:05:45+00:00</lastmod>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/desk-needs-computer.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/glass-sides-modern-computer-desk-coaster.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/electrical-outlet-usb-sit-stand-desk-lafreniere.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/turismo-racing-light-up-gaming-desk-setup-4-monitors.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://computerstationnation.com/desks/types-of-standing-desks/</loc>
 		<lastmod>2020-01-01T22:51:53+00:00</lastmod>
 		<image:image>
@@ -259,6 +243,7 @@
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/turismo-racing-light-up-gaming-desk-setup-4-monitors.jpg</image:loc>
 			<image:title><![CDATA[turismo-racing-light-up-gaming-desk-setup-4-monitors]]></image:title>
+			<image:caption><![CDATA[I heard you like battlestations?]]></image:caption>
 		</image:image>
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/turismo-racing-light-up-gaming-desk-setup-4-monitors.jpg</image:loc>
@@ -316,6 +301,24 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/03/custom-desk-pc-hugopolman.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/desks/</loc>
+		<lastmod>2020-04-09T15:44:58+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/desk-needs-computer.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/glass-sides-modern-computer-desk-coaster.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/electrical-outlet-usb-sit-stand-desk-lafreniere.jpg</image:loc>
+			<image:caption><![CDATA[This is one epic standing desk]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/turismo-racing-light-up-gaming-desk-setup-4-monitors.jpg</image:loc>
+			<image:caption><![CDATA[I heard you like battlestations?]]></image:caption>
 		</image:image>
 	</url>
 </urlset>
