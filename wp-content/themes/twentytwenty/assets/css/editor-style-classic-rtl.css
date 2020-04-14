@@ -30,7 +30,7 @@ body#tinymce.wp-editor.content h3 {font-size: 40px;}
 body#tinymce.wp-editor.content h4 {font-size: 32px;}
 body#tinymce.wp-editor.content h5 {font-size: 24px;}
 body#tinymce.wp-editor.content h6 {font-size: 18px;letter-spacing: .03125em;text-transform: uppercase;}
-body#tinymce.wp-editor.content blockquote {border-style: solid;border: none;border-right: 2px solid #cd2653;margin: 0 0 1.6em 0;padding: .25em 1em .25em 0;}
+body#tinymce.wp-editor.content blockquote {border: none;border-right: 2px solid #cd2653;margin: 0 0 1.6em 0;padding: .25em 1em .25em 0;}
 body#tinymce.wp-editor.content blockquote p {font-style: normal;font-weight: 400;margin: 0;}
 body#tinymce.wp-editor.content cite {color: #6d6d6d;font-size: 16px;font-weight: 500;font-style: normal;}
 body#tinymce.wp-editor.content blockquote cite {display: block;margin-top: 20px;}
