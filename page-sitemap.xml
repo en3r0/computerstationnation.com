@@ -97,10 +97,6 @@
 		<lastmod>2020-03-18T11:06:58+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://computerstationnation.com/desks/best-folding-computer-desks/</loc>
-		<lastmod>2020-03-18T11:11:04+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://computerstationnation.com/desks/best-corner-and-l-shaped-computer-desks/</loc>
 		<lastmod>2020-03-18T11:47:10+00:00</lastmod>
 		<image:image>
@@ -323,6 +319,21 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/01/excited-about-winning-pc-game.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/desks/best-folding-computer-desks/</loc>
+		<lastmod>2020-04-12T13:09:57+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/lighting/</loc>
+		<lastmod>2020-04-14T13:40:18+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/lighting/best-monitor-backlight/</loc>
+		<lastmod>2020-04-14T13:58:58+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/04/monitor-backlight-controls.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
