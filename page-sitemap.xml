@@ -277,24 +277,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://computerstationnation.com/desks/</loc>
-		<lastmod>2020-04-09T15:48:28+00:00</lastmod>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/desk-needs-computer.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/glass-sides-modern-computer-desk-coaster.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/electrical-outlet-usb-sit-stand-desk-lafreniere.jpg</image:loc>
-			<image:caption><![CDATA[This is one epic standing desk]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/turismo-racing-light-up-gaming-desk-setup-4-monitors.jpg</image:loc>
-			<image:caption><![CDATA[I heard you like battlestations?]]></image:caption>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://computerstationnation.com/monitors/best-budget-computer-monitor/</loc>
 		<lastmod>2020-04-09T18:44:52+00:00</lastmod>
 	</url>
@@ -330,8 +312,40 @@
 		<lastmod>2020-04-14T13:40:18+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://computerstationnation.com/microphone/</loc>
+		<lastmod>2020-04-25T13:05:25+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/04/blue-yeti-laptop-setup.jpg</image:loc>
+			<image:title><![CDATA[blue-yeti-laptop-setup]]></image:title>
+			<image:caption><![CDATA[Blue Yeti microphone setup with laptop]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/desks/</loc>
+		<lastmod>2020-04-25T13:10:49+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/04/white-desk-laptop-setup-gaming.jpg</image:loc>
+			<image:title><![CDATA[white-desk-laptop-setup-gaming]]></image:title>
+			<image:caption><![CDATA[White desk with laptop and gaming accessories]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/desk-needs-computer.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/glass-sides-modern-computer-desk-coaster.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/electrical-outlet-usb-sit-stand-desk-lafreniere.jpg</image:loc>
+			<image:caption><![CDATA[This is one epic standing desk]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/turismo-racing-light-up-gaming-desk-setup-4-monitors.jpg</image:loc>
+			<image:caption><![CDATA[I heard you like battlestations?]]></image:caption>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://computerstationnation.com/lighting/best-monitor-backlight/</loc>
-		<lastmod>2020-04-14T13:58:58+00:00</lastmod>
+		<lastmod>2020-04-25T13:19:21+00:00</lastmod>
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/04/monitor-backlight-controls.jpg</image:loc>
 		</image:image>
