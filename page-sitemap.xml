@@ -312,15 +312,6 @@
 		<lastmod>2020-04-14T13:40:18+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://computerstationnation.com/microphone/</loc>
-		<lastmod>2020-04-25T13:05:25+00:00</lastmod>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/04/blue-yeti-laptop-setup.jpg</image:loc>
-			<image:title><![CDATA[blue-yeti-laptop-setup]]></image:title>
-			<image:caption><![CDATA[Blue Yeti microphone setup with laptop]]></image:caption>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://computerstationnation.com/desks/</loc>
 		<lastmod>2020-04-25T13:10:49+00:00</lastmod>
 		<image:image>
@@ -348,6 +339,15 @@
 		<lastmod>2020-04-25T13:19:21+00:00</lastmod>
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/04/monitor-backlight-controls.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/microphones/</loc>
+		<lastmod>2020-04-27T12:25:00+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/04/blue-yeti-laptop-setup.jpg</image:loc>
+			<image:title><![CDATA[blue-yeti-laptop-setup]]></image:title>
+			<image:caption><![CDATA[Blue Yeti microphone setup with laptop]]></image:caption>
 		</image:image>
 	</url>
 </urlset>
