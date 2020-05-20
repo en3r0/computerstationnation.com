@@ -510,6 +510,7 @@ figure.wp-block-table.is-style-stripes {border-bottom: none;}
 .read-more-button-wrap {margin-top: 1em;text-align: center;}
 .entry-content a:hover, .entry-content a:focus {text-decoration: none;}
 .entry-content p, .entry-content li {line-height: 1.4;}
+.entry-content li img {display: inline-block;}
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 {margin: 3.5rem auto 2rem;}
 .entry-content ul ul, .entry-content ol ol, .entry-content ul ol, .entry-content ol ul {margin-bottom: 1rem;}
 .entry-content hr {margin: 4rem auto;}
@@ -855,7 +856,7 @@ a.to-the-top > * {pointer-events: none;}
 	.to-the-top-short {display: none;}}
 @media (min-width: 782px) {.wp-block-column {margin-bottom: 0;}
 	.wp-block-columns.alignwide + .wp-block-columns.alignwide, .wp-block-columns.alignfull + .wp-block-columns.alignfull {margin-top: -2.8rem;}}
-@media ( min-width: 1000px ) {#site-header {z-index: 1;}
+@media ( min-width: 1000px ) {#site-header {z-index: 2;}
 	.header-inner {align-items: center;display: flex;justify-content: space-between;padding: 2.8rem 0;}
 	.header-titles-wrapper {margin-left: 4rem;max-width: 50%;padding: 0;text-align: right;}
 	.header-titles {align-items: baseline;display: flex;flex-wrap: wrap;justify-content: flex-start;margin: -1rem -2.4rem 0 0;}
@@ -897,6 +898,7 @@ a.to-the-top > * {pointer-events: none;}
 	.entry-content > .wp-block-group.alignwide.has-background, .entry-content > .wp-block-group.alignfull.has-background {padding: 8rem 4rem;margin-bottom: 0;margin-top: 0;}
 	.wp-block-image .alignleft {margin-right: 0;}
 	.wp-block-image .alignright {margin-left: 0;}
+	.wp-block-image .aligncenter figcaption {text-align: center;}
 	hr.wp-block-separator {margin: 8rem auto;}
 	.entry-content > .alignleft, .entry-content > p .alignleft, .entry-content > .wp-block-image .alignleft {position: absolute;right: calc(( 100vw - 58rem ) / 2 + 58rem + 2rem);max-width: calc(( 100% - 58rem ) / 2 - 6rem);}
 	[class*="wp-block"]:not(.alignwide):not(.alignfull) [class*="__inner-container"] > .alignleft, [class*="wp-block"]:not(.alignwide):not(.alignfull) [class*="__inner-container"] > p .alignleft, [class*="wp-block"]:not(.alignwide):not(.alignfull) [class*="__inner-container"] > .wp-block-image .alignleft {position: relative;right: inherit;max-width: inherit;}
