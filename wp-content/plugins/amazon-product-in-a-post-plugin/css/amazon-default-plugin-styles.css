@@ -1,7 +1,7 @@
 a[target="amazonwin"] {margin: 0 !important;}
 a[rel^="appiplightbox"] {display: inline-block;font-size: .75rem;text-align: center;max-width: 100%;}
-.instock {color: #008000;font-size: .85em;}
-.outofstock {color: #800000;font-size: .85em;}
+.instock:not(.type-product) {color: #008000;font-size: .85em;}
+.outofstock:not(.type-product) {color: #800000;font-size: .85em;}
 .amazon-image-wrapper {padding: 0 1%;text-align: center;float: left;margin: 0 2% 0 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;max-width: 25%;width: 100%;}
 .amazon-image-wrapper a {border-bottom: none;display: block;font-size: 12px;text-align: center;}
 .amazon-image-wrapper br {display: none;}
