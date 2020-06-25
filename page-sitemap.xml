@@ -248,13 +248,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://computerstationnation.com/lighting/best-monitor-backlight/</loc>
-		<lastmod>2020-04-25T13:19:21+00:00</lastmod>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/04/monitor-backlight-controls.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://computerstationnation.com/microphones/</loc>
 		<lastmod>2020-04-27T12:25:00+00:00</lastmod>
 		<image:image>
@@ -361,6 +354,13 @@
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/11/clear-glass-gaming-desk-techni-sport-rigel.jpg</image:loc>
 			<image:caption><![CDATA[Rigel Clear Glass Desk]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/lighting/best-monitor-backlight/</loc>
+		<lastmod>2020-06-25T11:51:30+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/04/monitor-backlight-controls.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
