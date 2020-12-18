@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://computerstationnation.com/blog/</loc>
-		<lastmod>2020-12-17T13:04:49+00:00</lastmod>
+		<lastmod>2020-12-18T13:13:57+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://computerstationnation.com/autonomous-smartdesk-2-review/</loc>
@@ -278,6 +278,70 @@
 		<lastmod>2020-12-17T13:04:49+00:00</lastmod>
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/florian-olivo-Mf23RF8xArY-unsplash.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/best-computer-monitor-cleaner/</loc>
+		<lastmod>2020-12-18T12:26:17+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/xps-g2E2NQ5SWSU-unsplash.jpg</image:loc>
+			<image:caption><![CDATA[Thin clean computer monitor]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/best-clear-desk-pad/</loc>
+		<lastmod>2020-12-18T12:30:24+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/jeff-sheldon-mKxdiW2QEkE-unsplash.jpg</image:loc>
+			<image:caption><![CDATA[A desk lacking a desk pad]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/best-computer-under-800/</loc>
+		<lastmod>2020-12-18T12:35:01+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/petter-lagson-NEtFkKuo7VY-unsplash.jpg</image:loc>
+			<image:caption><![CDATA[laptop using a vpn]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/best-computer-for-1200/</loc>
+		<lastmod>2020-12-18T12:47:39+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/petter-lagson-z-upQITw4fY-unsplash.jpg</image:loc>
+			<image:caption><![CDATA[laptop on a table ]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/best-desktop-computer-for-kids/</loc>
+		<lastmod>2020-12-18T12:54:19+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/bermix-studio-gGozQVZpUkY-unsplash.jpg</image:loc>
+			<image:caption><![CDATA[kid looking at a laptop computer]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/best-computer-for-hacking/</loc>
+		<lastmod>2020-12-18T13:02:07+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/arget-zvHhKiVuR9M-unsplash.jpg</image:loc>
+			<image:caption><![CDATA[computer code used for cybersecurity]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/best-time-to-buy-computer-parts/</loc>
+		<lastmod>2020-12-18T13:09:53+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/jeremy-bishop-WEwRtOF-du4-unsplash.jpg</image:loc>
+			<image:caption><![CDATA[Man browsing the web for computer parts]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/best-computer-under-400/</loc>
+		<lastmod>2020-12-18T13:13:57+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/designecologist-Pmh0UoG1vlE-unsplash.jpg</image:loc>
+			<image:caption><![CDATA[Apple computer with pink light behind it ]]></image:caption>
 		</image:image>
 	</url>
 </urlset>
