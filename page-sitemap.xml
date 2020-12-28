@@ -239,23 +239,11 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://computerstationnation.com/printers/best-color-laser-printers/</loc>
-		<lastmod>2020-12-20T00:05:26+00:00</lastmod>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/joshua-fuller-I0ucRdvImTo-unsplash.jpg</image:loc>
-			<image:caption><![CDATA[Color Laser Printer Printing a Picture]]></image:caption>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://computerstationnation.com/printers/best-photo-printer/</loc>
 		<lastmod>2020-12-20T00:05:30+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://computerstationnation.com/printers/best-laser-printers/</loc>
-		<lastmod>2020-12-20T00:05:31+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://computerstationnation.com/printers/</loc>
 		<lastmod>2020-12-20T00:05:31+00:00</lastmod>
 	</url>
 	<url>
@@ -848,6 +836,22 @@
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/marko-blazevic-INKqQcjNPCA-unsplash.jpg</image:loc>
 			<image:caption><![CDATA[black computer speakers with a rubix cube]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/printers/</loc>
+		<lastmod>2020-12-27T20:59:59+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/tom-claes-1M7_12ynKG8-unsplash.jpg</image:loc>
+			<image:caption><![CDATA[The working mechanism of a printer is shown by taking a close look at its interior]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/printers/best-color-laser-printers/</loc>
+		<lastmod>2020-12-27T21:01:43+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/joshua-fuller-I0ucRdvImTo-unsplash.jpg</image:loc>
+			<image:caption><![CDATA[Color Laser Printer Printing a Picture]]></image:caption>
 		</image:image>
 	</url>
 </urlset>
