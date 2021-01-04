@@ -210,23 +210,11 @@
 		<lastmod>2020-10-13T11:56:52+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://computerstationnation.com/webcams/</loc>
-		<lastmod>2020-12-19T23:33:33+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://computerstationnation.com/best-ups/</loc>
 		<lastmod>2020-12-20T00:05:11+00:00</lastmod>
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/emmanuel-nkLivBi2Mvs-unsplash.jpg</image:loc>
 			<image:caption><![CDATA[best UPS]]></image:caption>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://computerstationnation.com/webcams/best-webcam-for-video-conferencing/</loc>
-		<lastmod>2020-12-20T00:05:12+00:00</lastmod>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/johnny-mcclung-40EZGrutbTg-unsplash.jpg</image:loc>
-			<image:caption><![CDATA[Best Webcam For Video Conferencing]]></image:caption>
 		</image:image>
 	</url>
 	<url>
@@ -852,6 +840,22 @@
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/joshua-fuller-I0ucRdvImTo-unsplash.jpg</image:loc>
 			<image:caption><![CDATA[Color Laser Printer Printing a Picture]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/webcams/</loc>
+		<lastmod>2021-01-04T12:49:18+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/camera-1219748_640.jpg</image:loc>
+			<image:caption><![CDATA[A webcam setup on top of a computer monitor.]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/webcams/best-webcam-for-video-conferencing/</loc>
+		<lastmod>2021-01-04T12:50:17+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/johnny-mcclung-40EZGrutbTg-unsplash.jpg</image:loc>
+			<image:caption><![CDATA[Best Webcam For Video Conferencing]]></image:caption>
 		</image:image>
 	</url>
 </urlset>
