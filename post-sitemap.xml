@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://computerstationnation.com/blog/</loc>
-		<lastmod>2021-01-04T12:37:27+00:00</lastmod>
+		<lastmod>2021-01-05T03:00:13+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://computerstationnation.com/autonomous-smartdesk-2-review/</loc>
@@ -439,6 +439,30 @@
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/patrick-ward-z_dLXnQg0JY-unsplash.jpg</image:loc>
 			<image:caption><![CDATA[A Mac setup]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/best-all-in-one-computers/</loc>
+		<lastmod>2021-01-05T02:46:46+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/muhammed-abiodun-To_egtJSLIE-unsplash.jpg</image:loc>
+			<image:caption><![CDATA[Apple all in one computer setup]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/best-wall-mountable-monitors/</loc>
+		<lastmod>2021-01-05T02:50:51+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/joshua-aragon-BMnhuwFYr7w-unsplash.jpg</image:loc>
+			<image:caption><![CDATA[A wall mounted monitor setup]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/best-mini-computer-for-kodi/</loc>
+		<lastmod>2021-01-05T03:00:13+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2021/01/800px-3_mini_PC.jpg</image:loc>
+			<image:caption><![CDATA[3 mini computer's setup]]></image:caption>
 		</image:image>
 	</url>
 </urlset>
