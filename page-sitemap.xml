@@ -186,26 +186,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://computerstationnation.com/monitors/</loc>
-		<lastmod>2020-09-17T12:05:08+00:00</lastmod>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/02/ultrawide-computer-monitor-lg.jpg</image:loc>
-			<image:title><![CDATA[ultrawide-computer-monitor-lg]]></image:title>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/02/ultrawide-computer-monitor-lg.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/02/dual-monitor-size-programing.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/02/computer-monitor-response-time-benq.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/02/glossy-computer-monitor.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://computerstationnation.com/headphones/</loc>
 		<lastmod>2020-10-13T11:56:52+00:00</lastmod>
 	</url>
@@ -856,6 +836,34 @@
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/12/johnny-mcclung-40EZGrutbTg-unsplash.jpg</image:loc>
 			<image:caption><![CDATA[Best Webcam For Video Conferencing]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/monitors/best-40-inch-monitor/</loc>
+		<lastmod>2021-01-14T12:06:25+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2021/01/maxwell-nelson-N61CJ0sTT5s-unsplash.jpg</image:loc>
+			<image:caption><![CDATA[A 40 inch monitor displaying graphics]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/monitors/</loc>
+		<lastmod>2021-01-14T12:15:56+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/02/ultrawide-computer-monitor-lg.jpg</image:loc>
+			<image:title><![CDATA[ultrawide-computer-monitor-lg]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/02/ultrawide-computer-monitor-lg.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/02/dual-monitor-size-programing.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/02/computer-monitor-response-time-benq.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/02/glossy-computer-monitor.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
