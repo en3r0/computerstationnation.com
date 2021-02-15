@@ -702,46 +702,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://computerstationnation.com/desks/computers-built-into-desks/</loc>
-		<lastmod>2020-12-20T00:08:15+00:00</lastmod>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/project-alternate-handmade-x99-pc-desk-case.jpg</image:loc>
-			<image:title><![CDATA[project-alternate-handmade-x99-pc-desk-case]]></image:title>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/linus-tech-tips-desk-pc-build-result.jpg</image:loc>
-			<image:caption><![CDATA[DIY PC Desk result from Linus Tech Tips]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/DIY-Desk-PC-Build-from-Crafted-Workshop.jpg</image:loc>
-			<image:caption><![CDATA[Desk PC Case Plans from Crafted Workshop]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/10/lian-li-dk-05f-desk-pc.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/hydra-desk-pre-made-pc-desk-case.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/watercooled-pc-desk-built-in-car-audio.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/project-alternate-handmade-x99-pc-desk-case.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/project-unity-small-window-pc-inside-desk.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/custom-mahogany-desk-pc-build.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/03/custom-desk-pc-hugopolman.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/11/desk-pc-donell-ford.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://computerstationnation.com/desks/desks-for-triple-monitors/</loc>
 		<lastmod>2020-12-20T00:08:15+00:00</lastmod>
 		<image:image>
@@ -872,6 +832,50 @@
 		<image:image>
 			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/02/computer-monitor-for-graphic-design.jpg</image:loc>
 			<image:title><![CDATA[computer-monitor-for-graphic-design]]></image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://computerstationnation.com/desks/computers-built-into-desks/</loc>
+		<lastmod>2021-02-15T13:48:07+00:00</lastmod>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/project-alternate-handmade-x99-pc-desk-case.jpg</image:loc>
+			<image:title><![CDATA[project-alternate-handmade-x99-pc-desk-case]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/linus-tech-tips-desk-pc-build-result.jpg</image:loc>
+			<image:caption><![CDATA[DIY PC Desk result from Linus Tech Tips]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/DIY-Desk-PC-Build-from-Crafted-Workshop.jpg</image:loc>
+			<image:caption><![CDATA[Desk PC Case Plans from Crafted Workshop]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/10/lian-li-dk-05f-desk-pc.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/hydra-desk-pre-made-pc-desk-case.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2021/02/GTEPC-Extreme2.jpg</image:loc>
+			<image:caption><![CDATA[GTEPC Extreme Desk PC]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/watercooled-pc-desk-built-in-car-audio.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/project-alternate-handmade-x99-pc-desk-case.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/project-unity-small-window-pc-inside-desk.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2018/10/custom-mahogany-desk-pc-build.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2019/03/custom-desk-pc-hugopolman.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://computerstationnation.com/wp-content/uploads/2020/11/desk-pc-donell-ford.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
