@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Best Ergonomic Mouse Pad - Computer Station Nation</title><meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="Best Ergonomic Mouse Pad - Computer Station Nation"><meta property="og:description" content="Computer Station Nation is reader-supported.When you buy through links on our site, we may earn an affiliate commission. Learn more. It is general knowledge that mouse pads are simple accessories that assists in the responsiveness and accuracy of your mouse but have you considered an ergonomic mouse pad?  An ergonomic mouse pad is tailored to […]"><meta property="og:url" content="https://computerstationnation.com/best-mouse-pads/best-ergonomic-mouse-pad/"><meta property="og:site_name" content="Computer Station Nation"><meta property="article:modified_time" content="2020-12-20T00:05:42+00:00"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:label1" content="Est. reading time"><meta name="twitter:data1" content="5 minutes"><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://computerstationnation.com/#website","url":"https://computerstationnation.com/","name":"Computer Station Nation","description":"Epic Computer Setups","potentialAction":[{"@type":"SearchAction","target":"https://computerstationnation.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://computerstationnation.com/best-mouse-pads/best-ergonomic-mouse-pad/#webpage","url":"https://computerstationnation.com/best-mouse-pads/best-ergonomic-mouse-pad/","name":"Best Ergonomic Mouse Pad - Computer Station Nation","isPartOf":{"@id":"https://computerstationnation.com/#website"},"datePublished":"2020-11-19T19:31:40+00:00","dateModified":"2020-12-20T00:05:42+00:00","breadcrumb":{"@id":"https://computerstationnation.com/best-mouse-pads/best-ergonomic-mouse-pad/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://computerstationnation.com/best-mouse-pads/best-ergonomic-mouse-pad/"]}]},{"@type":"BreadcrumbList","@id":"https://computerstationnation.com/best-mouse-pads/best-ergonomic-mouse-pad/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/","url":"https://computerstationnation.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/best-mouse-pads/","url":"https://computerstationnation.com/best-mouse-pads/","name":"Best Mouse Pads"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/best-mouse-pads/best-ergonomic-mouse-pad/","url":"https://computerstationnation.com/best-mouse-pads/best-ergonomic-mouse-pad/","name":"Best Ergonomic Mouse Pad"}}]}]}</script><link rel="dns-prefetch" href="//s.w.org"><meta name="DC.Title" content="Best Ergonomic Mouse Pad"><meta name="DC.Publisher" content="Computer Station Nation"><meta name="DC.Language" scheme="UTF-8" content="en-US"><meta name="DC.Creator" content="Computer Station Nation"><meta name="DC.Type" scheme="DCMIType" content="Text"><meta name="DC.Format" scheme="IMT" content="text/html"><meta name="DC.Format.MIME" content="text/html"><meta name="DC.Format.SysReq" content="Internet browser"><meta name="DC.Source" content="https://computerstationnation.com/"><meta name="DC.Coverage" content="World"><meta name="DC.Identifier" content="https://computerstationnation.com"><script src="//www.googletagmanager.com/gtag/js?id=UA-195618-40" type="text/javascript" data-cfasync="false"></script><script type="text/javascript" data-cfasync="false">
-				var mi_version = '7.16.0';
+				var mi_version = '7.16.1';
 				var mi_track_user = true;
 				var mi_no_track_reason = '';
 				
@@ -63,39 +63,55 @@
 								var f = arguments[len - 1];
 								if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
 									if ( 'send' === arguments[0] ) {
+										var hitConverted, hitObject = false, action;
 										if ( 'event' === arguments[1] ) {
-											__gtagTracker( 'event', arguments[3], {
-												'event_category': arguments[2],
-												'event_label': arguments[4],
-												'value': 1
-											} );
-											return;
-										}
-										if ( 'undefined' !== typeof ( arguments[1].hitType ) ) {
-											var hitDetails = {};
-											var gagtag_map = {
-												'eventCategory': 'event_category',
-												'eventAction': 'event_action',
-												'eventLabel': 'event_label',
-												'eventValue': 'event_value',
-												'nonInteraction': 'non_interaction',
-												'timingCategory': 'event_category',
-												'timingVar': 'name',
-												'timingValue': 'value',
-												'timingLabel': 'event_label',
-											};
-											var gaKey;
-											for ( gaKey in gagtag_map ) {
-												if ( 'undefined' !== typeof arguments[1][gaKey] ) {
-													hitDetails[gagtag_map[gaKey]] = arguments[1][gaKey];
+											if ( 'undefined' !== typeof arguments[3] ) {
+												hitObject = {
+													'eventAction': arguments[3],
+													'eventCategory': arguments[2],
+													'eventLabel': arguments[4],
+													'value': arguments[5] ? arguments[5] : 1,
 												}
 											}
-											var action = 'timing' === arguments[1].hitType ? 'timing_complete' : arguments[1].eventAction;
-											__gtagTracker( 'event', action, hitDetails );
+										}
+										if ( typeof arguments[2] === 'object' ) {
+											hitObject = arguments[2];
+										}
+										if ( 'undefined' !== typeof (
+											arguments[1].hitType
+										) ) {
+											hitObject = arguments[1];
+										}
+										if ( hitObject ) {
+											action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+											hitConverted = mapArgs( hitObject );
+											__gtagTracker( 'event', action, hitConverted );
 										}
 									}
 									return;
 								}
+
+								function mapArgs( args ) {
+									var gaKey, hit = {};
+									var gaMap = {
+										'eventCategory': 'event_category',
+										'eventAction': 'event_action',
+										'eventLabel': 'event_label',
+										'eventValue': 'event_value',
+										'nonInteraction': 'non_interaction',
+										'timingCategory': 'event_category',
+										'timingVar': 'name',
+										'timingValue': 'value',
+										'timingLabel': 'event_label',
+									};
+									for ( gaKey in gaMap ) {
+										if ( 'undefined' !== typeof args[gaKey] ) {
+											hit[gaMap[gaKey]] = args[gaKey];
+										}
+									}
+									return hit;
+								}
+
 								try {
 									f.hitCallback();
 								} catch ( ex ) {
@@ -116,11 +132,11 @@
 									} else {
 										console.log( "" );
 					( function () {
-						function __gtagTracker() {
-							return null;
-						}
-						window['__gtagTracker'] = __gtagTracker;
-						window['gtag'] = __gtagTracker;
+							function __gtagTracker() {
+								return null;
+							}
+							window['__gtagTracker'] = __gtagTracker;
+							window['gtag'] = __gtagTracker;
 					} )();
 									}
 			</script><link rel="stylesheet" id="amazon-default-styles-css" href="https://computerstationnation.com/wp-content/plugins/amazon-product-in-a-post-plugin/css/amazon-default-plugin-styles.css" media="all"><link rel="stylesheet" id="amazon-frontend-styles-css" href="https://computerstationnation.com/wp-content/plugins/amazon-product-in-a-post-plugin/css/amazon-frontend.css" media="all"><link rel="stylesheet" id="wp-block-library-css" href="https://computerstationnation.com/wp-includes/css/dist/block-library/style.min.css" media="all"><link rel="stylesheet" id="kk-star-ratings-css" href="https://computerstationnation.com/wp-content/plugins/kk-star-ratings/public/css/kk-star-ratings.css" media="all"><style id="kk-star-ratings-inline-css">
@@ -581,7 +597,7 @@ body.custom-background { background-color: #ffffff; }
 
 
 
-<div id="toc_container" class="no_bullets"><p class="toc_title">Contents</p><ul class="toc_list"><li><a href="#our-top-3-picks-for-the-best-ergonomic-mouse-pads">Our Top 3 Picks For The Best Ergonomic Mouse Pads</a><ul><li><a href="#gimars-large-smooth-superfine-fibre-memo8230">Gimars Large Smooth Superfine Fibre Memo…</a></li><li><a href="#haocoo-ergonomic-mouse-pad-with-wrist-su8230">HAOCOO Ergonomic Mouse Pad with Wrist Su…</a></li><li><a href="#londo-genuine-leather-mouse-pad-with-wri8230">Londo Genuine Leather Mouse pad with Wri…</a></li></ul></li><li><a href="#gimmars-large-ergonomic-mouse-pad">Gimmars Large Ergonomic Mouse Pad</a><ul><li><a href="#pros-and-cons">Pros and Cons</a></li></ul></li><li><a href="#haocoo-ergonomic-mouse-pad">Haocoo Ergonomic Mouse Pad</a><ul><li><a href="#pros-and-cons-2">Pros and Cons</a></li></ul></li><li><a href="#londo-ergonomic-mouse-pad">Londo Ergonomic Mouse Pad</a><ul><li><a href="#pros-and-cons-3">Pros and Cons</a></li></ul></li><li><a href="#conclusion">Conclusion</a></li></ul></div>
+<div id="toc_container" class="no_bullets"><p class="toc_title">Contents</p><ul class="toc_list"><li><a href="#our-top-3-picks-for-the-best-ergonomic-mouse-pads">Our Top 3 Picks For The Best Ergonomic Mouse Pads</a><ul><li><a href="#gimars-large-smooth-superfine-fibre-memo8230">Gimars Large Smooth Superfine Fibre Memo…</a></li><li><a href="#haocoo-ergonomic-mouse-pad-with-wrist-su8230">HAOCOO Ergonomic Mouse Pad with Wrist Su…</a></li><li><a href="#londo-top-grain-leather-mousepad-with-wr8230">Londo Top Grain Leather Mousepad with Wr…</a></li></ul></li><li><a href="#gimmars-large-ergonomic-mouse-pad">Gimmars Large Ergonomic Mouse Pad</a><ul><li><a href="#pros-and-cons">Pros and Cons</a></li></ul></li><li><a href="#haocoo-ergonomic-mouse-pad">Haocoo Ergonomic Mouse Pad</a><ul><li><a href="#pros-and-cons-2">Pros and Cons</a></li></ul></li><li><a href="#londo-ergonomic-mouse-pad">Londo Ergonomic Mouse Pad</a><ul><li><a href="#pros-and-cons-3">Pros and Cons</a></li></ul></li><li><a href="#conclusion">Conclusion</a></li></ul></div>
 <h2><span id="our-top-3-picks-for-the-best-ergonomic-mouse-pads">Our Top 3 Picks For The Best Ergonomic Mouse Pads</span></h2>
 
 
@@ -597,7 +613,7 @@ body.custom-background { background-color: #ffffff; }
 </div>
 <div class="amazon-grid-element amz-grid-3">
 <div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B07B958MMY?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41s+lzAzaXL.jpg" alt="Buy Now"></a></div>
-<div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="londo-genuine-leather-mouse-pad-with-wri8230"><a href="https://www.amazon.com/dp/B07B958MMY?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">Londo Genuine Leather Mouse pad with Wri…</a></span></h3></div>
+<div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="londo-top-grain-leather-mousepad-with-wr8230"><a href="https://www.amazon.com/dp/B07B958MMY?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">Londo Top Grain Leather Mousepad with Wr…</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B07B958MMY?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Read More</a></div>
 </div></div></div>
 
@@ -614,12 +630,12 @@ body.custom-background { background-color: #ffffff; }
 	<div class="amazon-image-wrapper">
 		<a href="https://www.amazon.com/dp/B07KD7SCQG?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41q3ri9LiyL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B07KD7SCQG" href="#" data-appiplg="https://m.media-amazon.com/images/I/41q3ri9LiyL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07KD7SCQG" href="#" data-appiplg="https://m.media-amazon.com/images/I/51tOSizDJ5L.jpg"><img src="https://m.media-amazon.com/images/I/51tOSizDJ5L._SL75_.jpg" alt="Img - B07KD7SCQG" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07KD7SCQG" href="#" data-appiplg="https://m.media-amazon.com/images/I/51-jQVsewML.jpg"><img src="https://m.media-amazon.com/images/I/51-jQVsewML._SL75_.jpg" alt="Img - B07KD7SCQG" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07KD7SCQG" href="#" data-appiplg="https://m.media-amazon.com/images/I/41PkEg3wVIL.jpg"><img src="https://m.media-amazon.com/images/I/41PkEg3wVIL._SL75_.jpg" alt="Img - B07KD7SCQG" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07KD7SCQG" href="#" data-appiplg="https://m.media-amazon.com/images/I/51-jQVsewML.jpg"><img src="https://m.media-amazon.com/images/I/51-jQVsewML._SL75_.jpg" alt="Img - B07KD7SCQG" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07KD7SCQG" href="#" data-appiplg="https://m.media-amazon.com/images/I/51tOSizDJ5L.jpg"><img src="https://m.media-amazon.com/images/I/51tOSizDJ5L._SL75_.jpg" alt="Img - B07KD7SCQG" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07KD7SCQG" href="#" data-appiplg="https://m.media-amazon.com/images/I/5128xkUJtFL.jpg"><img src="https://m.media-amazon.com/images/I/5128xkUJtFL._SL75_.jpg" alt="Img - B07KD7SCQG" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07KD7SCQG" href="#" data-appiplg="https://m.media-amazon.com/images/I/41OIZwXYNDL.jpg"><img src="https://m.media-amazon.com/images/I/41OIZwXYNDL._SL75_.jpg" alt="Img - B07KD7SCQG" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07KD7SCQG" href="#" data-appiplg="https://m.media-amazon.com/images/I/514FQ7yVlUL.jpg"><img src="https://m.media-amazon.com/images/I/514FQ7yVlUL._SL75_.jpg" alt="Img - B07KD7SCQG" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07KD7SCQG" href="#" data-appiplg="https://m.media-amazon.com/images/I/5128xkUJtFL.jpg"><img src="https://m.media-amazon.com/images/I/5128xkUJtFL._SL75_.jpg" alt="Img - B07KD7SCQG" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07KD7SCQG" href="#" data-appiplg="https://m.media-amazon.com/images/I/41PkEg3wVIL.jpg"><img src="https://m.media-amazon.com/images/I/41PkEg3wVIL._SL75_.jpg" alt="Img - B07KD7SCQG" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -676,12 +692,12 @@ body.custom-background { background-color: #ffffff; }
 	<div class="amazon-image-wrapper">
 		<a href="https://www.amazon.com/dp/B08HGFTB92?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41T0i8O7I9L.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B08HGFTB92" href="#" data-appiplg="https://m.media-amazon.com/images/I/41T0i8O7I9L.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B08HGFTB92" href="#" data-appiplg="https://m.media-amazon.com/images/I/51w3G3bitdL.jpg"><img src="https://m.media-amazon.com/images/I/51w3G3bitdL._SL75_.jpg" alt="Img - B08HGFTB92" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08HGFTB92" href="#" data-appiplg="https://m.media-amazon.com/images/I/41ukeCXRRlL.jpg"><img src="https://m.media-amazon.com/images/I/41ukeCXRRlL._SL75_.jpg" alt="Img - B08HGFTB92" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08HGFTB92" href="#" data-appiplg="https://m.media-amazon.com/images/I/51HWO-5U4YL.jpg"><img src="https://m.media-amazon.com/images/I/51HWO-5U4YL._SL75_.jpg" alt="Img - B08HGFTB92" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08HGFTB92" href="#" data-appiplg="https://m.media-amazon.com/images/I/51adURa-5QL.jpg"><img src="https://m.media-amazon.com/images/I/51adURa-5QL._SL75_.jpg" alt="Img - B08HGFTB92" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B08HGFTB92" href="#" data-appiplg="https://m.media-amazon.com/images/I/51HWO-5U4YL.jpg"><img src="https://m.media-amazon.com/images/I/51HWO-5U4YL._SL75_.jpg" alt="Img - B08HGFTB92" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B08HGFTB92" href="#" data-appiplg="https://m.media-amazon.com/images/I/41Juo-J8WHL.jpg"><img src="https://m.media-amazon.com/images/I/41Juo-J8WHL._SL75_.jpg" alt="Img - B08HGFTB92" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B08HGFTB92" href="#" data-appiplg="https://m.media-amazon.com/images/I/51U5wRFzDqL.jpg"><img src="https://m.media-amazon.com/images/I/51U5wRFzDqL._SL75_.jpg" alt="Img - B08HGFTB92" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08HGFTB92" href="#" data-appiplg="https://m.media-amazon.com/images/I/51adURa-5QL.jpg"><img src="https://m.media-amazon.com/images/I/51adURa-5QL._SL75_.jpg" alt="Img - B08HGFTB92" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08HGFTB92" href="#" data-appiplg="https://m.media-amazon.com/images/I/51w3G3bitdL.jpg"><img src="https://m.media-amazon.com/images/I/51w3G3bitdL._SL75_.jpg" alt="Img - B08HGFTB92" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08HGFTB92" href="#" data-appiplg="https://m.media-amazon.com/images/I/41ukeCXRRlL.jpg"><img src="https://m.media-amazon.com/images/I/41ukeCXRRlL._SL75_.jpg" alt="Img - B08HGFTB92" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -739,8 +755,8 @@ body.custom-background { background-color: #ffffff; }
 		<a href="https://www.amazon.com/dp/B07B958MMY?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41s+lzAzaXL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B07B958MMY" href="#" data-appiplg="https://m.media-amazon.com/images/I/41s+lzAzaXL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
 	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07B958MMY" href="#" data-appiplg="https://m.media-amazon.com/images/I/5163+1A14qL.jpg"><img src="https://m.media-amazon.com/images/I/5163+1A14qL._SL75_.jpg" alt="Img - B07B958MMY" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07B958MMY" href="#" data-appiplg="https://m.media-amazon.com/images/I/41eOsf11xXL.jpg"><img src="https://m.media-amazon.com/images/I/41eOsf11xXL._SL75_.jpg" alt="Img - B07B958MMY" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07B958MMY" href="#" data-appiplg="https://m.media-amazon.com/images/I/411c5d8R5UL.jpg"><img src="https://m.media-amazon.com/images/I/411c5d8R5UL._SL75_.jpg" alt="Img - B07B958MMY" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07B958MMY" href="#" data-appiplg="https://m.media-amazon.com/images/I/41eOsf11xXL.jpg"><img src="https://m.media-amazon.com/images/I/41eOsf11xXL._SL75_.jpg" alt="Img - B07B958MMY" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07B958MMY" href="#" data-appiplg="https://m.media-amazon.com/images/I/512nlU9eOpL.jpg"><img src="https://m.media-amazon.com/images/I/512nlU9eOpL._SL75_.jpg" alt="Img - B07B958MMY" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07B958MMY" href="#" data-appiplg="https://m.media-amazon.com/images/I/51WQmiV5UXL.jpg"><img src="https://m.media-amazon.com/images/I/51WQmiV5UXL._SL75_.jpg" alt="Img - B07B958MMY" class="apipp-additional-image"></a>
 </div>
@@ -926,7 +942,7 @@ window.FPConfig= {
     hoverDelay: 50
 };
 </script><script src="https://computerstationnation.com/wp-content/plugins/flying-pages/flying-pages.min.js" id="flying-pages-js" defer></script><script id="kk-star-ratings-js-extra">
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"528e6189fe"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"f6bcc7bca9"};
 </script><script src="https://computerstationnation.com/wp-content/plugins/kk-star-ratings/public/js/kk-star-ratings.js" id="kk-star-ratings-js"></script><script src="https://computerstationnation.com/wp-content/plugins/table-of-contents-plus/front.min.js" id="toc-front-js"></script><script>
 	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 	</script></body></html>
