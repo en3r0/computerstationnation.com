@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>[2020] Computer Desks with Electrical Outlets // Computer Station Nation</title><meta name="description" content="If you need a Computer Desk with Electric Outlets [and / or USB outlets], then look no further! There are some AMAZING options to choose from in 2020."><meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="[2020] Computer Desks with Electrical Outlets // Computer Station Nation"><meta property="og:description" content="If you need a Computer Desk with Electric Outlets [and / or USB outlets], then look no further! There are some AMAZING options to choose from in 2020."><meta property="og:url" content="https://computerstationnation.com/desks/computer-desks-with-electrical-outlets/"><meta property="og:site_name" content="Computer Station Nation"><meta property="article:modified_time" content="2020-12-20T00:08:11+00:00"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:label1" content="Est. reading time"><meta name="twitter:data1" content="4 minutes"><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://computerstationnation.com/#website","url":"https://computerstationnation.com/","name":"Computer Station Nation","description":"Epic Computer Setups","potentialAction":[{"@type":"SearchAction","target":"https://computerstationnation.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://computerstationnation.com/desks/computer-desks-with-electrical-outlets/#webpage","url":"https://computerstationnation.com/desks/computer-desks-with-electrical-outlets/","name":"[2020] Computer Desks with Electrical Outlets // Computer Station Nation","isPartOf":{"@id":"https://computerstationnation.com/#website"},"datePublished":"2018-11-02T11:56:10+00:00","dateModified":"2020-12-20T00:08:11+00:00","description":"If you need a Computer Desk with Electric Outlets [and / or USB outlets], then look no further! There are some AMAZING options to choose from in 2020.","breadcrumb":{"@id":"https://computerstationnation.com/desks/computer-desks-with-electrical-outlets/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://computerstationnation.com/desks/computer-desks-with-electrical-outlets/"]}]},{"@type":"BreadcrumbList","@id":"https://computerstationnation.com/desks/computer-desks-with-electrical-outlets/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/","url":"https://computerstationnation.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/desks/","url":"https://computerstationnation.com/desks/","name":"Best Computer Desks"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/desks/computer-desks-with-electrical-outlets/","url":"https://computerstationnation.com/desks/computer-desks-with-electrical-outlets/","name":"Computer Desks with Electrical Outlets"}}]}]}</script><link rel="dns-prefetch" href="//s.w.org"><meta name="DC.Title" content="[2020] Computer Desks with Electrical Outlets // %%sitename%%"><meta name="DC.Publisher" content="Computer Station Nation"><meta name="DC.Language" scheme="UTF-8" content="en-US"><meta name="DC.Creator" content="Computer Station Nation"><meta name="DC.Type" scheme="DCMIType" content="Text"><meta name="DC.Format" scheme="IMT" content="text/html"><meta name="DC.Format.MIME" content="text/html"><meta name="DC.Format.SysReq" content="Internet browser"><meta name="DC.Source" content="https://computerstationnation.com/"><meta name="DC.Coverage" content="World"><meta name="DC.Identifier" content="https://computerstationnation.com"><script src="//www.googletagmanager.com/gtag/js?id=UA-195618-40" type="text/javascript" data-cfasync="false"></script><script type="text/javascript" data-cfasync="false">
-				var mi_version = '7.16.0';
+				var mi_version = '7.16.1';
 				var mi_track_user = true;
 				var mi_no_track_reason = '';
 				
@@ -63,39 +63,55 @@
 								var f = arguments[len - 1];
 								if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
 									if ( 'send' === arguments[0] ) {
+										var hitConverted, hitObject = false, action;
 										if ( 'event' === arguments[1] ) {
-											__gtagTracker( 'event', arguments[3], {
-												'event_category': arguments[2],
-												'event_label': arguments[4],
-												'value': 1
-											} );
-											return;
-										}
-										if ( 'undefined' !== typeof ( arguments[1].hitType ) ) {
-											var hitDetails = {};
-											var gagtag_map = {
-												'eventCategory': 'event_category',
-												'eventAction': 'event_action',
-												'eventLabel': 'event_label',
-												'eventValue': 'event_value',
-												'nonInteraction': 'non_interaction',
-												'timingCategory': 'event_category',
-												'timingVar': 'name',
-												'timingValue': 'value',
-												'timingLabel': 'event_label',
-											};
-											var gaKey;
-											for ( gaKey in gagtag_map ) {
-												if ( 'undefined' !== typeof arguments[1][gaKey] ) {
-													hitDetails[gagtag_map[gaKey]] = arguments[1][gaKey];
+											if ( 'undefined' !== typeof arguments[3] ) {
+												hitObject = {
+													'eventAction': arguments[3],
+													'eventCategory': arguments[2],
+													'eventLabel': arguments[4],
+													'value': arguments[5] ? arguments[5] : 1,
 												}
 											}
-											var action = 'timing' === arguments[1].hitType ? 'timing_complete' : arguments[1].eventAction;
-											__gtagTracker( 'event', action, hitDetails );
+										}
+										if ( typeof arguments[2] === 'object' ) {
+											hitObject = arguments[2];
+										}
+										if ( 'undefined' !== typeof (
+											arguments[1].hitType
+										) ) {
+											hitObject = arguments[1];
+										}
+										if ( hitObject ) {
+											action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+											hitConverted = mapArgs( hitObject );
+											__gtagTracker( 'event', action, hitConverted );
 										}
 									}
 									return;
 								}
+
+								function mapArgs( args ) {
+									var gaKey, hit = {};
+									var gaMap = {
+										'eventCategory': 'event_category',
+										'eventAction': 'event_action',
+										'eventLabel': 'event_label',
+										'eventValue': 'event_value',
+										'nonInteraction': 'non_interaction',
+										'timingCategory': 'event_category',
+										'timingVar': 'name',
+										'timingValue': 'value',
+										'timingLabel': 'event_label',
+									};
+									for ( gaKey in gaMap ) {
+										if ( 'undefined' !== typeof args[gaKey] ) {
+											hit[gaMap[gaKey]] = args[gaKey];
+										}
+									}
+									return hit;
+								}
+
 								try {
 									f.hitCallback();
 								} catch ( ex ) {
@@ -116,11 +132,11 @@
 									} else {
 										console.log( "" );
 					( function () {
-						function __gtagTracker() {
-							return null;
-						}
-						window['__gtagTracker'] = __gtagTracker;
-						window['gtag'] = __gtagTracker;
+							function __gtagTracker() {
+								return null;
+							}
+							window['__gtagTracker'] = __gtagTracker;
+							window['gtag'] = __gtagTracker;
 					} )();
 									}
 			</script><link rel="stylesheet" id="amazon-default-styles-css" href="https://computerstationnation.com/wp-content/plugins/amazon-product-in-a-post-plugin/css/amazon-default-plugin-styles.css" media="all"><link rel="stylesheet" id="amazon-frontend-styles-css" href="https://computerstationnation.com/wp-content/plugins/amazon-product-in-a-post-plugin/css/amazon-frontend.css" media="all"><link rel="stylesheet" id="wp-block-library-css" href="https://computerstationnation.com/wp-includes/css/dist/block-library/style.min.css" media="all"><link rel="stylesheet" id="kk-star-ratings-css" href="https://computerstationnation.com/wp-content/plugins/kk-star-ratings/public/css/kk-star-ratings.css" media="all"><style id="kk-star-ratings-inline-css">
@@ -587,8 +603,8 @@ body.custom-background { background-color: #ffffff; }
 
 
 <div class="appip-block-wrapper"><div class="amazon-grid-wrapper amazon-template--grid-default"><div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B07MT7GQWF?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41jSJMJzH9L.jpg" alt="Buy Now"></a></div>
-<div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="seville-classics-airlift-desk-computer-table-478243-8230"><a href="https://www.amazon.com/dp/B07MT7GQWF?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">Seville Classics Airlift Desk Computer Table, 47″ …</a></span></h3></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B07MT7GQWF?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/51IudpG8RtL.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="seville-classics-airlift-computer-desk-table-478243-8230"><a href="https://www.amazon.com/dp/B07MT7GQWF?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">Seville Classics airLIFT Computer Desk Table, 47″ …</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B07MT7GQWF?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div>
 <div class="amazon-grid-element amz-grid-3">
@@ -615,7 +631,7 @@ body.custom-background { background-color: #ffffff; }
 
 
 
-<div id="toc_container" class="no_bullets"><p class="toc_title">Contents</p><ul class="toc_list"><li><a href="#our-picks-for-the-best-computer-desk-with-electrical-outlet">Our Picks for the Best Computer Desk with Electrical Outlet</a><ul><li><a href="#seville-classics-airlift-desk-computer-table-478243-8230">Seville Classics Airlift Desk Computer Table, 47″ …</a></li><li><a href="#martin-furniture-motus-electric-motorized-sitstan8230">Martin Furniture Motus Electric Motorized Sit/Stan…</a></li><li><a href="#walker-edison-modern-industrial-computer-gaming-de8230">Walker Edison Modern Industrial Computer Gaming De…</a></li></ul></li><li><a href="#sit-to-stand-desks-with-electrical-outlets-andor-usb-plugs">Sit to Stand Desks with Electrical Outlets and/or USB plugs</a><ul><li><a href="#seville-classics-8211-airlift-tempered-glass-electric-standing-desk">Seville Classics – Airlift Tempered Glass Electric Standing Desk</a></li><li><a href="#martin-furniture-8211-motus-electric-motorized-sitstand-desk">Martin Furniture – Motus Electric Motorized Sit/Stand Desk</a></li></ul></li><li><a href="#stationary-desks-withnbspelectrical-outlets-andor-usb-plugs">Stationary Desks with Electrical Outlets and/or USB plugs</a><ul><li><a href="#walker-edison-furniture-company-8211-modern-industrial-computer-gaming-desk">Walker Edison Furniture Company – Modern Industrial Computer Gaming Desk</a></li></ul></li><li><a href="#bonus-diy-solution">Bonus DIY Solution!</a><ul><li><a href="#jgstkcity-8211-desktop-power-grommet">Jgstkcity – Desktop Power Grommet</a></li></ul></li><li><a href="#conclusion">Conclusion</a></li></ul></div>
+<div id="toc_container" class="no_bullets"><p class="toc_title">Contents</p><ul class="toc_list"><li><a href="#our-picks-for-the-best-computer-desk-with-electrical-outlet">Our Picks for the Best Computer Desk with Electrical Outlet</a><ul><li><a href="#seville-classics-airlift-computer-desk-table-478243-8230">Seville Classics airLIFT Computer Desk Table, 47″ …</a></li><li><a href="#martin-furniture-motus-electric-motorized-sitstan8230">Martin Furniture Motus Electric Motorized Sit/Stan…</a></li><li><a href="#walker-edison-modern-industrial-computer-gaming-de8230">Walker Edison Modern Industrial Computer Gaming De…</a></li></ul></li><li><a href="#sit-to-stand-desks-with-electrical-outlets-andor-usb-plugs">Sit to Stand Desks with Electrical Outlets and/or USB plugs</a><ul><li><a href="#seville-classics-8211-airlift-tempered-glass-electric-standing-desk">Seville Classics – Airlift Tempered Glass Electric Standing Desk</a></li><li><a href="#martin-furniture-8211-motus-electric-motorized-sitstand-desk">Martin Furniture – Motus Electric Motorized Sit/Stand Desk</a></li></ul></li><li><a href="#stationary-desks-withnbspelectrical-outlets-andor-usb-plugs">Stationary Desks with Electrical Outlets and/or USB plugs</a><ul><li><a href="#walker-edison-furniture-company-8211-modern-industrial-computer-gaming-desk">Walker Edison Furniture Company – Modern Industrial Computer Gaming Desk</a></li></ul></li><li><a href="#bonus-diy-solution">Bonus DIY Solution!</a><ul><li><a href="#jgstkcity-8211-desktop-power-grommet">Jgstkcity – Desktop Power Grommet</a></li></ul></li><li><a href="#conclusion">Conclusion</a></li></ul></div>
 
 
 
@@ -646,22 +662,22 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B07MT7GQWF?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41jSJMJzH9L.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
-		<a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/41jSJMJzH9L.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/41Upz8LcYAL.jpg"><img src="https://m.media-amazon.com/images/I/41Upz8LcYAL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/312Wu23t7qL.jpg"><img src="https://m.media-amazon.com/images/I/312Wu23t7qL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/312Wu23t7qL.jpg"><img src="https://m.media-amazon.com/images/I/312Wu23t7qL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
+		<a href="https://www.amazon.com/dp/B07MT7GQWF?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/51IudpG8RtL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/51IudpG8RtL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/312Wu23t7qL.jpg"><img src="https://m.media-amazon.com/images/I/312Wu23t7qL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/41iEnL329fL.jpg"><img src="https://m.media-amazon.com/images/I/41iEnL329fL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/31tW9QfRY4L.jpg"><img src="https://m.media-amazon.com/images/I/31tW9QfRY4L._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/41Upz8LcYAL.jpg"><img src="https://m.media-amazon.com/images/I/41Upz8LcYAL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/312Wu23t7qL.jpg"><img src="https://m.media-amazon.com/images/I/312Wu23t7qL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/51NJa75bU5L.jpg"><img src="https://m.media-amazon.com/images/I/51NJa75bU5L._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/41tgerwYWkL.jpg"><img src="https://m.media-amazon.com/images/I/41tgerwYWkL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/51NJa75bU5L.jpg"><img src="https://m.media-amazon.com/images/I/51NJa75bU5L._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/51NJa75bU5L.jpg"><img src="https://m.media-amazon.com/images/I/51NJa75bU5L._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/21fWmEC2PmL.jpg"><img src="https://m.media-amazon.com/images/I/21fWmEC2PmL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/31seQVfkcWL.jpg"><img src="https://m.media-amazon.com/images/I/31seQVfkcWL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/31iAT19rScL.jpg"><img src="https://m.media-amazon.com/images/I/31iAT19rScL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/21freVAnzSL.jpg"><img src="https://m.media-amazon.com/images/I/21freVAnzSL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/41rRC6aH7nL.jpg"><img src="https://m.media-amazon.com/images/I/41rRC6aH7nL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/31MfzSZV9UL.jpg"><img src="https://m.media-amazon.com/images/I/31MfzSZV9UL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/31iAT19rScL.jpg"><img src="https://m.media-amazon.com/images/I/31iAT19rScL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/21fWmEC2PmL.jpg"><img src="https://m.media-amazon.com/images/I/21fWmEC2PmL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/41rRC6aH7nL.jpg"><img src="https://m.media-amazon.com/images/I/41rRC6aH7nL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/21freVAnzSL.jpg"><img src="https://m.media-amazon.com/images/I/21freVAnzSL._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07MT7GQWF" href="#" data-appiplg="https://m.media-amazon.com/images/I/31qdUhnM78L.jpg"><img src="https://m.media-amazon.com/images/I/31qdUhnM78L._SL75_.jpg" alt="Img - B07MT7GQWF" class="apipp-additional-image"></a>
 </div>
 	</div>
@@ -696,11 +712,11 @@ body.custom-background { background-color: #ffffff; }
 		<a rel="appiplightbox-B075MSKZQ4" href="#" data-appiplg="https://m.media-amazon.com/images/I/311D2mBZSPL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
 	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B075MSKZQ4" href="#" data-appiplg="https://m.media-amazon.com/images/I/41VnuyWEhvL.jpg"><img src="https://m.media-amazon.com/images/I/41VnuyWEhvL._SL75_.jpg" alt="Img - B075MSKZQ4" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B075MSKZQ4" href="#" data-appiplg="https://m.media-amazon.com/images/I/41h+O4D4pYL.jpg"><img src="https://m.media-amazon.com/images/I/41h+O4D4pYL._SL75_.jpg" alt="Img - B075MSKZQ4" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B075MSKZQ4" href="#" data-appiplg="https://m.media-amazon.com/images/I/51vlOHE7utL.jpg"><img src="https://m.media-amazon.com/images/I/51vlOHE7utL._SL75_.jpg" alt="Img - B075MSKZQ4" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B075MSKZQ4" href="#" data-appiplg="https://m.media-amazon.com/images/I/41Pyn3PTdWL.jpg"><img src="https://m.media-amazon.com/images/I/41Pyn3PTdWL._SL75_.jpg" alt="Img - B075MSKZQ4" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B075MSKZQ4" href="#" data-appiplg="https://m.media-amazon.com/images/I/51YkniCTjiL.jpg"><img src="https://m.media-amazon.com/images/I/51YkniCTjiL._SL75_.jpg" alt="Img - B075MSKZQ4" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B075MSKZQ4" href="#" data-appiplg="https://m.media-amazon.com/images/I/51GABFy2G9L.jpg"><img src="https://m.media-amazon.com/images/I/51GABFy2G9L._SL75_.jpg" alt="Img - B075MSKZQ4" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B075MSKZQ4" href="#" data-appiplg="https://m.media-amazon.com/images/I/51vlOHE7utL.jpg"><img src="https://m.media-amazon.com/images/I/51vlOHE7utL._SL75_.jpg" alt="Img - B075MSKZQ4" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B075MSKZQ4" href="#" data-appiplg="https://m.media-amazon.com/images/I/41-XmfCsKML.jpg"><img src="https://m.media-amazon.com/images/I/41-XmfCsKML._SL75_.jpg" alt="Img - B075MSKZQ4" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B075MSKZQ4" href="#" data-appiplg="https://m.media-amazon.com/images/I/41Pyn3PTdWL.jpg"><img src="https://m.media-amazon.com/images/I/41Pyn3PTdWL._SL75_.jpg" alt="Img - B075MSKZQ4" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -748,11 +764,11 @@ body.custom-background { background-color: #ffffff; }
 	<div class="amazon-image-wrapper">
 		<a href="https://www.amazon.com/dp/B010EA5W8A?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/51M3bhGKBUL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B010EA5W8A" href="#" data-appiplg="https://m.media-amazon.com/images/I/51M3bhGKBUL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B010EA5W8A" href="#" data-appiplg="https://m.media-amazon.com/images/I/51zs8Sr+bqL.jpg"><img src="https://m.media-amazon.com/images/I/51zs8Sr+bqL._SL75_.jpg" alt="Img - B010EA5W8A" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B010EA5W8A" href="#" data-appiplg="https://m.media-amazon.com/images/I/51HD19KTBnL.jpg"><img src="https://m.media-amazon.com/images/I/51HD19KTBnL._SL75_.jpg" alt="Img - B010EA5W8A" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B010EA5W8A" href="#" data-appiplg="https://m.media-amazon.com/images/I/61xHP-DTjyL.jpg"><img src="https://m.media-amazon.com/images/I/61xHP-DTjyL._SL75_.jpg" alt="Img - B010EA5W8A" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B010EA5W8A" href="#" data-appiplg="https://m.media-amazon.com/images/I/51zs8Sr+bqL.jpg"><img src="https://m.media-amazon.com/images/I/51zs8Sr+bqL._SL75_.jpg" alt="Img - B010EA5W8A" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B010EA5W8A" href="#" data-appiplg="https://m.media-amazon.com/images/I/41yLOkeny4L.jpg"><img src="https://m.media-amazon.com/images/I/41yLOkeny4L._SL75_.jpg" alt="Img - B010EA5W8A" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B010EA5W8A" href="#" data-appiplg="https://m.media-amazon.com/images/I/51HD19KTBnL.jpg"><img src="https://m.media-amazon.com/images/I/51HD19KTBnL._SL75_.jpg" alt="Img - B010EA5W8A" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B010EA5W8A" href="#" data-appiplg="https://m.media-amazon.com/images/I/41ekhqWNRvL.jpg"><img src="https://m.media-amazon.com/images/I/41ekhqWNRvL._SL75_.jpg" alt="Img - B010EA5W8A" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B010EA5W8A" href="#" data-appiplg="https://m.media-amazon.com/images/I/61xHP-DTjyL.jpg"><img src="https://m.media-amazon.com/images/I/61xHP-DTjyL._SL75_.jpg" alt="Img - B010EA5W8A" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B010EA5W8A" href="#" data-appiplg="https://m.media-amazon.com/images/I/61LjBABq12L.jpg"><img src="https://m.media-amazon.com/images/I/61LjBABq12L._SL75_.jpg" alt="Img - B010EA5W8A" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B010EA5W8A" href="#" data-appiplg="https://m.media-amazon.com/images/I/416a7eR4iML.jpg"><img src="https://m.media-amazon.com/images/I/416a7eR4iML._SL75_.jpg" alt="Img - B010EA5W8A" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B010EA5W8A" href="#" data-appiplg="https://m.media-amazon.com/images/I/41D8EQ0gHJL.jpg"><img src="https://m.media-amazon.com/images/I/41D8EQ0gHJL._SL75_.jpg" alt="Img - B010EA5W8A" class="apipp-additional-image"></a>
@@ -800,11 +816,11 @@ body.custom-background { background-color: #ffffff; }
 	<div class="amazon-image-wrapper">
 		<a href="https://www.amazon.com/dp/B072MZT729?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41mzZ95V3VL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B072MZT729" href="#" data-appiplg="https://m.media-amazon.com/images/I/41mzZ95V3VL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B072MZT729" href="#" data-appiplg="https://m.media-amazon.com/images/I/41QZBIppLtL.jpg"><img src="https://m.media-amazon.com/images/I/41QZBIppLtL._SL75_.jpg" alt="Img - B072MZT729" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B072MZT729" href="#" data-appiplg="https://m.media-amazon.com/images/I/41wgzLy0m+L.jpg"><img src="https://m.media-amazon.com/images/I/41wgzLy0m+L._SL75_.jpg" alt="Img - B072MZT729" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B072MZT729" href="#" data-appiplg="https://m.media-amazon.com/images/I/411wBh+3bGL.jpg"><img src="https://m.media-amazon.com/images/I/411wBh+3bGL._SL75_.jpg" alt="Img - B072MZT729" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B072MZT729" href="#" data-appiplg="https://m.media-amazon.com/images/I/41EUbV+hMXL.jpg"><img src="https://m.media-amazon.com/images/I/41EUbV+hMXL._SL75_.jpg" alt="Img - B072MZT729" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B072MZT729" href="#" data-appiplg="https://m.media-amazon.com/images/I/41QZBIppLtL.jpg"><img src="https://m.media-amazon.com/images/I/41QZBIppLtL._SL75_.jpg" alt="Img - B072MZT729" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B072MZT729" href="#" data-appiplg="https://m.media-amazon.com/images/I/51Hqw6Ego9L.jpg"><img src="https://m.media-amazon.com/images/I/51Hqw6Ego9L._SL75_.jpg" alt="Img - B072MZT729" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B072MZT729" href="#" data-appiplg="https://m.media-amazon.com/images/I/411wBh+3bGL.jpg"><img src="https://m.media-amazon.com/images/I/411wBh+3bGL._SL75_.jpg" alt="Img - B072MZT729" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B072MZT729" href="#" data-appiplg="https://m.media-amazon.com/images/I/41wgzLy0m+L.jpg"><img src="https://m.media-amazon.com/images/I/41wgzLy0m+L._SL75_.jpg" alt="Img - B072MZT729" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B072MZT729" href="#" data-appiplg="https://m.media-amazon.com/images/I/51focJdcTJL.jpg"><img src="https://m.media-amazon.com/images/I/51focJdcTJL._SL75_.jpg" alt="Img - B072MZT729" class="apipp-additional-image"></a>
 </div>
 	</div>
@@ -976,8 +992,8 @@ window.FPConfig= {
     hoverDelay: 50
 };
 </script><script src="https://computerstationnation.com/wp-content/plugins/flying-pages/flying-pages.min.js" id="flying-pages-js" defer></script><script id="kk-star-ratings-js-extra">
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"528e6189fe"};
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"528e6189fe"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"f6bcc7bca9"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"f6bcc7bca9"};
 </script><script src="https://computerstationnation.com/wp-content/plugins/kk-star-ratings/public/js/kk-star-ratings.js" id="kk-star-ratings-js"></script><script src="https://computerstationnation.com/wp-content/plugins/table-of-contents-plus/front.min.js" id="toc-front-js"></script><script>
 	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 	</script></body></html>
