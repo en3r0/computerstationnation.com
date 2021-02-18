@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Best Wireless Bluetooth Mechanical Keyboard - Computer Station Nation</title><meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="Best Wireless Bluetooth Mechanical Keyboard - Computer Station Nation"><meta property="og:description" content="Computer Station Nation is reader-supported.When you buy through links on our site, we may earn an affiliate commission. Learn more. With a wireless Bluetooth mechanical keyboard, you have the freedom to move around with your keyboard. It makes your table look neat and well organized; selling you as the classy, well organized, and sophisticated professional […]"><meta property="og:url" content="https://computerstationnation.com/keyboards/best-wireless-bluetooth-mechanical-keyboard/"><meta property="og:site_name" content="Computer Station Nation"><meta property="article:modified_time" content="2020-12-20T00:07:02+00:00"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:label1" content="Est. reading time"><meta name="twitter:data1" content="4 minutes"><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://computerstationnation.com/#website","url":"https://computerstationnation.com/","name":"Computer Station Nation","description":"Epic Computer Setups","potentialAction":[{"@type":"SearchAction","target":"https://computerstationnation.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://computerstationnation.com/keyboards/best-wireless-bluetooth-mechanical-keyboard/#webpage","url":"https://computerstationnation.com/keyboards/best-wireless-bluetooth-mechanical-keyboard/","name":"Best Wireless Bluetooth Mechanical Keyboard - Computer Station Nation","isPartOf":{"@id":"https://computerstationnation.com/#website"},"datePublished":"2020-07-24T11:36:00+00:00","dateModified":"2020-12-20T00:07:02+00:00","breadcrumb":{"@id":"https://computerstationnation.com/keyboards/best-wireless-bluetooth-mechanical-keyboard/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://computerstationnation.com/keyboards/best-wireless-bluetooth-mechanical-keyboard/"]}]},{"@type":"BreadcrumbList","@id":"https://computerstationnation.com/keyboards/best-wireless-bluetooth-mechanical-keyboard/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/","url":"https://computerstationnation.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/keyboards/","url":"https://computerstationnation.com/keyboards/","name":"Best Mechanical Keyboard"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/keyboards/best-wireless-bluetooth-mechanical-keyboard/","url":"https://computerstationnation.com/keyboards/best-wireless-bluetooth-mechanical-keyboard/","name":"Best Wireless Bluetooth Mechanical Keyboard"}}]}]}</script><link rel="dns-prefetch" href="//s.w.org"><meta name="DC.Title" content="Best Wireless Bluetooth Mechanical Keyboard"><meta name="DC.Publisher" content="Computer Station Nation"><meta name="DC.Language" scheme="UTF-8" content="en-US"><meta name="DC.Creator" content="Computer Station Nation"><meta name="DC.Type" scheme="DCMIType" content="Text"><meta name="DC.Format" scheme="IMT" content="text/html"><meta name="DC.Format.MIME" content="text/html"><meta name="DC.Format.SysReq" content="Internet browser"><meta name="DC.Source" content="https://computerstationnation.com/"><meta name="DC.Coverage" content="World"><meta name="DC.Identifier" content="https://computerstationnation.com"><script src="//www.googletagmanager.com/gtag/js?id=UA-195618-40" type="text/javascript" data-cfasync="false"></script><script type="text/javascript" data-cfasync="false">
-				var mi_version = '7.16.0';
+				var mi_version = '7.16.1';
 				var mi_track_user = true;
 				var mi_no_track_reason = '';
 				
@@ -63,39 +63,55 @@
 								var f = arguments[len - 1];
 								if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
 									if ( 'send' === arguments[0] ) {
+										var hitConverted, hitObject = false, action;
 										if ( 'event' === arguments[1] ) {
-											__gtagTracker( 'event', arguments[3], {
-												'event_category': arguments[2],
-												'event_label': arguments[4],
-												'value': 1
-											} );
-											return;
-										}
-										if ( 'undefined' !== typeof ( arguments[1].hitType ) ) {
-											var hitDetails = {};
-											var gagtag_map = {
-												'eventCategory': 'event_category',
-												'eventAction': 'event_action',
-												'eventLabel': 'event_label',
-												'eventValue': 'event_value',
-												'nonInteraction': 'non_interaction',
-												'timingCategory': 'event_category',
-												'timingVar': 'name',
-												'timingValue': 'value',
-												'timingLabel': 'event_label',
-											};
-											var gaKey;
-											for ( gaKey in gagtag_map ) {
-												if ( 'undefined' !== typeof arguments[1][gaKey] ) {
-													hitDetails[gagtag_map[gaKey]] = arguments[1][gaKey];
+											if ( 'undefined' !== typeof arguments[3] ) {
+												hitObject = {
+													'eventAction': arguments[3],
+													'eventCategory': arguments[2],
+													'eventLabel': arguments[4],
+													'value': arguments[5] ? arguments[5] : 1,
 												}
 											}
-											var action = 'timing' === arguments[1].hitType ? 'timing_complete' : arguments[1].eventAction;
-											__gtagTracker( 'event', action, hitDetails );
+										}
+										if ( typeof arguments[2] === 'object' ) {
+											hitObject = arguments[2];
+										}
+										if ( 'undefined' !== typeof (
+											arguments[1].hitType
+										) ) {
+											hitObject = arguments[1];
+										}
+										if ( hitObject ) {
+											action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+											hitConverted = mapArgs( hitObject );
+											__gtagTracker( 'event', action, hitConverted );
 										}
 									}
 									return;
 								}
+
+								function mapArgs( args ) {
+									var gaKey, hit = {};
+									var gaMap = {
+										'eventCategory': 'event_category',
+										'eventAction': 'event_action',
+										'eventLabel': 'event_label',
+										'eventValue': 'event_value',
+										'nonInteraction': 'non_interaction',
+										'timingCategory': 'event_category',
+										'timingVar': 'name',
+										'timingValue': 'value',
+										'timingLabel': 'event_label',
+									};
+									for ( gaKey in gaMap ) {
+										if ( 'undefined' !== typeof args[gaKey] ) {
+											hit[gaMap[gaKey]] = args[gaKey];
+										}
+									}
+									return hit;
+								}
+
 								try {
 									f.hitCallback();
 								} catch ( ex ) {
@@ -116,11 +132,11 @@
 									} else {
 										console.log( "" );
 					( function () {
-						function __gtagTracker() {
-							return null;
-						}
-						window['__gtagTracker'] = __gtagTracker;
-						window['gtag'] = __gtagTracker;
+							function __gtagTracker() {
+								return null;
+							}
+							window['__gtagTracker'] = __gtagTracker;
+							window['gtag'] = __gtagTracker;
 					} )();
 									}
 			</script><link rel="stylesheet" id="amazon-default-styles-css" href="https://computerstationnation.com/wp-content/plugins/amazon-product-in-a-post-plugin/css/amazon-default-plugin-styles.css" media="all"><link rel="stylesheet" id="amazon-frontend-styles-css" href="https://computerstationnation.com/wp-content/plugins/amazon-product-in-a-post-plugin/css/amazon-frontend.css" media="all"><link rel="stylesheet" id="wp-block-library-css" href="https://computerstationnation.com/wp-includes/css/dist/block-library/style.min.css" media="all"><link rel="stylesheet" id="kk-star-ratings-css" href="https://computerstationnation.com/wp-content/plugins/kk-star-ratings/public/css/kk-star-ratings.css" media="all"><style id="kk-star-ratings-inline-css">
@@ -610,14 +626,14 @@ body.custom-background { background-color: #ffffff; }
 	<div class="amazon-image-wrapper">
 		<a href="https://www.amazon.com/dp/B0852WQQZP?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/411vJQ8v7oL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B0852WQQZP" href="#" data-appiplg="https://m.media-amazon.com/images/I/411vJQ8v7oL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B0852WQQZP" href="#" data-appiplg="https://m.media-amazon.com/images/I/41M9xJzSS8L.jpg"><img src="https://m.media-amazon.com/images/I/41M9xJzSS8L._SL75_.jpg" alt="Img - B0852WQQZP" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B0852WQQZP" href="#" data-appiplg="https://m.media-amazon.com/images/I/51EGXR7AgpL.jpg"><img src="https://m.media-amazon.com/images/I/51EGXR7AgpL._SL75_.jpg" alt="Img - B0852WQQZP" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B0852WQQZP" href="#" data-appiplg="https://m.media-amazon.com/images/I/41M9xJzSS8L.jpg"><img src="https://m.media-amazon.com/images/I/41M9xJzSS8L._SL75_.jpg" alt="Img - B0852WQQZP" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B0852WQQZP" href="#" data-appiplg="https://m.media-amazon.com/images/I/51jL-osVm-L.jpg"><img src="https://m.media-amazon.com/images/I/51jL-osVm-L._SL75_.jpg" alt="Img - B0852WQQZP" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B0852WQQZP" href="#" data-appiplg="https://m.media-amazon.com/images/I/511Zx3LmMHL.jpg"><img src="https://m.media-amazon.com/images/I/511Zx3LmMHL._SL75_.jpg" alt="Img - B0852WQQZP" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B0852WQQZP" href="#" data-appiplg="https://m.media-amazon.com/images/I/51nvTRT4TXL.jpg"><img src="https://m.media-amazon.com/images/I/51nvTRT4TXL._SL75_.jpg" alt="Img - B0852WQQZP" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B0852WQQZP" href="#" data-appiplg="https://m.media-amazon.com/images/I/51G2BdoWU2L.jpg"><img src="https://m.media-amazon.com/images/I/51G2BdoWU2L._SL75_.jpg" alt="Img - B0852WQQZP" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B0852WQQZP" href="#" data-appiplg="https://m.media-amazon.com/images/I/51M0U0ecawL.jpg"><img src="https://m.media-amazon.com/images/I/51M0U0ecawL._SL75_.jpg" alt="Img - B0852WQQZP" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B0852WQQZP" href="#" data-appiplg="https://m.media-amazon.com/images/I/511Zx3LmMHL.jpg"><img src="https://m.media-amazon.com/images/I/511Zx3LmMHL._SL75_.jpg" alt="Img - B0852WQQZP" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B0852WQQZP" href="#" data-appiplg="https://m.media-amazon.com/images/I/41lqhCOgddL.jpg"><img src="https://m.media-amazon.com/images/I/41lqhCOgddL._SL75_.jpg" alt="Img - B0852WQQZP" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B0852WQQZP" href="#" data-appiplg="https://m.media-amazon.com/images/I/51nvTRT4TXL.jpg"><img src="https://m.media-amazon.com/images/I/51nvTRT4TXL._SL75_.jpg" alt="Img - B0852WQQZP" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B0852WQQZP" href="#" data-appiplg="https://m.media-amazon.com/images/I/51EGXR7AgpL.jpg"><img src="https://m.media-amazon.com/images/I/51EGXR7AgpL._SL75_.jpg" alt="Img - B0852WQQZP" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -665,12 +681,12 @@ body.custom-background { background-color: #ffffff; }
 	<div class="amazon-image-wrapper">
 		<a href="https://www.amazon.com/dp/B07JLQVVHN?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41REelTOIOL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B07JLQVVHN" href="#" data-appiplg="https://m.media-amazon.com/images/I/41REelTOIOL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07JLQVVHN" href="#" data-appiplg="https://m.media-amazon.com/images/I/41Hz3MnPy3L.jpg"><img src="https://m.media-amazon.com/images/I/41Hz3MnPy3L._SL75_.jpg" alt="Img - B07JLQVVHN" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07JLQVVHN" href="#" data-appiplg="https://m.media-amazon.com/images/I/51aA4EE0J1L.jpg"><img src="https://m.media-amazon.com/images/I/51aA4EE0J1L._SL75_.jpg" alt="Img - B07JLQVVHN" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07JLQVVHN" href="#" data-appiplg="https://m.media-amazon.com/images/I/41Hz3MnPy3L.jpg"><img src="https://m.media-amazon.com/images/I/41Hz3MnPy3L._SL75_.jpg" alt="Img - B07JLQVVHN" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07JLQVVHN" href="#" data-appiplg="https://m.media-amazon.com/images/I/51YDQqk2wXL.jpg"><img src="https://m.media-amazon.com/images/I/51YDQqk2wXL._SL75_.jpg" alt="Img - B07JLQVVHN" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07JLQVVHN" href="#" data-appiplg="https://m.media-amazon.com/images/I/51+4txxIGJL.jpg"><img src="https://m.media-amazon.com/images/I/51+4txxIGJL._SL75_.jpg" alt="Img - B07JLQVVHN" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07JLQVVHN" href="#" data-appiplg="https://m.media-amazon.com/images/I/51Lwh47yjeL.jpg"><img src="https://m.media-amazon.com/images/I/51Lwh47yjeL._SL75_.jpg" alt="Img - B07JLQVVHN" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07JLQVVHN" href="#" data-appiplg="https://m.media-amazon.com/images/I/51+4txxIGJL.jpg"><img src="https://m.media-amazon.com/images/I/51+4txxIGJL._SL75_.jpg" alt="Img - B07JLQVVHN" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07JLQVVHN" href="#" data-appiplg="https://m.media-amazon.com/images/I/51uG0yWwTkL.jpg"><img src="https://m.media-amazon.com/images/I/51uG0yWwTkL._SL75_.jpg" alt="Img - B07JLQVVHN" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07JLQVVHN" href="#" data-appiplg="https://m.media-amazon.com/images/I/51aA4EE0J1L.jpg"><img src="https://m.media-amazon.com/images/I/51aA4EE0J1L._SL75_.jpg" alt="Img - B07JLQVVHN" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -723,10 +739,10 @@ body.custom-background { background-color: #ffffff; }
 		<a href="https://www.amazon.com/dp/B07ZT3ST28?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41wP3DOpQ9L.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B07ZT3ST28" href="#" data-appiplg="https://m.media-amazon.com/images/I/41wP3DOpQ9L.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
 	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07ZT3ST28" href="#" data-appiplg="https://m.media-amazon.com/images/I/516LF31jCRL.jpg"><img src="https://m.media-amazon.com/images/I/516LF31jCRL._SL75_.jpg" alt="Img - B07ZT3ST28" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07ZT3ST28" href="#" data-appiplg="https://m.media-amazon.com/images/I/41KIQ+ig72L.jpg"><img src="https://m.media-amazon.com/images/I/41KIQ+ig72L._SL75_.jpg" alt="Img - B07ZT3ST28" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07ZT3ST28" href="#" data-appiplg="https://m.media-amazon.com/images/I/513kfSfMouL.jpg"><img src="https://m.media-amazon.com/images/I/513kfSfMouL._SL75_.jpg" alt="Img - B07ZT3ST28" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07ZT3ST28" href="#" data-appiplg="https://m.media-amazon.com/images/I/41whvueWmRL.jpg"><img src="https://m.media-amazon.com/images/I/41whvueWmRL._SL75_.jpg" alt="Img - B07ZT3ST28" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07ZT3ST28" href="#" data-appiplg="https://m.media-amazon.com/images/I/41DHclRO2rL.jpg"><img src="https://m.media-amazon.com/images/I/41DHclRO2rL._SL75_.jpg" alt="Img - B07ZT3ST28" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07ZT3ST28" href="#" data-appiplg="https://m.media-amazon.com/images/I/513kfSfMouL.jpg"><img src="https://m.media-amazon.com/images/I/513kfSfMouL._SL75_.jpg" alt="Img - B07ZT3ST28" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07ZT3ST28" href="#" data-appiplg="https://m.media-amazon.com/images/I/41KIQ+ig72L.jpg"><img src="https://m.media-amazon.com/images/I/41KIQ+ig72L._SL75_.jpg" alt="Img - B07ZT3ST28" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07ZT3ST28" href="#" data-appiplg="https://m.media-amazon.com/images/I/41RozdeskpL.jpg"><img src="https://m.media-amazon.com/images/I/41RozdeskpL._SL75_.jpg" alt="Img - B07ZT3ST28" class="apipp-additional-image"></a>
 </div>
 	</div>
@@ -911,8 +927,8 @@ window.FPConfig= {
     hoverDelay: 50
 };
 </script><script src="https://computerstationnation.com/wp-content/plugins/flying-pages/flying-pages.min.js" id="flying-pages-js" defer></script><script id="kk-star-ratings-js-extra">
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"528e6189fe"};
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"528e6189fe"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"f6bcc7bca9"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"f6bcc7bca9"};
 </script><script src="https://computerstationnation.com/wp-content/plugins/kk-star-ratings/public/js/kk-star-ratings.js" id="kk-star-ratings-js"></script><script src="https://computerstationnation.com/wp-content/plugins/table-of-contents-plus/front.min.js" id="toc-front-js"></script><script>
 	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 	</script></body></html>
