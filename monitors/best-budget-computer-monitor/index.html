@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Best Budget Computer Monitor - Computer Station Nation</title><meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="Best Budget Computer Monitor - Computer Station Nation"><meta property="og:description" content="Computer Station Nation is reader-supported.When you buy through links on our site, we may earn an affiliate commission. Learn more. Let’s face it, you need a monitor and you need it cheap. Don’t worry, I’ve been there and I have your back. Do note that all 3 top choices here are 1920×1080 resolution, which if […]"><meta property="og:url" content="https://computerstationnation.com/monitors/best-budget-computer-monitor/"><meta property="og:site_name" content="Computer Station Nation"><meta property="article:modified_time" content="2020-12-20T00:07:45+00:00"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:label1" content="Est. reading time"><meta name="twitter:data1" content="2 minutes"><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://computerstationnation.com/#website","url":"https://computerstationnation.com/","name":"Computer Station Nation","description":"Epic Computer Setups","potentialAction":[{"@type":"SearchAction","target":"https://computerstationnation.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://computerstationnation.com/monitors/best-budget-computer-monitor/#webpage","url":"https://computerstationnation.com/monitors/best-budget-computer-monitor/","name":"Best Budget Computer Monitor - Computer Station Nation","isPartOf":{"@id":"https://computerstationnation.com/#website"},"datePublished":"2020-04-09T18:42:37+00:00","dateModified":"2020-12-20T00:07:45+00:00","breadcrumb":{"@id":"https://computerstationnation.com/monitors/best-budget-computer-monitor/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://computerstationnation.com/monitors/best-budget-computer-monitor/"]}]},{"@type":"BreadcrumbList","@id":"https://computerstationnation.com/monitors/best-budget-computer-monitor/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/","url":"https://computerstationnation.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/monitors/","url":"https://computerstationnation.com/monitors/","name":"Best Computer Monitors"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/monitors/best-budget-computer-monitor/","url":"https://computerstationnation.com/monitors/best-budget-computer-monitor/","name":"Best Budget Computer Monitor"}}]}]}</script><link rel="dns-prefetch" href="//s.w.org"><meta name="DC.Title" content="Best Budget Computer Monitor"><meta name="DC.Publisher" content="Computer Station Nation"><meta name="DC.Language" scheme="UTF-8" content="en-US"><meta name="DC.Creator" content="Computer Station Nation"><meta name="DC.Type" scheme="DCMIType" content="Text"><meta name="DC.Format" scheme="IMT" content="text/html"><meta name="DC.Format.MIME" content="text/html"><meta name="DC.Format.SysReq" content="Internet browser"><meta name="DC.Source" content="https://computerstationnation.com/"><meta name="DC.Coverage" content="World"><meta name="DC.Identifier" content="https://computerstationnation.com"><script src="//www.googletagmanager.com/gtag/js?id=UA-195618-40" type="text/javascript" data-cfasync="false"></script><script type="text/javascript" data-cfasync="false">
-				var mi_version = '7.16.0';
+				var mi_version = '7.16.1';
 				var mi_track_user = true;
 				var mi_no_track_reason = '';
 				
@@ -63,39 +63,55 @@
 								var f = arguments[len - 1];
 								if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
 									if ( 'send' === arguments[0] ) {
+										var hitConverted, hitObject = false, action;
 										if ( 'event' === arguments[1] ) {
-											__gtagTracker( 'event', arguments[3], {
-												'event_category': arguments[2],
-												'event_label': arguments[4],
-												'value': 1
-											} );
-											return;
-										}
-										if ( 'undefined' !== typeof ( arguments[1].hitType ) ) {
-											var hitDetails = {};
-											var gagtag_map = {
-												'eventCategory': 'event_category',
-												'eventAction': 'event_action',
-												'eventLabel': 'event_label',
-												'eventValue': 'event_value',
-												'nonInteraction': 'non_interaction',
-												'timingCategory': 'event_category',
-												'timingVar': 'name',
-												'timingValue': 'value',
-												'timingLabel': 'event_label',
-											};
-											var gaKey;
-											for ( gaKey in gagtag_map ) {
-												if ( 'undefined' !== typeof arguments[1][gaKey] ) {
-													hitDetails[gagtag_map[gaKey]] = arguments[1][gaKey];
+											if ( 'undefined' !== typeof arguments[3] ) {
+												hitObject = {
+													'eventAction': arguments[3],
+													'eventCategory': arguments[2],
+													'eventLabel': arguments[4],
+													'value': arguments[5] ? arguments[5] : 1,
 												}
 											}
-											var action = 'timing' === arguments[1].hitType ? 'timing_complete' : arguments[1].eventAction;
-											__gtagTracker( 'event', action, hitDetails );
+										}
+										if ( typeof arguments[2] === 'object' ) {
+											hitObject = arguments[2];
+										}
+										if ( 'undefined' !== typeof (
+											arguments[1].hitType
+										) ) {
+											hitObject = arguments[1];
+										}
+										if ( hitObject ) {
+											action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+											hitConverted = mapArgs( hitObject );
+											__gtagTracker( 'event', action, hitConverted );
 										}
 									}
 									return;
 								}
+
+								function mapArgs( args ) {
+									var gaKey, hit = {};
+									var gaMap = {
+										'eventCategory': 'event_category',
+										'eventAction': 'event_action',
+										'eventLabel': 'event_label',
+										'eventValue': 'event_value',
+										'nonInteraction': 'non_interaction',
+										'timingCategory': 'event_category',
+										'timingVar': 'name',
+										'timingValue': 'value',
+										'timingLabel': 'event_label',
+									};
+									for ( gaKey in gaMap ) {
+										if ( 'undefined' !== typeof args[gaKey] ) {
+											hit[gaMap[gaKey]] = args[gaKey];
+										}
+									}
+									return hit;
+								}
+
 								try {
 									f.hitCallback();
 								} catch ( ex ) {
@@ -116,11 +132,11 @@
 									} else {
 										console.log( "" );
 					( function () {
-						function __gtagTracker() {
-							return null;
-						}
-						window['__gtagTracker'] = __gtagTracker;
-						window['gtag'] = __gtagTracker;
+							function __gtagTracker() {
+								return null;
+							}
+							window['__gtagTracker'] = __gtagTracker;
+							window['gtag'] = __gtagTracker;
 					} )();
 									}
 			</script><link rel="stylesheet" id="amazon-default-styles-css" href="https://computerstationnation.com/wp-content/plugins/amazon-product-in-a-post-plugin/css/amazon-default-plugin-styles.css" media="all"><link rel="stylesheet" id="amazon-frontend-styles-css" href="https://computerstationnation.com/wp-content/plugins/amazon-product-in-a-post-plugin/css/amazon-frontend.css" media="all"><link rel="stylesheet" id="wp-block-library-css" href="https://computerstationnation.com/wp-includes/css/dist/block-library/style.min.css" media="all"><link rel="stylesheet" id="kk-star-ratings-css" href="https://computerstationnation.com/wp-content/plugins/kk-star-ratings/public/css/kk-star-ratings.css" media="all"><style id="kk-star-ratings-inline-css">
@@ -613,11 +629,11 @@ body.custom-background { background-color: #ffffff; }
 	<div class="amazon-image-wrapper">
 		<a href="https://www.amazon.com/dp/B07CVL2D2S?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/51I3UjD-Q1L.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B07CVL2D2S" href="#" data-appiplg="https://m.media-amazon.com/images/I/51I3UjD-Q1L.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07CVL2D2S" href="#" data-appiplg="https://m.media-amazon.com/images/I/31eElBzmQEL.jpg"><img src="https://m.media-amazon.com/images/I/31eElBzmQEL._SL75_.jpg" alt="Img - B07CVL2D2S" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07CVL2D2S" href="#" data-appiplg="https://m.media-amazon.com/images/I/511BEfs5jaL.jpg"><img src="https://m.media-amazon.com/images/I/511BEfs5jaL._SL75_.jpg" alt="Img - B07CVL2D2S" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07CVL2D2S" href="#" data-appiplg="https://m.media-amazon.com/images/I/519VXMYQcEL.jpg"><img src="https://m.media-amazon.com/images/I/519VXMYQcEL._SL75_.jpg" alt="Img - B07CVL2D2S" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07CVL2D2S" href="#" data-appiplg="https://m.media-amazon.com/images/I/511BEfs5jaL.jpg"><img src="https://m.media-amazon.com/images/I/511BEfs5jaL._SL75_.jpg" alt="Img - B07CVL2D2S" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07CVL2D2S" href="#" data-appiplg="https://m.media-amazon.com/images/I/21vnMAFTSaL.jpg"><img src="https://m.media-amazon.com/images/I/21vnMAFTSaL._SL75_.jpg" alt="Img - B07CVL2D2S" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07CVL2D2S" href="#" data-appiplg="https://m.media-amazon.com/images/I/31FzVRgSznL.jpg"><img src="https://m.media-amazon.com/images/I/31FzVRgSznL._SL75_.jpg" alt="Img - B07CVL2D2S" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07CVL2D2S" href="#" data-appiplg="https://m.media-amazon.com/images/I/31eElBzmQEL.jpg"><img src="https://m.media-amazon.com/images/I/31eElBzmQEL._SL75_.jpg" alt="Img - B07CVL2D2S" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -649,10 +665,10 @@ body.custom-background { background-color: #ffffff; }
 	<div class="amazon-image-wrapper">
 		<a href="https://www.amazon.com/dp/B07QPBXVBQ?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/51Lav-GLCvL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B07QPBXVBQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/51Lav-GLCvL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07QPBXVBQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/51Iju8nNJKL.jpg"><img src="https://m.media-amazon.com/images/I/51Iju8nNJKL._SL75_.jpg" alt="Img - B07QPBXVBQ" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07QPBXVBQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/31DgtzoWwbL.jpg"><img src="https://m.media-amazon.com/images/I/31DgtzoWwbL._SL75_.jpg" alt="Img - B07QPBXVBQ" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07QPBXVBQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/51Dt2ovjMyL.jpg"><img src="https://m.media-amazon.com/images/I/51Dt2ovjMyL._SL75_.jpg" alt="Img - B07QPBXVBQ" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07QPBXVBQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/51Dt2ovjMyL.jpg"><img src="https://m.media-amazon.com/images/I/51Dt2ovjMyL._SL75_.jpg" alt="Img - B07QPBXVBQ" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07QPBXVBQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/51Iju8nNJKL.jpg"><img src="https://m.media-amazon.com/images/I/51Iju8nNJKL._SL75_.jpg" alt="Img - B07QPBXVBQ" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07QPBXVBQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/31fYN5xVTDL.jpg"><img src="https://m.media-amazon.com/images/I/31fYN5xVTDL._SL75_.jpg" alt="Img - B07QPBXVBQ" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07QPBXVBQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/31DgtzoWwbL.jpg"><img src="https://m.media-amazon.com/images/I/31DgtzoWwbL._SL75_.jpg" alt="Img - B07QPBXVBQ" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07QPBXVBQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/31a4XAYFc5L.jpg"><img src="https://m.media-amazon.com/images/I/31a4XAYFc5L._SL75_.jpg" alt="Img - B07QPBXVBQ" class="apipp-additional-image"></a>
 </div>
 	</div>
@@ -694,11 +710,11 @@ body.custom-background { background-color: #ffffff; }
 		<a href="https://www.amazon.com/dp/B07YGY3RLN?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41G1okcC7PL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B07YGY3RLN" href="#" data-appiplg="https://m.media-amazon.com/images/I/41G1okcC7PL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
 	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07YGY3RLN" href="#" data-appiplg="https://m.media-amazon.com/images/I/41ObDe3Xy0L.jpg"><img src="https://m.media-amazon.com/images/I/41ObDe3Xy0L._SL75_.jpg" alt="Img - B07YGY3RLN" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07YGY3RLN" href="#" data-appiplg="https://m.media-amazon.com/images/I/416h72-soEL.jpg"><img src="https://m.media-amazon.com/images/I/416h72-soEL._SL75_.jpg" alt="Img - B07YGY3RLN" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07YGY3RLN" href="#" data-appiplg="https://m.media-amazon.com/images/I/31obq2cax6L.jpg"><img src="https://m.media-amazon.com/images/I/31obq2cax6L._SL75_.jpg" alt="Img - B07YGY3RLN" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07YGY3RLN" href="#" data-appiplg="https://m.media-amazon.com/images/I/21TMH8ZoawL.jpg"><img src="https://m.media-amazon.com/images/I/21TMH8ZoawL._SL75_.jpg" alt="Img - B07YGY3RLN" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07YGY3RLN" href="#" data-appiplg="https://m.media-amazon.com/images/I/41BIhSmSwlL.jpg"><img src="https://m.media-amazon.com/images/I/41BIhSmSwlL._SL75_.jpg" alt="Img - B07YGY3RLN" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07YGY3RLN" href="#" data-appiplg="https://m.media-amazon.com/images/I/51hBige+AaL.jpg"><img src="https://m.media-amazon.com/images/I/51hBige+AaL._SL75_.jpg" alt="Img - B07YGY3RLN" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07YGY3RLN" href="#" data-appiplg="https://m.media-amazon.com/images/I/416h72-soEL.jpg"><img src="https://m.media-amazon.com/images/I/416h72-soEL._SL75_.jpg" alt="Img - B07YGY3RLN" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07YGY3RLN" href="#" data-appiplg="https://m.media-amazon.com/images/I/21TMH8ZoawL.jpg"><img src="https://m.media-amazon.com/images/I/21TMH8ZoawL._SL75_.jpg" alt="Img - B07YGY3RLN" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07YGY3RLN" href="#" data-appiplg="https://m.media-amazon.com/images/I/31obq2cax6L.jpg"><img src="https://m.media-amazon.com/images/I/31obq2cax6L._SL75_.jpg" alt="Img - B07YGY3RLN" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07YGY3RLN" href="#" data-appiplg="https://m.media-amazon.com/images/I/41BIhSmSwlL.jpg"><img src="https://m.media-amazon.com/images/I/41BIhSmSwlL._SL75_.jpg" alt="Img - B07YGY3RLN" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -864,7 +880,7 @@ window.FPConfig= {
     hoverDelay: 50
 };
 </script><script src="https://computerstationnation.com/wp-content/plugins/flying-pages/flying-pages.min.js" id="flying-pages-js" defer></script><script id="kk-star-ratings-js-extra">
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"528e6189fe"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"f6bcc7bca9"};
 </script><script src="https://computerstationnation.com/wp-content/plugins/kk-star-ratings/public/js/kk-star-ratings.js" id="kk-star-ratings-js"></script><script src="https://computerstationnation.com/wp-content/plugins/table-of-contents-plus/front.min.js" id="toc-front-js"></script><script>
 	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 	</script></body></html>
