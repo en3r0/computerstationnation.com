@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Best Computers For Photographers - Computer Station Nation</title><meta name="description" content="Our top selection for the best computer for photographers takes care of photo editing needs like excellent image quality, a powerful processor, large RAM and high graphics."><meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="Best Computers For Photographers - Computer Station Nation"><meta property="og:description" content="Our top selection for the best computer for photographers takes care of photo editing needs like excellent image quality, a powerful processor, large RAM and high graphics."><meta property="og:url" content="https://computerstationnation.com/best-computers-for-photographers/"><meta property="og:site_name" content="Computer Station Nation"><meta property="article:published_time" content="2021-02-03T12:19:49+00:00"><meta property="article:modified_time" content="2021-02-21T13:14:49+00:00"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:label1" content="Written by"><meta name="twitter:data1" content="Prosper Ambaka"><meta name="twitter:label2" content="Est. reading time"><meta name="twitter:data2" content="5 minutes"><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://computerstationnation.com/#website","url":"https://computerstationnation.com/","name":"Computer Station Nation","description":"Epic Computer Setups","potentialAction":[{"@type":"SearchAction","target":"https://computerstationnation.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://computerstationnation.com/best-computers-for-photographers/#webpage","url":"https://computerstationnation.com/best-computers-for-photographers/","name":"Best Computers For Photographers - Computer Station Nation","isPartOf":{"@id":"https://computerstationnation.com/#website"},"datePublished":"2021-02-03T12:19:49+00:00","dateModified":"2021-02-21T13:14:49+00:00","author":{"@id":"https://computerstationnation.com/#/schema/person/4e95e3ff5fb56ef188a25e2b3106a17d"},"description":"Our top selection for the best computer for photographers takes care of photo editing needs like excellent image quality, a powerful processor, large RAM and high graphics.","breadcrumb":{"@id":"https://computerstationnation.com/best-computers-for-photographers/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://computerstationnation.com/best-computers-for-photographers/"]}]},{"@type":"BreadcrumbList","@id":"https://computerstationnation.com/best-computers-for-photographers/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/","url":"https://computerstationnation.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/blog/","url":"https://computerstationnation.com/blog/","name":"Blog"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/best-computers-for-photographers/","url":"https://computerstationnation.com/best-computers-for-photographers/","name":"Best Computers For Photographers"}}]},{"@type":"Person","@id":"https://computerstationnation.com/#/schema/person/4e95e3ff5fb56ef188a25e2b3106a17d","name":"Prosper Ambaka"}]}</script><link rel="dns-prefetch" href="//s.w.org"><meta name="DC.Title" content="Best Computers For Photographers"><meta name="DC.Publisher" content="Computer Station Nation"><meta name="DC.Language" scheme="UTF-8" content="en-US"><meta name="DC.Creator" content="Prosper Ambaka"><meta name="DC.Description" content="To have perfect photos, a photographer needs to do excellent editing on the photos. The editing given to a photograph may be the difference between a ..."><meta name="DC.Type" scheme="DCMIType" content="Text"><meta name="DC.Format" scheme="IMT" content="text/html"><meta name="DC.Format.MIME" content="text/html"><meta name="DC.Format.SysReq" content="Internet browser"><meta name="DC.Source" content="https://computerstationnation.com/"><meta name="DC.Coverage" content="World"><meta name="DC.Identifier" content="https://computerstationnation.com/best-computers-for-photographers/"><meta name="DC.Date" content="2021-02-03"><meta name="DC.Subject" content="Uncategorized"><script src="//www.googletagmanager.com/gtag/js?id=UA-195618-40" type="text/javascript" data-cfasync="false"></script><script type="text/javascript" data-cfasync="false">
-				var mi_version = '7.16.1';
+				var mi_version = '7.16.2';
 				var mi_track_user = true;
 				var mi_no_track_reason = '';
 				
@@ -29,9 +29,7 @@
 				}
 								window.dataLayer = window.dataLayer || [];
 				if ( mi_track_user ) {
-					function __gtagTracker() {
-						dataLayer.push( arguments );
-					}
+					function __gtagTracker() {dataLayer.push( arguments );}
 					__gtagTracker( 'js', new Date() );
 					__gtagTracker( 'set', {
 						'developer_id.dZGIzZG' : true,
@@ -45,8 +43,8 @@
 							var noopfn = function () {
 								return null;
 							};
-							var noopnullfn = function () {
-								return null;
+							var newtracker = function () {
+								return new Tracker();
 							};
 							var Tracker = function () {
 								return null;
@@ -54,7 +52,11 @@
 							var p = Tracker.prototype;
 							p.get = noopfn;
 							p.set = noopfn;
-							p.send = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
 							var __gaTracker = function () {
 								var len = arguments.length;
 								if ( len === 0 ) {
@@ -117,10 +119,8 @@
 								} catch ( ex ) {
 								}
 							};
-							__gaTracker.create = function () {
-								return new Tracker();
-							};
-							__gaTracker.getByName = noopnullfn;
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
 							__gaTracker.getAll = function () {
 								return [];
 							};
@@ -639,17 +639,17 @@ body.custom-background { background-color: #ffffff; }
 
 
 <div class="appip-block-wrapper"><div class="amazon-grid-wrapper amazon-template--grid-default"><div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B08N5LM1K3?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/313CFbI-YjL.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B08N5LM1K3?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/313CFbI-YjL.jpg" alt="New Apple MacBook Pro with Apple M1 Chip..."></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="new-apple-macbook-pro-with-apple-m1-chip8230"><a href="https://www.amazon.com/dp/B08N5LM1K3?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">New Apple MacBook Pro with Apple M1 Chip…</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B08N5LM1K3?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div>
 <div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B089HJX59L?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41hJO2tkUKL.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B089HJX59L?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41hJO2tkUKL.jpg" alt="Dell XPS 15 - 15 Inch FHD+, Intel Core i..."></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="dell-xps-15-8211-15-inch-fhd-intel-core-i8230"><a href="https://www.amazon.com/dp/B089HJX59L?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">Dell XPS 15 – 15 Inch FHD+, Intel Core i…</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B089HJX59L?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div>
 <div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B01LWZ7JB2?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/51LMr1+nE9L.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B01LWZ7JB2?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/51LMr1+nE9L.jpg" alt="Acer Swift 3, 14" full hd intel core i5...></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="acer-swift-3-148243-full-hd-intel-core-i58230"><a href="https://www.amazon.com/dp/B01LWZ7JB2?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">Acer Swift 3, 14″ Full HD, Intel Core i5…</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B01LWZ7JB2?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div></div></div>
@@ -670,11 +670,11 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B08N5LM1K3?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/313CFbI-YjL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B08N5LM1K3?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/313CFbI-YjL.jpg" alt="New Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM, 512GB SSD Storage) - Space Gray (Latest Model) (Personal Computers)" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B08N5LM1K3" href="#" data-appiplg="https://m.media-amazon.com/images/I/313CFbI-YjL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
 	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B08N5LM1K3" href="#" data-appiplg="https://m.media-amazon.com/images/I/41Fof6kxLBL.jpg"><img src="https://m.media-amazon.com/images/I/41Fof6kxLBL._SL75_.jpg" alt="Img - B08N5LM1K3" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08N5LM1K3" href="#" data-appiplg="https://m.media-amazon.com/images/I/41fHjd5LW7L.jpg"><img src="https://m.media-amazon.com/images/I/41fHjd5LW7L._SL75_.jpg" alt="Img - B08N5LM1K3" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B08N5LM1K3" href="#" data-appiplg="https://m.media-amazon.com/images/I/311m3klP3oL.jpg"><img src="https://m.media-amazon.com/images/I/311m3klP3oL._SL75_.jpg" alt="Img - B08N5LM1K3" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08N5LM1K3" href="#" data-appiplg="https://m.media-amazon.com/images/I/41fHjd5LW7L.jpg"><img src="https://m.media-amazon.com/images/I/41fHjd5LW7L._SL75_.jpg" alt="Img - B08N5LM1K3" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B08N5LM1K3" href="#" data-appiplg="https://m.media-amazon.com/images/I/31bjKqlul6L.jpg"><img src="https://m.media-amazon.com/images/I/31bjKqlul6L._SL75_.jpg" alt="Img - B08N5LM1K3" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B08N5LM1K3" href="#" data-appiplg="https://m.media-amazon.com/images/I/31V3ub5XwGL.jpg"><img src="https://m.media-amazon.com/images/I/31V3ub5XwGL._SL75_.jpg" alt="Img - B08N5LM1K3" class="apipp-additional-image"></a>
 </div>
@@ -730,17 +730,17 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B089HJX59L?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41hJO2tkUKL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B089HJX59L?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41hJO2tkUKL.jpg" alt="Dell XPS 15 - 15 Inch FHD+, Intel Core i7 10th Gen, 16GB Memory, 512GB Solid State Drive, Nvidia GeForce GTX 1650 Ti 4GB GDDR6, Windows 10 Home (Latest Model) - Silver (Personal Computers)" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B089HJX59L" href="#" data-appiplg="https://m.media-amazon.com/images/I/41hJO2tkUKL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
 	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B089HJX59L" href="#" data-appiplg="https://m.media-amazon.com/images/I/31jYuni86BL.jpg"><img src="https://m.media-amazon.com/images/I/31jYuni86BL._SL75_.jpg" alt="Img - B089HJX59L" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B089HJX59L" href="#" data-appiplg="https://m.media-amazon.com/images/I/51n+FH7-XtL.jpg"><img src="https://m.media-amazon.com/images/I/51n+FH7-XtL._SL75_.jpg" alt="Img - B089HJX59L" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B089HJX59L" href="#" data-appiplg="https://m.media-amazon.com/images/I/41y-b8KptUL.jpg"><img src="https://m.media-amazon.com/images/I/41y-b8KptUL._SL75_.jpg" alt="Img - B089HJX59L" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B089HJX59L" href="#" data-appiplg="https://m.media-amazon.com/images/I/51n+FH7-XtL.jpg"><img src="https://m.media-amazon.com/images/I/51n+FH7-XtL._SL75_.jpg" alt="Img - B089HJX59L" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B089HJX59L" href="#" data-appiplg="https://m.media-amazon.com/images/I/41fqSRHktOL.jpg"><img src="https://m.media-amazon.com/images/I/41fqSRHktOL._SL75_.jpg" alt="Img - B089HJX59L" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B089HJX59L" href="#" data-appiplg="https://m.media-amazon.com/images/I/41RhXJp9peL.jpg"><img src="https://m.media-amazon.com/images/I/41RhXJp9peL._SL75_.jpg" alt="Img - B089HJX59L" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B089HJX59L" href="#" data-appiplg="https://m.media-amazon.com/images/I/41m0dvQ6sLL.jpg"><img src="https://m.media-amazon.com/images/I/41m0dvQ6sLL._SL75_.jpg" alt="Img - B089HJX59L" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B089HJX59L" href="#" data-appiplg="https://m.media-amazon.com/images/I/51DoR3P7OKL.jpg"><img src="https://m.media-amazon.com/images/I/51DoR3P7OKL._SL75_.jpg" alt="Img - B089HJX59L" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B089HJX59L" href="#" data-appiplg="https://m.media-amazon.com/images/I/51OvB8KNmuL.jpg"><img src="https://m.media-amazon.com/images/I/51OvB8KNmuL._SL75_.jpg" alt="Img - B089HJX59L" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B089HJX59L" href="#" data-appiplg="https://m.media-amazon.com/images/I/51GXTAfisML.jpg"><img src="https://m.media-amazon.com/images/I/51GXTAfisML._SL75_.jpg" alt="Img - B089HJX59L" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B089HJX59L" href="#" data-appiplg="https://m.media-amazon.com/images/I/41m0dvQ6sLL.jpg"><img src="https://m.media-amazon.com/images/I/41m0dvQ6sLL._SL75_.jpg" alt="Img - B089HJX59L" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B089HJX59L" href="#" data-appiplg="https://m.media-amazon.com/images/I/41RhXJp9peL.jpg"><img src="https://m.media-amazon.com/images/I/41RhXJp9peL._SL75_.jpg" alt="Img - B089HJX59L" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B089HJX59L" href="#" data-appiplg="https://m.media-amazon.com/images/I/51OvB8KNmuL.jpg"><img src="https://m.media-amazon.com/images/I/51OvB8KNmuL._SL75_.jpg" alt="Img - B089HJX59L" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B089HJX59L" href="#" data-appiplg="https://m.media-amazon.com/images/I/41izBvPLlML.jpg"><img src="https://m.media-amazon.com/images/I/41izBvPLlML._SL75_.jpg" alt="Img - B089HJX59L" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B089HJX59L" href="#" data-appiplg="https://m.media-amazon.com/images/I/31HNOwIWxBL.jpg"><img src="https://m.media-amazon.com/images/I/31HNOwIWxBL._SL75_.jpg" alt="Img - B089HJX59L" class="apipp-additional-image"></a>
 </div>
@@ -800,15 +800,15 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B01LWZ7JB2?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/51LMr1+nE9L.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B01LWZ7JB2?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/51LMr1+nE9L.jpg" alt="Acer Swift 3, 14" full hd intel core i5-6200u ddr4 ssd windows sf314-51-52w2 computers class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B01LWZ7JB2" href="#" data-appiplg="https://m.media-amazon.com/images/I/51LMr1+nE9L.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B01LWZ7JB2" href="#" data-appiplg="https://m.media-amazon.com/images/I/41QEOgZ54kL.jpg"><img src="https://m.media-amazon.com/images/I/41QEOgZ54kL._SL75_.jpg" alt="Img - B01LWZ7JB2" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B01LWZ7JB2" href="#" data-appiplg="https://m.media-amazon.com/images/I/31SkyGojgdL.jpg"><img src="https://m.media-amazon.com/images/I/31SkyGojgdL._SL75_.jpg" alt="Img - B01LWZ7JB2" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B01LWZ7JB2" href="#" data-appiplg="https://m.media-amazon.com/images/I/31DsB27rr5L.jpg"><img src="https://m.media-amazon.com/images/I/31DsB27rr5L._SL75_.jpg" alt="Img - B01LWZ7JB2" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B01LWZ7JB2" href="#" data-appiplg="https://m.media-amazon.com/images/I/417CzheXzfL.jpg"><img src="https://m.media-amazon.com/images/I/417CzheXzfL._SL75_.jpg" alt="Img - B01LWZ7JB2" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B01LWZ7JB2" href="#" data-appiplg="https://m.media-amazon.com/images/I/417CzheXzfL.jpg"><img src="https://m.media-amazon.com/images/I/417CzheXzfL._SL75_.jpg" alt="Img - B01LWZ7JB2" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B01LWZ7JB2" href="#" data-appiplg="https://m.media-amazon.com/images/I/31L8kmU9vnL.jpg"><img src="https://m.media-amazon.com/images/I/31L8kmU9vnL._SL75_.jpg" alt="Img - B01LWZ7JB2" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B01LWZ7JB2" href="#" data-appiplg="https://m.media-amazon.com/images/I/41QEOgZ54kL.jpg"><img src="https://m.media-amazon.com/images/I/41QEOgZ54kL._SL75_.jpg" alt="Img - B01LWZ7JB2" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B01LWZ7JB2" href="#" data-appiplg="https://m.media-amazon.com/images/I/31JE2ddcD8L.jpg"><img src="https://m.media-amazon.com/images/I/31JE2ddcD8L._SL75_.jpg" alt="Img - B01LWZ7JB2" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B01LWZ7JB2" href="#" data-appiplg="https://m.media-amazon.com/images/I/31DsB27rr5L.jpg"><img src="https://m.media-amazon.com/images/I/31DsB27rr5L._SL75_.jpg" alt="Img - B01LWZ7JB2" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B01LWZ7JB2" href="#" data-appiplg="https://m.media-amazon.com/images/I/41g3IB6LAUL.jpg"><img src="https://m.media-amazon.com/images/I/41g3IB6LAUL._SL75_.jpg" alt="Img - B01LWZ7JB2" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B01LWZ7JB2" href="#" data-appiplg="https://m.media-amazon.com/images/I/31SkyGojgdL.jpg"><img src="https://m.media-amazon.com/images/I/31SkyGojgdL._SL75_.jpg" alt="Img - B01LWZ7JB2" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -1016,8 +1016,8 @@ window.FPConfig= {
     hoverDelay: 50
 };
 </script><script src="https://computerstationnation.com/wp-content/plugins/flying-pages/flying-pages.min.js" id="flying-pages-js" defer></script><script id="kk-star-ratings-js-extra">
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"cb2f915703"};
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"cb2f915703"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"d39717524e"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"d39717524e"};
 </script><script src="https://computerstationnation.com/wp-content/plugins/kk-star-ratings/public/js/kk-star-ratings.js" id="kk-star-ratings-js"></script><script src="https://computerstationnation.com/wp-content/plugins/table-of-contents-plus/front.min.js" id="toc-front-js"></script><script>
 	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 	</script></body></html>
