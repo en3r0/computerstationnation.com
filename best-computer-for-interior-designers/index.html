@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Best Computer For Interior Designers - Computer Station Nation</title><meta name="description" content="Our top selection for the best computer for interior designers fits all the software and hardware specifications for AutoCAD, Revit, 3DS Max, Rhino are 3D modeling software's that are must have for interior designer."><meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="Best Computer For Interior Designers - Computer Station Nation"><meta property="og:description" content="Our top selection for the best computer for interior designers fits all the software and hardware specifications for AutoCAD, Revit, 3DS Max, Rhino are 3D modeling software's that are must have for interior designer."><meta property="og:url" content="https://computerstationnation.com/best-computer-for-interior-designers/"><meta property="og:site_name" content="Computer Station Nation"><meta property="article:published_time" content="2021-01-30T16:09:45+00:00"><meta property="article:modified_time" content="2021-01-30T16:09:46+00:00"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:label1" content="Written by"><meta name="twitter:data1" content="Rachel Onwuchekwa"><meta name="twitter:label2" content="Est. reading time"><meta name="twitter:data2" content="5 minutes"><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://computerstationnation.com/#website","url":"https://computerstationnation.com/","name":"Computer Station Nation","description":"Epic Computer Setups","potentialAction":[{"@type":"SearchAction","target":"https://computerstationnation.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://computerstationnation.com/best-computer-for-interior-designers/#webpage","url":"https://computerstationnation.com/best-computer-for-interior-designers/","name":"Best Computer For Interior Designers - Computer Station Nation","isPartOf":{"@id":"https://computerstationnation.com/#website"},"datePublished":"2021-01-30T16:09:45+00:00","dateModified":"2021-01-30T16:09:46+00:00","author":{"@id":"https://computerstationnation.com/#/schema/person/a22d6b9bdebdb0106e8b36769005746c"},"description":"Our top selection for the best computer for interior designers fits all the software and hardware specifications for AutoCAD, Revit, 3DS Max, Rhino are 3D modeling software's that are must have for interior designer.","breadcrumb":{"@id":"https://computerstationnation.com/best-computer-for-interior-designers/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://computerstationnation.com/best-computer-for-interior-designers/"]}]},{"@type":"BreadcrumbList","@id":"https://computerstationnation.com/best-computer-for-interior-designers/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/","url":"https://computerstationnation.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/blog/","url":"https://computerstationnation.com/blog/","name":"Blog"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/best-computer-for-interior-designers/","url":"https://computerstationnation.com/best-computer-for-interior-designers/","name":"Best Computer For Interior Designers"}}]},{"@type":"Person","@id":"https://computerstationnation.com/#/schema/person/a22d6b9bdebdb0106e8b36769005746c","name":"Rachel Onwuchekwa"}]}</script><link rel="dns-prefetch" href="//s.w.org"><meta name="DC.Title" content="Best Computer For Interior Designers"><meta name="DC.Publisher" content="Computer Station Nation"><meta name="DC.Language" scheme="UTF-8" content="en-US"><meta name="DC.Creator" content="Rachel Onwuchekwa"><meta name="DC.Description" content="Choosing a suitable computer for your interior design needs may prove to be more tedious than you bargained for. Computer hardware specifications ..."><meta name="DC.Type" scheme="DCMIType" content="Text"><meta name="DC.Format" scheme="IMT" content="text/html"><meta name="DC.Format.MIME" content="text/html"><meta name="DC.Format.SysReq" content="Internet browser"><meta name="DC.Source" content="https://computerstationnation.com/"><meta name="DC.Coverage" content="World"><meta name="DC.Identifier" content="https://computerstationnation.com/best-computer-for-interior-designers/"><meta name="DC.Date" content="2021-01-30"><meta name="DC.Subject" content="Uncategorized"><script src="//www.googletagmanager.com/gtag/js?id=UA-195618-40" type="text/javascript" data-cfasync="false"></script><script type="text/javascript" data-cfasync="false">
-				var mi_version = '7.16.1';
+				var mi_version = '7.16.2';
 				var mi_track_user = true;
 				var mi_no_track_reason = '';
 				
@@ -29,9 +29,7 @@
 				}
 								window.dataLayer = window.dataLayer || [];
 				if ( mi_track_user ) {
-					function __gtagTracker() {
-						dataLayer.push( arguments );
-					}
+					function __gtagTracker() {dataLayer.push( arguments );}
 					__gtagTracker( 'js', new Date() );
 					__gtagTracker( 'set', {
 						'developer_id.dZGIzZG' : true,
@@ -45,8 +43,8 @@
 							var noopfn = function () {
 								return null;
 							};
-							var noopnullfn = function () {
-								return null;
+							var newtracker = function () {
+								return new Tracker();
 							};
 							var Tracker = function () {
 								return null;
@@ -54,7 +52,11 @@
 							var p = Tracker.prototype;
 							p.get = noopfn;
 							p.set = noopfn;
-							p.send = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
 							var __gaTracker = function () {
 								var len = arguments.length;
 								if ( len === 0 ) {
@@ -117,10 +119,8 @@
 								} catch ( ex ) {
 								}
 							};
-							__gaTracker.create = function () {
-								return new Tracker();
-							};
-							__gaTracker.getByName = noopnullfn;
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
 							__gaTracker.getAll = function () {
 								return [];
 							};
@@ -631,17 +631,17 @@ body.custom-background { background-color: #ffffff; }
 
 
 <div class="appip-block-wrapper"><div class="amazon-grid-wrapper amazon-template--grid-default"><div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B06Y4GZS9C?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41v2oytxs9L.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B06Y4GZS9C?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41v2oytxs9L.jpg" alt="Acer Predator Helios 300 Gaming Laptop, ..."></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="acer-predator-helios-300-gaming-laptop-8230"><a href="https://www.amazon.com/dp/B06Y4GZS9C?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">Acer Predator Helios 300 Gaming Laptop, …</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B06Y4GZS9C?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div>
 <div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B077H3889J?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/51ITR8uLgwL.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B077H3889J?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/51ITR8uLgwL.jpg" alt="Dell Inspiron 15 7577 Laptop: Core i5-73..."></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="dell-inspiron-15-7577-laptop-core-i5-738230"><a href="https://www.amazon.com/dp/B077H3889J?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">Dell Inspiron 15 7577 Laptop: Core i5-73…</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B077H3889J?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div>
 <div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B0721Y4BKP?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/515uctxudWL.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B0721Y4BKP?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/515uctxudWL.jpg" alt="ASUS VivoBook S 15.6” Full HD Laptop, In..."></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="asus-vivobook-s-156-full-hd-laptop-in8230"><a href="https://www.amazon.com/dp/B0721Y4BKP?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">ASUS VivoBook S 15.6” Full HD Laptop, In…</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B0721Y4BKP?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div></div></div>
@@ -658,17 +658,17 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B06Y4GZS9C?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41v2oytxs9L.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B06Y4GZS9C?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41v2oytxs9L.jpg" alt="Acer Predator Helios 300 Gaming Laptop, 15.6" full hd ips intel i7 cpu ddr4 ram ssd geforce gtx vr ready red backlit kb metal chassis windows g3-571-77qk computers class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B06Y4GZS9C" href="#" data-appiplg="https://m.media-amazon.com/images/I/41v2oytxs9L.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
 	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B06Y4GZS9C" href="#" data-appiplg="https://m.media-amazon.com/images/I/41E87xFAvCL.jpg"><img src="https://m.media-amazon.com/images/I/41E87xFAvCL._SL75_.jpg" alt="Img - B06Y4GZS9C" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B06Y4GZS9C" href="#" data-appiplg="https://m.media-amazon.com/images/I/41mwAZyt2bL.jpg"><img src="https://m.media-amazon.com/images/I/41mwAZyt2bL._SL75_.jpg" alt="Img - B06Y4GZS9C" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B06Y4GZS9C" href="#" data-appiplg="https://m.media-amazon.com/images/I/414q5rNRqZL.jpg"><img src="https://m.media-amazon.com/images/I/414q5rNRqZL._SL75_.jpg" alt="Img - B06Y4GZS9C" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B06Y4GZS9C" href="#" data-appiplg="https://m.media-amazon.com/images/I/21gZUGqtPjL.jpg"><img src="https://m.media-amazon.com/images/I/21gZUGqtPjL._SL75_.jpg" alt="Img - B06Y4GZS9C" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B06Y4GZS9C" href="#" data-appiplg="https://m.media-amazon.com/images/I/41lHd6QDASL.jpg"><img src="https://m.media-amazon.com/images/I/41lHd6QDASL._SL75_.jpg" alt="Img - B06Y4GZS9C" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B06Y4GZS9C" href="#" data-appiplg="https://m.media-amazon.com/images/I/41AUBatk6PL.jpg"><img src="https://m.media-amazon.com/images/I/41AUBatk6PL._SL75_.jpg" alt="Img - B06Y4GZS9C" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B06Y4GZS9C" href="#" data-appiplg="https://m.media-amazon.com/images/I/41KIZ8g7gFL.jpg"><img src="https://m.media-amazon.com/images/I/41KIZ8g7gFL._SL75_.jpg" alt="Img - B06Y4GZS9C" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B06Y4GZS9C" href="#" data-appiplg="https://m.media-amazon.com/images/I/414q5rNRqZL.jpg"><img src="https://m.media-amazon.com/images/I/414q5rNRqZL._SL75_.jpg" alt="Img - B06Y4GZS9C" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B06Y4GZS9C" href="#" data-appiplg="https://m.media-amazon.com/images/I/21i2gTieWrL.jpg"><img src="https://m.media-amazon.com/images/I/21i2gTieWrL._SL75_.jpg" alt="Img - B06Y4GZS9C" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B06Y4GZS9C" href="#" data-appiplg="https://m.media-amazon.com/images/I/41KIZ8g7gFL.jpg"><img src="https://m.media-amazon.com/images/I/41KIZ8g7gFL._SL75_.jpg" alt="Img - B06Y4GZS9C" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B06Y4GZS9C" href="#" data-appiplg="https://m.media-amazon.com/images/I/41tGjoYlC2L.jpg"><img src="https://m.media-amazon.com/images/I/41tGjoYlC2L._SL75_.jpg" alt="Img - B06Y4GZS9C" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B06Y4GZS9C" href="#" data-appiplg="https://m.media-amazon.com/images/I/21gZUGqtPjL.jpg"><img src="https://m.media-amazon.com/images/I/21gZUGqtPjL._SL75_.jpg" alt="Img - B06Y4GZS9C" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -714,16 +714,16 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B077H3889J?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/51ITR8uLgwL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B077H3889J?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/51ITR8uLgwL.jpg" alt="Dell Inspiron 15 7577 Laptop: Core i5-7300HQ, 256GB SSD, NVidia GTX 1060 6GB, 8GB RAM, 15.6inch Full HD Display (Personal Computers)" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B077H3889J" href="#" data-appiplg="https://m.media-amazon.com/images/I/51ITR8uLgwL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B077H3889J" href="#" data-appiplg="https://m.media-amazon.com/images/I/51bk9+LoopL.jpg"><img src="https://m.media-amazon.com/images/I/51bk9+LoopL._SL75_.jpg" alt="Img - B077H3889J" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B077H3889J" href="#" data-appiplg="https://m.media-amazon.com/images/I/41X-dC1Kj5L.jpg"><img src="https://m.media-amazon.com/images/I/41X-dC1Kj5L._SL75_.jpg" alt="Img - B077H3889J" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B077H3889J" href="#" data-appiplg="https://m.media-amazon.com/images/I/319VRxAy2dL.jpg"><img src="https://m.media-amazon.com/images/I/319VRxAy2dL._SL75_.jpg" alt="Img - B077H3889J" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B077H3889J" href="#" data-appiplg="https://m.media-amazon.com/images/I/51I1vEoAJjL.jpg"><img src="https://m.media-amazon.com/images/I/51I1vEoAJjL._SL75_.jpg" alt="Img - B077H3889J" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B077H3889J" href="#" data-appiplg="https://m.media-amazon.com/images/I/41lu2D6eX3L.jpg"><img src="https://m.media-amazon.com/images/I/41lu2D6eX3L._SL75_.jpg" alt="Img - B077H3889J" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B077H3889J" href="#" data-appiplg="https://m.media-amazon.com/images/I/41P1vB5o-UL.jpg"><img src="https://m.media-amazon.com/images/I/41P1vB5o-UL._SL75_.jpg" alt="Img - B077H3889J" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B077H3889J" href="#" data-appiplg="https://m.media-amazon.com/images/I/41mSwMCZGiL.jpg"><img src="https://m.media-amazon.com/images/I/41mSwMCZGiL._SL75_.jpg" alt="Img - B077H3889J" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B077H3889J" href="#" data-appiplg="https://m.media-amazon.com/images/I/41X-dC1Kj5L.jpg"><img src="https://m.media-amazon.com/images/I/41X-dC1Kj5L._SL75_.jpg" alt="Img - B077H3889J" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B077H3889J" href="#" data-appiplg="https://m.media-amazon.com/images/I/51bk9+LoopL.jpg"><img src="https://m.media-amazon.com/images/I/51bk9+LoopL._SL75_.jpg" alt="Img - B077H3889J" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B077H3889J" href="#" data-appiplg="https://m.media-amazon.com/images/I/51I1vEoAJjL.jpg"><img src="https://m.media-amazon.com/images/I/51I1vEoAJjL._SL75_.jpg" alt="Img - B077H3889J" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B077H3889J" href="#" data-appiplg="https://m.media-amazon.com/images/I/319VRxAy2dL.jpg"><img src="https://m.media-amazon.com/images/I/319VRxAy2dL._SL75_.jpg" alt="Img - B077H3889J" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B077H3889J" href="#" data-appiplg="https://m.media-amazon.com/images/I/51p3ClM7m+L.jpg"><img src="https://m.media-amazon.com/images/I/51p3ClM7m+L._SL75_.jpg" alt="Img - B077H3889J" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B077H3889J" href="#" data-appiplg="https://m.media-amazon.com/images/I/41lu2D6eX3L.jpg"><img src="https://m.media-amazon.com/images/I/41lu2D6eX3L._SL75_.jpg" alt="Img - B077H3889J" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -773,15 +773,15 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B0721Y4BKP?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/515uctxudWL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B0721Y4BKP?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/515uctxudWL.jpg" alt="ASUS VivoBook S 15.6” Full HD Laptop, Intel i7-7500U 2.7GHz, 8GB RAM, 128GB SSD + 1TB HDD, Windows 10, Fingerprint Sensor, Backlit Keyboard. (Personal Computers)" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B0721Y4BKP" href="#" data-appiplg="https://m.media-amazon.com/images/I/515uctxudWL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B0721Y4BKP" href="#" data-appiplg="https://m.media-amazon.com/images/I/51HBc8mXCXL.jpg"><img src="https://m.media-amazon.com/images/I/51HBc8mXCXL._SL75_.jpg" alt="Img - B0721Y4BKP" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B0721Y4BKP" href="#" data-appiplg="https://m.media-amazon.com/images/I/51rwuM6Zl+L.jpg"><img src="https://m.media-amazon.com/images/I/51rwuM6Zl+L._SL75_.jpg" alt="Img - B0721Y4BKP" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B0721Y4BKP" href="#" data-appiplg="https://m.media-amazon.com/images/I/51HBc8mXCXL.jpg"><img src="https://m.media-amazon.com/images/I/51HBc8mXCXL._SL75_.jpg" alt="Img - B0721Y4BKP" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B0721Y4BKP" href="#" data-appiplg="https://m.media-amazon.com/images/I/41NmWO+yFoL.jpg"><img src="https://m.media-amazon.com/images/I/41NmWO+yFoL._SL75_.jpg" alt="Img - B0721Y4BKP" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B0721Y4BKP" href="#" data-appiplg="https://m.media-amazon.com/images/I/51etXFdfkEL.jpg"><img src="https://m.media-amazon.com/images/I/51etXFdfkEL._SL75_.jpg" alt="Img - B0721Y4BKP" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B0721Y4BKP" href="#" data-appiplg="https://m.media-amazon.com/images/I/51HA7e0TLoL.jpg"><img src="https://m.media-amazon.com/images/I/51HA7e0TLoL._SL75_.jpg" alt="Img - B0721Y4BKP" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B0721Y4BKP" href="#" data-appiplg="https://m.media-amazon.com/images/I/51bopV5OfoL.jpg"><img src="https://m.media-amazon.com/images/I/51bopV5OfoL._SL75_.jpg" alt="Img - B0721Y4BKP" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B0721Y4BKP" href="#" data-appiplg="https://m.media-amazon.com/images/I/411bHDjK3nL.jpg"><img src="https://m.media-amazon.com/images/I/411bHDjK3nL._SL75_.jpg" alt="Img - B0721Y4BKP" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B0721Y4BKP" href="#" data-appiplg="https://m.media-amazon.com/images/I/51HA7e0TLoL.jpg"><img src="https://m.media-amazon.com/images/I/51HA7e0TLoL._SL75_.jpg" alt="Img - B0721Y4BKP" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B0721Y4BKP" href="#" data-appiplg="https://m.media-amazon.com/images/I/51rwuM6Zl+L.jpg"><img src="https://m.media-amazon.com/images/I/51rwuM6Zl+L._SL75_.jpg" alt="Img - B0721Y4BKP" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B0721Y4BKP" href="#" data-appiplg="https://m.media-amazon.com/images/I/51etXFdfkEL.jpg"><img src="https://m.media-amazon.com/images/I/51etXFdfkEL._SL75_.jpg" alt="Img - B0721Y4BKP" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -1013,8 +1013,8 @@ window.FPConfig= {
     hoverDelay: 50
 };
 </script><script src="https://computerstationnation.com/wp-content/plugins/flying-pages/flying-pages.min.js" id="flying-pages-js" defer></script><script id="kk-star-ratings-js-extra">
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"cb2f915703"};
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"cb2f915703"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"d39717524e"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"d39717524e"};
 </script><script src="https://computerstationnation.com/wp-content/plugins/kk-star-ratings/public/js/kk-star-ratings.js" id="kk-star-ratings-js"></script><script src="https://computerstationnation.com/wp-content/plugins/table-of-contents-plus/front.min.js" id="toc-front-js"></script><script>
 	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 	</script></body></html>
