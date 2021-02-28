@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Best Computer Microphone - Computer Station Nation</title><meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="Best Computer Microphone - Computer Station Nation"><meta property="og:description" content="Computer Station Nation is reader-supported.When you buy through links on our site, we may earn an affiliate commission. Learn more. It’s time to speak up, I can’t hear you over the sound of the terrible built in mic you are still using from your headset! It is time you find the best PC microphone to […]"><meta property="og:url" content="https://computerstationnation.com/microphones/"><meta property="og:site_name" content="Computer Station Nation"><meta property="article:modified_time" content="2020-12-20T00:07:43+00:00"><meta property="og:image" content="https://computerstationnation.com/wp-content/uploads/2020/04/blue-yeti-laptop-setup.jpg"><meta property="og:image:width" content="800"><meta property="og:image:height" content="558"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:label1" content="Est. reading time"><meta name="twitter:data1" content="5 minutes"><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://computerstationnation.com/#website","url":"https://computerstationnation.com/","name":"Computer Station Nation","description":"Epic Computer Setups","potentialAction":[{"@type":"SearchAction","target":"https://computerstationnation.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://computerstationnation.com/microphones/#primaryimage","inLanguage":"en-US","url":"https://computerstationnation.com/wp-content/uploads/2020/04/blue-yeti-laptop-setup.jpg","width":800,"height":558,"caption":"Blue Yeti microphone setup with laptop"},{"@type":"WebPage","@id":"https://computerstationnation.com/microphones/#webpage","url":"https://computerstationnation.com/microphones/","name":"Best Computer Microphone - Computer Station Nation","isPartOf":{"@id":"https://computerstationnation.com/#website"},"primaryImageOfPage":{"@id":"https://computerstationnation.com/microphones/#primaryimage"},"datePublished":"2020-04-25T12:58:34+00:00","dateModified":"2020-12-20T00:07:43+00:00","breadcrumb":{"@id":"https://computerstationnation.com/microphones/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://computerstationnation.com/microphones/"]}]},{"@type":"BreadcrumbList","@id":"https://computerstationnation.com/microphones/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/","url":"https://computerstationnation.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/microphones/","url":"https://computerstationnation.com/microphones/","name":"Best Computer Microphone"}}]}]}</script><link rel="dns-prefetch" href="//s.w.org"><meta name="DC.Title" content="Best Computer Microphone"><meta name="DC.Publisher" content="Computer Station Nation"><meta name="DC.Language" scheme="UTF-8" content="en-US"><meta name="DC.Creator" content="Computer Station Nation"><meta name="DC.Type" scheme="DCMIType" content="Text"><meta name="DC.Format" scheme="IMT" content="text/html"><meta name="DC.Format.MIME" content="text/html"><meta name="DC.Format.SysReq" content="Internet browser"><meta name="DC.Source" content="https://computerstationnation.com/"><meta name="DC.Coverage" content="World"><meta name="DC.Identifier" content="https://computerstationnation.com"><script src="//www.googletagmanager.com/gtag/js?id=UA-195618-40" type="text/javascript" data-cfasync="false"></script><script type="text/javascript" data-cfasync="false">
-				var mi_version = '7.16.1';
+				var mi_version = '7.16.2';
 				var mi_track_user = true;
 				var mi_no_track_reason = '';
 				
@@ -29,9 +29,7 @@
 				}
 								window.dataLayer = window.dataLayer || [];
 				if ( mi_track_user ) {
-					function __gtagTracker() {
-						dataLayer.push( arguments );
-					}
+					function __gtagTracker() {dataLayer.push( arguments );}
 					__gtagTracker( 'js', new Date() );
 					__gtagTracker( 'set', {
 						'developer_id.dZGIzZG' : true,
@@ -45,8 +43,8 @@
 							var noopfn = function () {
 								return null;
 							};
-							var noopnullfn = function () {
-								return null;
+							var newtracker = function () {
+								return new Tracker();
 							};
 							var Tracker = function () {
 								return null;
@@ -54,7 +52,11 @@
 							var p = Tracker.prototype;
 							p.get = noopfn;
 							p.set = noopfn;
-							p.send = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
 							var __gaTracker = function () {
 								var len = arguments.length;
 								if ( len === 0 ) {
@@ -117,10 +119,8 @@
 								} catch ( ex ) {
 								}
 							};
-							__gaTracker.create = function () {
-								return new Tracker();
-							};
-							__gaTracker.getByName = noopnullfn;
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
 							__gaTracker.getAll = function () {
 								return [];
 							};
@@ -599,23 +599,23 @@ body.custom-background { background-color: #ffffff; }
 
 
 
-<div id="toc_container" class="no_bullets"><p class="toc_title">Contents</p><ul class="toc_list"><li><a href="#our-picks-for-the-top-3-best-computer-microphone">Our Picks for the Top 3 Best Computer Microphone</a><ul><li><a href="#blue-snowball-ice-usb-mic-for-recording-and-stream8230">Blue Snowball iCE USB Mic for Recording and Stream…</a></li><li><a href="#shure-mv5-digital-condenser-microphone-gray-us8230">Shure MV5 Digital Condenser Microphone (Gray) + US…</a></li><li><a href="#blue-yeti-usb-recording-038-streaming-on-pc-and-mac8230">Blue Yeti USB Recording & Streaming on PC and Mac,…</a></li></ul></li><li><a href="#blue-8211-snowball-ice">Blue – Snowball iCE</a></li><li><a href="#shure-8211-mv5">Shure – MV5</a></li><li><a href="#blue-8211-yeti">Blue – Yeti</a></li><li><a href="#common-microphone-definitions">Common Microphone Definitions</a></li><li><a href="#conclusion">Conclusion</a></li></ul></div>
+<div id="toc_container" class="no_bullets"><p class="toc_title">Contents</p><ul class="toc_list"><li><a href="#our-picks-for-the-top-3-best-computer-microphone">Our Picks for the Top 3 Best Computer Microphone</a><ul><li><a href="#blue-snowball-ice-usb-mic-for-recording-and-stream8230">Blue Snowball iCE USB Mic for Recording and Stream…</a></li><li><a href="#shure-mv5-digital-condenser-microphone-gray-us8230">Shure MV5 Digital Condenser Microphone (Gray) + US…</a></li><li><a href="#blue-yeti-usb-mic-for-recording-038-streaming-on-pc-8230">Blue Yeti USB Mic for Recording & Streaming on PC …</a></li></ul></li><li><a href="#blue-8211-snowball-ice">Blue – Snowball iCE</a></li><li><a href="#shure-8211-mv5">Shure – MV5</a></li><li><a href="#blue-8211-yeti">Blue – Yeti</a></li><li><a href="#common-microphone-definitions">Common Microphone Definitions</a></li><li><a href="#conclusion">Conclusion</a></li></ul></div>
 <h2><span id="our-picks-for-the-top-3-best-computer-microphone">Our Picks for the Top 3 Best Computer Microphone</span></h2>
 
 
 <div class="appip-block-wrapper"><div class="amazon-grid-wrapper amazon-template--grid-default"><div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B014PYGTUQ?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41GoDD7CJcL.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B014PYGTUQ?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41GoDD7CJcL.jpg" alt="Blue Snowball iCE USB Mic for Recording and Stream..."></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="blue-snowball-ice-usb-mic-for-recording-and-stream8230"><a href="https://www.amazon.com/dp/B014PYGTUQ?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">Blue Snowball iCE USB Mic for Recording and Stream…</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B014PYGTUQ?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div>
 <div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B010W6W9EQ?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/31455Z6NT+L.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B010W6W9EQ?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/31455Z6NT+L.jpg" alt="Shure MV5 Digital Condenser Microphone (Gray) + US..."></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="shure-mv5-digital-condenser-microphone-gray-us8230"><a href="https://www.amazon.com/dp/B010W6W9EQ?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">Shure MV5 Digital Condenser Microphone (Gray) + US…</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B010W6W9EQ?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div>
 <div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B002VA464S?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/31NsHRcitjL.jpg" alt="Buy Now"></a></div>
-<div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="blue-yeti-usb-recording-038-streaming-on-pc-and-mac8230"><a href="https://www.amazon.com/dp/B002VA464S?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">Blue Yeti USB Recording & Streaming on PC and Mac,…</a></span></h3></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B002VA464S?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/31NsHRcitjL.jpg" alt="Blue Yeti USB Mic for Recording & Streaming on PC ..."></a></div>
+<div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="blue-yeti-usb-mic-for-recording-038-streaming-on-pc-8230"><a href="https://www.amazon.com/dp/B002VA464S?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">Blue Yeti USB Mic for Recording & Streaming on PC …</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B002VA464S?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div></div></div>
 
@@ -626,15 +626,15 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B014PYGTUQ?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41GoDD7CJcL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B014PYGTUQ?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41GoDD7CJcL.jpg" alt="Blue Snowball iCE USB Mic for Recording and Streaming on PC and Mac, Cardioid Condenser Capsule, Adjustable Stand, Plug and Play – Black (Electronics)" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B014PYGTUQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41GoDD7CJcL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B014PYGTUQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/410-k5OIWuL.jpg"><img src="https://m.media-amazon.com/images/I/410-k5OIWuL._SL75_.jpg" alt="Img - B014PYGTUQ" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B014PYGTUQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/417wh7pGqdL.jpg"><img src="https://m.media-amazon.com/images/I/417wh7pGqdL._SL75_.jpg" alt="Img - B014PYGTUQ" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B014PYGTUQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/51+6+gzvQmL.jpg"><img src="https://m.media-amazon.com/images/I/51+6+gzvQmL._SL75_.jpg" alt="Img - B014PYGTUQ" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B014PYGTUQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/31HSCHlLWZL.jpg"><img src="https://m.media-amazon.com/images/I/31HSCHlLWZL._SL75_.jpg" alt="Img - B014PYGTUQ" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B014PYGTUQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41F-89l9FEL.jpg"><img src="https://m.media-amazon.com/images/I/41F-89l9FEL._SL75_.jpg" alt="Img - B014PYGTUQ" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B014PYGTUQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/51+6+gzvQmL.jpg"><img src="https://m.media-amazon.com/images/I/51+6+gzvQmL._SL75_.jpg" alt="Img - B014PYGTUQ" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B014PYGTUQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/410-k5OIWuL.jpg"><img src="https://m.media-amazon.com/images/I/410-k5OIWuL._SL75_.jpg" alt="Img - B014PYGTUQ" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B014PYGTUQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/51F-EXZo9XL.jpg"><img src="https://m.media-amazon.com/images/I/51F-EXZo9XL._SL75_.jpg" alt="Img - B014PYGTUQ" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B014PYGTUQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41eZ-yAcVpL.jpg"><img src="https://m.media-amazon.com/images/I/41eZ-yAcVpL._SL75_.jpg" alt="Img - B014PYGTUQ" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B014PYGTUQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/31HSCHlLWZL.jpg"><img src="https://m.media-amazon.com/images/I/31HSCHlLWZL._SL75_.jpg" alt="Img - B014PYGTUQ" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B014PYGTUQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/417wh7pGqdL.jpg"><img src="https://m.media-amazon.com/images/I/417wh7pGqdL._SL75_.jpg" alt="Img - B014PYGTUQ" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B014PYGTUQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41dedgxBPcL.jpg"><img src="https://m.media-amazon.com/images/I/41dedgxBPcL._SL75_.jpg" alt="Img - B014PYGTUQ" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B014PYGTUQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41rnmQarjtL.jpg"><img src="https://m.media-amazon.com/images/I/41rnmQarjtL._SL75_.jpg" alt="Img - B014PYGTUQ" class="apipp-additional-image"></a>
 </div>
@@ -670,22 +670,22 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B010W6W9EQ?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/31455Z6NT+L.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B010W6W9EQ?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/31455Z6NT+L.jpg" alt="Shure MV5 Digital Condenser Microphone (Gray) + USB & Lightning Cable (Electronics)" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/31455Z6NT+L.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/413mPQOPj3L.jpg"><img src="https://m.media-amazon.com/images/I/413mPQOPj3L._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41GrTQ76JpL.jpg"><img src="https://m.media-amazon.com/images/I/41GrTQ76JpL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/51QOzWHF9TL.jpg"><img src="https://m.media-amazon.com/images/I/51QOzWHF9TL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41zq1vtJerL.jpg"><img src="https://m.media-amazon.com/images/I/41zq1vtJerL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/31+Fv8RjWsL.jpg"><img src="https://m.media-amazon.com/images/I/31+Fv8RjWsL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41GrTQ76JpL.jpg"><img src="https://m.media-amazon.com/images/I/41GrTQ76JpL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41tUI-vNjXL.jpg"><img src="https://m.media-amazon.com/images/I/41tUI-vNjXL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/51QOzWHF9TL.jpg"><img src="https://m.media-amazon.com/images/I/51QOzWHF9TL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/31+Fv8RjWsL.jpg"><img src="https://m.media-amazon.com/images/I/31+Fv8RjWsL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/414KvxeczSL.jpg"><img src="https://m.media-amazon.com/images/I/414KvxeczSL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/31+bp4sV8XL.jpg"><img src="https://m.media-amazon.com/images/I/31+bp4sV8XL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/31EDJZ0UnkL.jpg"><img src="https://m.media-amazon.com/images/I/31EDJZ0UnkL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/51Yv61DlbjL.jpg"><img src="https://m.media-amazon.com/images/I/51Yv61DlbjL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/51kMHetdnzL.jpg"><img src="https://m.media-amazon.com/images/I/51kMHetdnzL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/413mPQOPj3L.jpg"><img src="https://m.media-amazon.com/images/I/413mPQOPj3L._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41j3WSB1SAL.jpg"><img src="https://m.media-amazon.com/images/I/41j3WSB1SAL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41zq1vtJerL.jpg"><img src="https://m.media-amazon.com/images/I/41zq1vtJerL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/51Yv61DlbjL.jpg"><img src="https://m.media-amazon.com/images/I/51Yv61DlbjL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41W8-9vqS6L.jpg"><img src="https://m.media-amazon.com/images/I/41W8-9vqS6L._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41jyVXRHRlL.jpg"><img src="https://m.media-amazon.com/images/I/41jyVXRHRlL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/31EDJZ0UnkL.jpg"><img src="https://m.media-amazon.com/images/I/31EDJZ0UnkL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/51kMHetdnzL.jpg"><img src="https://m.media-amazon.com/images/I/51kMHetdnzL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/31+bp4sV8XL.jpg"><img src="https://m.media-amazon.com/images/I/31+bp4sV8XL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B010W6W9EQ" href="#" data-appiplg="https://m.media-amazon.com/images/I/31rty455GdL.jpg"><img src="https://m.media-amazon.com/images/I/31rty455GdL._SL75_.jpg" alt="Img - B010W6W9EQ" class="apipp-additional-image"></a>
 </div>
 	</div>
@@ -720,18 +720,18 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B002VA464S?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/31NsHRcitjL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B002VA464S?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/31NsHRcitjL.jpg" alt="Blue Yeti USB Mic for Recording & Streaming on PC and Mac, 3 Condenser Capsules, 4 Pickup Patterns, Headphone Output and Volume Control, Mic Gain Control, Adjustable Stand, Plug & Play - Silver (Electronics)" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/31NsHRcitjL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/51tHx7SKiyL.jpg"><img src="https://m.media-amazon.com/images/I/51tHx7SKiyL._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/41GlHrgzV6L.jpg"><img src="https://m.media-amazon.com/images/I/41GlHrgzV6L._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/41CxxZqFlsL.jpg"><img src="https://m.media-amazon.com/images/I/41CxxZqFlsL._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/41XUSXnJnlL.jpg"><img src="https://m.media-amazon.com/images/I/41XUSXnJnlL._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/41KZA03AaBL.jpg"><img src="https://m.media-amazon.com/images/I/41KZA03AaBL._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/41CxxZqFlsL.jpg"><img src="https://m.media-amazon.com/images/I/41CxxZqFlsL._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/41P7kiBs9ML.jpg"><img src="https://m.media-amazon.com/images/I/41P7kiBs9ML._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/41XUSXnJnlL.jpg"><img src="https://m.media-amazon.com/images/I/41XUSXnJnlL._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/51tHx7SKiyL.jpg"><img src="https://m.media-amazon.com/images/I/51tHx7SKiyL._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/41KZA03AaBL.jpg"><img src="https://m.media-amazon.com/images/I/41KZA03AaBL._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/41GlHrgzV6L.jpg"><img src="https://m.media-amazon.com/images/I/41GlHrgzV6L._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/41vEDn2XTJL.jpg"><img src="https://m.media-amazon.com/images/I/41vEDn2XTJL._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/51O5SkOKqhL.jpg"><img src="https://m.media-amazon.com/images/I/51O5SkOKqhL._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/518KH65R5uL.jpg"><img src="https://m.media-amazon.com/images/I/518KH65R5uL._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/41SKHDM2vGL.jpg"><img src="https://m.media-amazon.com/images/I/41SKHDM2vGL._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/51O5SkOKqhL.jpg"><img src="https://m.media-amazon.com/images/I/51O5SkOKqhL._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B002VA464S" href="#" data-appiplg="https://m.media-amazon.com/images/I/41y93WJv4LL.jpg"><img src="https://m.media-amazon.com/images/I/41y93WJv4LL._SL75_.jpg" alt="Img - B002VA464S" class="apipp-additional-image"></a>
 </div>
 	</div>
@@ -962,7 +962,7 @@ window.FPConfig= {
     hoverDelay: 50
 };
 </script><script src="https://computerstationnation.com/wp-content/plugins/flying-pages/flying-pages.min.js" id="flying-pages-js" defer></script><script id="kk-star-ratings-js-extra">
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"cb2f915703"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"d39717524e"};
 </script><script src="https://computerstationnation.com/wp-content/plugins/kk-star-ratings/public/js/kk-star-ratings.js" id="kk-star-ratings-js"></script><script src="https://computerstationnation.com/wp-content/plugins/table-of-contents-plus/front.min.js" id="toc-front-js"></script><script>
 	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 	</script></body></html>
