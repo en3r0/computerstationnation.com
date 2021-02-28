@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Best Computer For Hacking - Computer Station Nation</title><meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="Best Computer For Hacking - Computer Station Nation"><meta property="og:description" content="Computer Station Nation is reader-supported.When you buy through links on our site, we may earn an affiliate commission. Learn more. Cybersecurity is a major challenge encountered by several organizations that have their database online and despite the strict measures taken to ensure strict security on their data and other important information, some things escape their […]"><meta property="og:url" content="https://computerstationnation.com/best-computer-for-hacking/"><meta property="og:site_name" content="Computer Station Nation"><meta property="article:published_time" content="2020-12-18T13:02:06+00:00"><meta property="article:modified_time" content="2020-12-20T00:05:19+00:00"><meta property="og:image" content="https://computerstationnation.com/wp-content/uploads/2020/12/arget-zvHhKiVuR9M-unsplash.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:label1" content="Written by"><meta name="twitter:data1" content="StationAdmin"><meta name="twitter:label2" content="Est. reading time"><meta name="twitter:data2" content="6 minutes"><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://computerstationnation.com/#website","url":"https://computerstationnation.com/","name":"Computer Station Nation","description":"Epic Computer Setups","potentialAction":[{"@type":"SearchAction","target":"https://computerstationnation.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://computerstationnation.com/best-computer-for-hacking/#primaryimage","inLanguage":"en-US","url":"https://computerstationnation.com/wp-content/uploads/2020/12/arget-zvHhKiVuR9M-unsplash.jpg","width":640,"height":360},{"@type":"WebPage","@id":"https://computerstationnation.com/best-computer-for-hacking/#webpage","url":"https://computerstationnation.com/best-computer-for-hacking/","name":"Best Computer For Hacking - Computer Station Nation","isPartOf":{"@id":"https://computerstationnation.com/#website"},"primaryImageOfPage":{"@id":"https://computerstationnation.com/best-computer-for-hacking/#primaryimage"},"datePublished":"2020-12-18T13:02:06+00:00","dateModified":"2020-12-20T00:05:19+00:00","author":{"@id":"https://computerstationnation.com/#/schema/person/204a2a96696c960d0d0ed9fe6a183cbd"},"breadcrumb":{"@id":"https://computerstationnation.com/best-computer-for-hacking/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://computerstationnation.com/best-computer-for-hacking/"]}]},{"@type":"BreadcrumbList","@id":"https://computerstationnation.com/best-computer-for-hacking/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/","url":"https://computerstationnation.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/blog/","url":"https://computerstationnation.com/blog/","name":"Blog"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/best-computer-for-hacking/","url":"https://computerstationnation.com/best-computer-for-hacking/","name":"Best Computer For Hacking"}}]},{"@type":"Person","@id":"https://computerstationnation.com/#/schema/person/204a2a96696c960d0d0ed9fe6a183cbd","name":"StationAdmin"}]}</script><link rel="dns-prefetch" href="//s.w.org"><meta name="DC.Title" content="Best Computer For Hacking"><meta name="DC.Publisher" content="Computer Station Nation"><meta name="DC.Language" scheme="UTF-8" content="en-US"><meta name="DC.Creator" content="Computer Station Nation"><meta name="DC.Description" content="Cybersecurity is a major challenge encountered by several organizations that have their database online and despite the strict measures taken to ..."><meta name="DC.Type" scheme="DCMIType" content="Text"><meta name="DC.Format" scheme="IMT" content="text/html"><meta name="DC.Format.MIME" content="text/html"><meta name="DC.Format.SysReq" content="Internet browser"><meta name="DC.Source" content="https://computerstationnation.com/"><meta name="DC.Coverage" content="World"><meta name="DC.Identifier" content="https://computerstationnation.com/best-computer-for-hacking/"><meta name="DC.Date" content="2020-12-18"><meta name="DC.Subject" content="Uncategorized"><script src="//www.googletagmanager.com/gtag/js?id=UA-195618-40" type="text/javascript" data-cfasync="false"></script><script type="text/javascript" data-cfasync="false">
-				var mi_version = '7.16.1';
+				var mi_version = '7.16.2';
 				var mi_track_user = true;
 				var mi_no_track_reason = '';
 				
@@ -29,9 +29,7 @@
 				}
 								window.dataLayer = window.dataLayer || [];
 				if ( mi_track_user ) {
-					function __gtagTracker() {
-						dataLayer.push( arguments );
-					}
+					function __gtagTracker() {dataLayer.push( arguments );}
 					__gtagTracker( 'js', new Date() );
 					__gtagTracker( 'set', {
 						'developer_id.dZGIzZG' : true,
@@ -45,8 +43,8 @@
 							var noopfn = function () {
 								return null;
 							};
-							var noopnullfn = function () {
-								return null;
+							var newtracker = function () {
+								return new Tracker();
 							};
 							var Tracker = function () {
 								return null;
@@ -54,7 +52,11 @@
 							var p = Tracker.prototype;
 							p.get = noopfn;
 							p.set = noopfn;
-							p.send = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
 							var __gaTracker = function () {
 								var len = arguments.length;
 								if ( len === 0 ) {
@@ -117,10 +119,8 @@
 								} catch ( ex ) {
 								}
 							};
-							__gaTracker.create = function () {
-								return new Tracker();
-							};
-							__gaTracker.getByName = noopnullfn;
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
 							__gaTracker.getAll = function () {
 								return [];
 							};
@@ -639,17 +639,17 @@ body.custom-background { background-color: #ffffff; }
 
 
 <div class="appip-block-wrapper"><div class="amazon-grid-wrapper amazon-template--grid-default"><div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B07MKNL71F?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41bD0mtvPeL.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B07MKNL71F?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41bD0mtvPeL.jpg" alt="MSI GS65 Stealth-002 15.6" razor thin be...></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="msi-gs65-stealth-002-1568243-razor-thin-be8230"><a href="https://www.amazon.com/dp/B07MKNL71F?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">MSI GS65 Stealth-002 15.6″ Razor Thin Be…</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B07MKNL71F?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div>
 <div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B081SM57RY?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/31LfQ0PqT4L.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B081SM57RY?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/31LfQ0PqT4L.jpg" alt="2020 HP 15 15.6" hd touchscreen premium ...></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="2020-hp-15-1568243-hd-touchscreen-premium-8230"><a href="https://www.amazon.com/dp/B081SM57RY?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">2020 HP 15 15.6″ HD Touchscreen Premium …</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B081SM57RY?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div>
 <div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B075KX1MJS?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/51MLnNd64wL.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B075KX1MJS?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/51MLnNd64wL.jpg" alt="ASUS ROG Strix GL702VS 17.3" full hd ult...></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="asus-rog-strix-gl702vs-1738243-full-hd-ult8230"><a href="https://www.amazon.com/dp/B075KX1MJS?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">ASUS ROG Strix GL702VS 17.3″ Full HD Ult…</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B075KX1MJS?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div></div></div>
@@ -670,13 +670,13 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B07MKNL71F?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41bD0mtvPeL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B07MKNL71F?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41bD0mtvPeL.jpg" alt="MSI GS65 Stealth-002 15.6" razor thin bezel gaming laptop nvidia rtx max-q intel i7-8750h cores nvme ssd tb3 per key rgb win matte black w gold diamond cut computers class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B07MKNL71F" href="#" data-appiplg="https://m.media-amazon.com/images/I/41bD0mtvPeL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
 	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07MKNL71F" href="#" data-appiplg="https://m.media-amazon.com/images/I/41JsqFz37yL.jpg"><img src="https://m.media-amazon.com/images/I/41JsqFz37yL._SL75_.jpg" alt="Img - B07MKNL71F" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07MKNL71F" href="#" data-appiplg="https://m.media-amazon.com/images/I/51yLaiUkkWL.jpg"><img src="https://m.media-amazon.com/images/I/51yLaiUkkWL._SL75_.jpg" alt="Img - B07MKNL71F" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07MKNL71F" href="#" data-appiplg="https://m.media-amazon.com/images/I/51vRA6i81fL.jpg"><img src="https://m.media-amazon.com/images/I/51vRA6i81fL._SL75_.jpg" alt="Img - B07MKNL71F" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07MKNL71F" href="#" data-appiplg="https://m.media-amazon.com/images/I/41fUbs6MUbL.jpg"><img src="https://m.media-amazon.com/images/I/41fUbs6MUbL._SL75_.jpg" alt="Img - B07MKNL71F" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07MKNL71F" href="#" data-appiplg="https://m.media-amazon.com/images/I/51yLaiUkkWL.jpg"><img src="https://m.media-amazon.com/images/I/51yLaiUkkWL._SL75_.jpg" alt="Img - B07MKNL71F" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07MKNL71F" href="#" data-appiplg="https://m.media-amazon.com/images/I/41RCayt1YrL.jpg"><img src="https://m.media-amazon.com/images/I/41RCayt1YrL._SL75_.jpg" alt="Img - B07MKNL71F" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07MKNL71F" href="#" data-appiplg="https://m.media-amazon.com/images/I/41fUbs6MUbL.jpg"><img src="https://m.media-amazon.com/images/I/41fUbs6MUbL._SL75_.jpg" alt="Img - B07MKNL71F" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -739,7 +739,7 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B081SM57RY?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/31LfQ0PqT4L.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B081SM57RY?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/31LfQ0PqT4L.jpg" alt="2020 HP 15 15.6" hd touchscreen premium laptop gen intel core i5-1035g1 ddr4 ssd usb type-c hdmi windows silver w computers class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B081SM57RY" href="#" data-appiplg="https://m.media-amazon.com/images/I/31LfQ0PqT4L.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
 	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B081SM57RY" href="#" data-appiplg="https://m.media-amazon.com/images/I/21e8fYBUDWL.jpg"><img src="https://m.media-amazon.com/images/I/21e8fYBUDWL._SL75_.jpg" alt="Img - B081SM57RY" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B081SM57RY" href="#" data-appiplg="https://m.media-amazon.com/images/I/31LWJ0yZOzL.jpg"><img src="https://m.media-amazon.com/images/I/31LWJ0yZOzL._SL75_.jpg" alt="Img - B081SM57RY" class="apipp-additional-image"></a>
@@ -795,10 +795,10 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B075KX1MJS?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/51MLnNd64wL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B075KX1MJS?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/51MLnNd64wL.jpg" alt="ASUS ROG Strix GL702VS 17.3" full hd ultra thin and light gaming laptop g-sync display geforce gtx intel i7-7700hq ghz ddr4 ram ssd rpm hdd computers class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B075KX1MJS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51MLnNd64wL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B075KX1MJS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51MFbD94EOL.jpg"><img src="https://m.media-amazon.com/images/I/51MFbD94EOL._SL75_.jpg" alt="Img - B075KX1MJS" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B075KX1MJS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51czEG7AU6L.jpg"><img src="https://m.media-amazon.com/images/I/51czEG7AU6L._SL75_.jpg" alt="Img - B075KX1MJS" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B075KX1MJS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51czEG7AU6L.jpg"><img src="https://m.media-amazon.com/images/I/51czEG7AU6L._SL75_.jpg" alt="Img - B075KX1MJS" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B075KX1MJS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51MFbD94EOL.jpg"><img src="https://m.media-amazon.com/images/I/51MFbD94EOL._SL75_.jpg" alt="Img - B075KX1MJS" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B075KX1MJS" href="#" data-appiplg="https://m.media-amazon.com/images/I/31TzlTQkxNL.jpg"><img src="https://m.media-amazon.com/images/I/31TzlTQkxNL._SL75_.jpg" alt="Img - B075KX1MJS" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B075KX1MJS" href="#" data-appiplg="https://m.media-amazon.com/images/I/41ECv1BSMNL.jpg"><img src="https://m.media-amazon.com/images/I/41ECv1BSMNL._SL75_.jpg" alt="Img - B075KX1MJS" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B075KX1MJS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51lFqJI9-jL.jpg"><img src="https://m.media-amazon.com/images/I/51lFqJI9-jL._SL75_.jpg" alt="Img - B075KX1MJS" class="apipp-additional-image"></a>
@@ -1013,8 +1013,8 @@ window.FPConfig= {
     hoverDelay: 50
 };
 </script><script src="https://computerstationnation.com/wp-content/plugins/flying-pages/flying-pages.min.js" id="flying-pages-js" defer></script><script id="kk-star-ratings-js-extra">
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"cb2f915703"};
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"cb2f915703"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"d39717524e"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"d39717524e"};
 </script><script src="https://computerstationnation.com/wp-content/plugins/kk-star-ratings/public/js/kk-star-ratings.js" id="kk-star-ratings-js"></script><script src="https://computerstationnation.com/wp-content/plugins/table-of-contents-plus/front.min.js" id="toc-front-js"></script><script>
 	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 	</script></body></html>
