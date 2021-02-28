@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>The Best Single Board Computer For Emulation - Computer Station Nation</title><meta name="description" content="Computer Station Nation brings you the top selection for the best computer board for emulation. As our selection is a perfect fit for playing retro gaming."><meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="The Best Single Board Computer For Emulation - Computer Station Nation"><meta property="og:description" content="Computer Station Nation brings you the top selection for the best computer board for emulation. As our selection is a perfect fit for playing retro gaming."><meta property="og:url" content="https://computerstationnation.com/the-best-single-board-computer-for-emulation/"><meta property="og:site_name" content="Computer Station Nation"><meta property="article:published_time" content="2021-01-27T12:36:14+00:00"><meta property="article:modified_time" content="2021-01-27T12:36:15+00:00"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:label1" content="Written by"><meta name="twitter:data1" content="Rachel Onwuchekwa"><meta name="twitter:label2" content="Est. reading time"><meta name="twitter:data2" content="5 minutes"><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://computerstationnation.com/#website","url":"https://computerstationnation.com/","name":"Computer Station Nation","description":"Epic Computer Setups","potentialAction":[{"@type":"SearchAction","target":"https://computerstationnation.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://computerstationnation.com/the-best-single-board-computer-for-emulation/#webpage","url":"https://computerstationnation.com/the-best-single-board-computer-for-emulation/","name":"The Best Single Board Computer For Emulation - Computer Station Nation","isPartOf":{"@id":"https://computerstationnation.com/#website"},"datePublished":"2021-01-27T12:36:14+00:00","dateModified":"2021-01-27T12:36:15+00:00","author":{"@id":"https://computerstationnation.com/#/schema/person/a22d6b9bdebdb0106e8b36769005746c"},"description":"Computer Station Nation brings you the top selection for the best computer board for emulation. As our selection is a perfect fit for playing retro gaming.","breadcrumb":{"@id":"https://computerstationnation.com/the-best-single-board-computer-for-emulation/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://computerstationnation.com/the-best-single-board-computer-for-emulation/"]}]},{"@type":"BreadcrumbList","@id":"https://computerstationnation.com/the-best-single-board-computer-for-emulation/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/","url":"https://computerstationnation.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/blog/","url":"https://computerstationnation.com/blog/","name":"Blog"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/the-best-single-board-computer-for-emulation/","url":"https://computerstationnation.com/the-best-single-board-computer-for-emulation/","name":"The Best Single Board Computer For Emulation"}}]},{"@type":"Person","@id":"https://computerstationnation.com/#/schema/person/a22d6b9bdebdb0106e8b36769005746c","name":"Rachel Onwuchekwa"}]}</script><link rel="dns-prefetch" href="//s.w.org"><meta name="DC.Title" content="The Best Single Board Computer For Emulation"><meta name="DC.Publisher" content="Computer Station Nation"><meta name="DC.Language" scheme="UTF-8" content="en-US"><meta name="DC.Creator" content="Rachel Onwuchekwa"><meta name="DC.Description" content="Single-board computers (SBCs) have numerous uses. However, the use for emulation of retro gaming remains its most popular function. Emulation remains a ..."><meta name="DC.Type" scheme="DCMIType" content="Text"><meta name="DC.Format" scheme="IMT" content="text/html"><meta name="DC.Format.MIME" content="text/html"><meta name="DC.Format.SysReq" content="Internet browser"><meta name="DC.Source" content="https://computerstationnation.com/"><meta name="DC.Coverage" content="World"><meta name="DC.Identifier" content="https://computerstationnation.com/the-best-single-board-computer-for-emulation/"><meta name="DC.Date" content="2021-01-27"><meta name="DC.Subject" content="Uncategorized"><script src="//www.googletagmanager.com/gtag/js?id=UA-195618-40" type="text/javascript" data-cfasync="false"></script><script type="text/javascript" data-cfasync="false">
-				var mi_version = '7.16.1';
+				var mi_version = '7.16.2';
 				var mi_track_user = true;
 				var mi_no_track_reason = '';
 				
@@ -29,9 +29,7 @@
 				}
 								window.dataLayer = window.dataLayer || [];
 				if ( mi_track_user ) {
-					function __gtagTracker() {
-						dataLayer.push( arguments );
-					}
+					function __gtagTracker() {dataLayer.push( arguments );}
 					__gtagTracker( 'js', new Date() );
 					__gtagTracker( 'set', {
 						'developer_id.dZGIzZG' : true,
@@ -45,8 +43,8 @@
 							var noopfn = function () {
 								return null;
 							};
-							var noopnullfn = function () {
-								return null;
+							var newtracker = function () {
+								return new Tracker();
 							};
 							var Tracker = function () {
 								return null;
@@ -54,7 +52,11 @@
 							var p = Tracker.prototype;
 							p.get = noopfn;
 							p.set = noopfn;
-							p.send = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
 							var __gaTracker = function () {
 								var len = arguments.length;
 								if ( len === 0 ) {
@@ -117,10 +119,8 @@
 								} catch ( ex ) {
 								}
 							};
-							__gaTracker.create = function () {
-								return new Tracker();
-							};
-							__gaTracker.getByName = noopnullfn;
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
 							__gaTracker.getAll = function () {
 								return [];
 							};
@@ -627,17 +627,17 @@ body.custom-background { background-color: #ffffff; }
 
 
 <div class="appip-block-wrapper"><div class="amazon-grid-wrapper amazon-template--grid-default"><div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B089K47QDN?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41jdVXtPuaL.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B089K47QDN?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41jdVXtPuaL.jpg" alt="seeed studio Raspberry Pi 4 Model B [8GB..."></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="seeed-studio-raspberry-pi-4-model-b-8gb8230"><a href="https://www.amazon.com/dp/B089K47QDN?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">seeed studio Raspberry Pi 4 Model B [8GB…</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B089K47QDN?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div>
 <div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B06VSBVQWS?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/51XkGSoKSyL.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B06VSBVQWS?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/51XkGSoKSyL.jpg" alt="ASUS SBC Tinker board RK3288 SoC 1.8GHz ..."></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="asus-sbc-tinker-board-rk3288-soc-18ghz-8230"><a href="https://www.amazon.com/dp/B06VSBVQWS?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">ASUS SBC Tinker board RK3288 SoC 1.8GHz …</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B06VSBVQWS?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div>
 <div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B07S76ZK6K?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/51FtCBnD+wL.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B07S76ZK6K?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/51FtCBnD+wL.jpg" alt="ODROID N2 Single Board Computer (SBC) (4..."></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="odroid-n2-single-board-computer-sbc-48230"><a href="https://www.amazon.com/dp/B07S76ZK6K?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">ODROID N2 Single Board Computer (SBC) (4…</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B07S76ZK6K?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div></div></div>
@@ -658,7 +658,7 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B089K47QDN?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41jdVXtPuaL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B089K47QDN?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41jdVXtPuaL.jpg" alt="seeed studio Raspberry Pi 4 Model B [8GB] RAM Single Board Computer (Electronics)" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B089K47QDN" href="#" data-appiplg="https://m.media-amazon.com/images/I/41jdVXtPuaL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
 	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B089K47QDN" href="#" data-appiplg="https://m.media-amazon.com/images/I/51WsJMcKPFL.jpg"><img src="https://m.media-amazon.com/images/I/51WsJMcKPFL._SL75_.jpg" alt="Img - B089K47QDN" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B089K47QDN" href="#" data-appiplg="https://m.media-amazon.com/images/I/41TGZlboESL.jpg"><img src="https://m.media-amazon.com/images/I/41TGZlboESL._SL75_.jpg" alt="Img - B089K47QDN" class="apipp-additional-image"></a>
@@ -716,7 +716,7 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B06VSBVQWS?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/51XkGSoKSyL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B06VSBVQWS?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/51XkGSoKSyL.jpg" alt="ASUS SBC Tinker board RK3288 SoC 1.8GHz Quad Core CPU, 600MHz Mali-T764 GPU, 2GB (Personal Computers)" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B06VSBVQWS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51XkGSoKSyL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
 	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B06VSBVQWS" href="#" data-appiplg="https://m.media-amazon.com/images/I/61eFEbjIE4L.jpg"><img src="https://m.media-amazon.com/images/I/61eFEbjIE4L._SL75_.jpg" alt="Img - B06VSBVQWS" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B06VSBVQWS" href="#" data-appiplg="https://m.media-amazon.com/images/I/61R8YEaeOLL.jpg"><img src="https://m.media-amazon.com/images/I/61R8YEaeOLL._SL75_.jpg" alt="Img - B06VSBVQWS" class="apipp-additional-image"></a>
@@ -777,7 +777,7 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B07S76ZK6K?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/51FtCBnD+wL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B07S76ZK6K?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/51FtCBnD+wL.jpg" alt="ODROID N2 Single Board Computer (SBC) (4GB) with Power Supply (Personal Computers)" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B07S76ZK6K" href="#" data-appiplg="https://m.media-amazon.com/images/I/51FtCBnD+wL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
 	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07S76ZK6K" href="#" data-appiplg="https://m.media-amazon.com/images/I/51E6RYlwmSL.jpg"><img src="https://m.media-amazon.com/images/I/51E6RYlwmSL._SL75_.jpg" alt="Img - B07S76ZK6K" class="apipp-additional-image"></a>
 </div>
@@ -1015,8 +1015,8 @@ window.FPConfig= {
     hoverDelay: 50
 };
 </script><script src="https://computerstationnation.com/wp-content/plugins/flying-pages/flying-pages.min.js" id="flying-pages-js" defer></script><script id="kk-star-ratings-js-extra">
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"cb2f915703"};
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"cb2f915703"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"d39717524e"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"d39717524e"};
 </script><script src="https://computerstationnation.com/wp-content/plugins/kk-star-ratings/public/js/kk-star-ratings.js" id="kk-star-ratings-js"></script><script src="https://computerstationnation.com/wp-content/plugins/table-of-contents-plus/front.min.js" id="toc-front-js"></script><script>
 	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 	</script></body></html>
