@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Best Computer For Science Majors - Computer Station Nation</title><meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="Best Computer For Science Majors - Computer Station Nation"><meta property="og:description" content="Computer Station Nation is reader-supported.When you buy through links on our site, we may earn an affiliate commission. Learn more. The bulk of your work as a science major cannot be off the mark without a good computer, as you will spend the majority of your time doing projects. Besides, researching the latest scientific innovations […]"><meta property="og:url" content="https://computerstationnation.com/best-computer-for-science-majors/"><meta property="og:site_name" content="Computer Station Nation"><meta property="article:author" content="https://www.facebook.com/tamunotonye.alapu.babbo/"><meta property="article:published_time" content="2021-02-03T12:43:44+00:00"><meta property="article:modified_time" content="2021-02-03T12:43:45+00:00"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:label1" content="Written by"><meta name="twitter:data1" content="Tamunotonye Alapu Babbo"><meta name="twitter:label2" content="Est. reading time"><meta name="twitter:data2" content="4 minutes"><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://computerstationnation.com/#website","url":"https://computerstationnation.com/","name":"Computer Station Nation","description":"Epic Computer Setups","potentialAction":[{"@type":"SearchAction","target":"https://computerstationnation.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://computerstationnation.com/best-computer-for-science-majors/#webpage","url":"https://computerstationnation.com/best-computer-for-science-majors/","name":"Best Computer For Science Majors - Computer Station Nation","isPartOf":{"@id":"https://computerstationnation.com/#website"},"datePublished":"2021-02-03T12:43:44+00:00","dateModified":"2021-02-03T12:43:45+00:00","author":{"@id":"https://computerstationnation.com/#/schema/person/bd8cbbadc6e016313a1c067d94c6a879"},"breadcrumb":{"@id":"https://computerstationnation.com/best-computer-for-science-majors/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://computerstationnation.com/best-computer-for-science-majors/"]}]},{"@type":"BreadcrumbList","@id":"https://computerstationnation.com/best-computer-for-science-majors/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/","url":"https://computerstationnation.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/blog/","url":"https://computerstationnation.com/blog/","name":"Blog"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://computerstationnation.com/best-computer-for-science-majors/","url":"https://computerstationnation.com/best-computer-for-science-majors/","name":"Best Computer For Science Majors"}}]},{"@type":"Person","@id":"https://computerstationnation.com/#/schema/person/bd8cbbadc6e016313a1c067d94c6a879","name":"Tamunotonye Alapu Babbo","description":"Tamunotonye Alapu is a seasoned content writer, with expertise in writing, he possesses a penchant for research and he is available to work at all times.","sameAs":["https://www.facebook.com/tamunotonye.alapu.babbo/","https://www.instagram.com/sirtamuno/"]}]}</script><link rel="dns-prefetch" href="//s.w.org"><meta name="DC.Title" content="Best Computer For Science Majors"><meta name="DC.Publisher" content="Computer Station Nation"><meta name="DC.Language" scheme="UTF-8" content="en-US"><meta name="DC.Creator" content="Tamunotonye Alapu Babbo"><meta name="DC.Description" content="The bulk of your work as a science major cannot be off the mark without a good computer, as you will spend the majority of your time doing projects. ..."><meta name="DC.Type" scheme="DCMIType" content="Text"><meta name="DC.Format" scheme="IMT" content="text/html"><meta name="DC.Format.MIME" content="text/html"><meta name="DC.Format.SysReq" content="Internet browser"><meta name="DC.Source" content="https://computerstationnation.com/"><meta name="DC.Coverage" content="World"><meta name="DC.Identifier" content="https://computerstationnation.com/best-computer-for-science-majors/"><meta name="DC.Date" content="2021-02-03"><meta name="DC.Subject" content="Uncategorized"><script src="//www.googletagmanager.com/gtag/js?id=UA-195618-40" type="text/javascript" data-cfasync="false"></script><script type="text/javascript" data-cfasync="false">
-				var mi_version = '7.16.1';
+				var mi_version = '7.16.2';
 				var mi_track_user = true;
 				var mi_no_track_reason = '';
 				
@@ -29,9 +29,7 @@
 				}
 								window.dataLayer = window.dataLayer || [];
 				if ( mi_track_user ) {
-					function __gtagTracker() {
-						dataLayer.push( arguments );
-					}
+					function __gtagTracker() {dataLayer.push( arguments );}
 					__gtagTracker( 'js', new Date() );
 					__gtagTracker( 'set', {
 						'developer_id.dZGIzZG' : true,
@@ -45,8 +43,8 @@
 							var noopfn = function () {
 								return null;
 							};
-							var noopnullfn = function () {
-								return null;
+							var newtracker = function () {
+								return new Tracker();
 							};
 							var Tracker = function () {
 								return null;
@@ -54,7 +52,11 @@
 							var p = Tracker.prototype;
 							p.get = noopfn;
 							p.set = noopfn;
-							p.send = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
 							var __gaTracker = function () {
 								var len = arguments.length;
 								if ( len === 0 ) {
@@ -117,10 +119,8 @@
 								} catch ( ex ) {
 								}
 							};
-							__gaTracker.create = function () {
-								return new Tracker();
-							};
-							__gaTracker.getByName = noopnullfn;
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
 							__gaTracker.getAll = function () {
 								return [];
 							};
@@ -635,17 +635,17 @@ body.custom-background { background-color: #ffffff; }
 
 
 <div class="appip-block-wrapper"><div class="amazon-grid-wrapper amazon-template--grid-default"><div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B08JZDVNH9?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41MpiqozmhL.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B08JZDVNH9?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41MpiqozmhL.jpg" alt="Dell XPS 15 9500 15.6" fhd i7-10750h></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="dell-xps-15-9500-1568243fhd-i7-10750h-16-58230"><a href="https://www.amazon.com/dp/B08JZDVNH9?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">Dell XPS 15 9500 15.6″FHD i7-10750H 16 5…</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B08JZDVNH9?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div>
 <div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B07T15X5H6?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41aX22jtu1L.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B07T15X5H6?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41aX22jtu1L.jpg" alt="ASUS TUF (2019) Gaming Laptop, 15.6” 120..."></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="asus-tuf-2019-gaming-laptop-156-1208230"><a href="https://www.amazon.com/dp/B07T15X5H6?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">ASUS TUF (2019) Gaming Laptop, 15.6” 120…</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B07T15X5H6?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div>
 <div class="amazon-grid-element amz-grid-3">
-<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B07VN66JMW?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41Dz-X6RMlL.jpg" alt="Buy Now"></a></div>
+<div class="amazon-grid-image"><a href="https://www.amazon.com/dp/B07VN66JMW?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener"><img src="https://m.media-amazon.com/images/I/41Dz-X6RMlL.jpg" alt="2020 Lenovo Yoga C930 2-in-1 13.9 Inch 4..."></a></div>
 <div class="amazon-grid-title"><h3 class="amazon-grid-title-h3"><span id="2020-lenovo-yoga-c930-2-in-1-139-inch-48230"><a href="https://www.amazon.com/dp/B07VN66JMW?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="_blank" rel="nofollow noopener">2020 Lenovo Yoga C930 2-in-1 13.9 Inch 4…</a></span></h3></div>
 <div class="amazon-grid-button"><a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/dp/B07VN66JMW?tag=computersta08-20&linkCode=ogi&th=1&psc=1" class="amazon__btn--green amazon__price--button--style button-rounded">Buy from Amazon.com</a></div>
 </div></div></div>
@@ -666,16 +666,16 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B08JZDVNH9?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41MpiqozmhL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B08JZDVNH9?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41MpiqozmhL.jpg" alt="Dell XPS 15 9500 15.6" fhd i7-10750h ssd gtx ti xps9500-7002slv-pus computers class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B08JZDVNH9" href="#" data-appiplg="https://m.media-amazon.com/images/I/41MpiqozmhL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B08JZDVNH9" href="#" data-appiplg="https://m.media-amazon.com/images/I/41BMddDDhxL.jpg"><img src="https://m.media-amazon.com/images/I/41BMddDDhxL._SL75_.jpg" alt="Img - B08JZDVNH9" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08JZDVNH9" href="#" data-appiplg="https://m.media-amazon.com/images/I/51IiA3s2DNL.jpg"><img src="https://m.media-amazon.com/images/I/51IiA3s2DNL._SL75_.jpg" alt="Img - B08JZDVNH9" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B08JZDVNH9" href="#" data-appiplg="https://m.media-amazon.com/images/I/51IiA3s2DNL.jpg"><img src="https://m.media-amazon.com/images/I/51IiA3s2DNL._SL75_.jpg" alt="Img - B08JZDVNH9" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08JZDVNH9" href="#" data-appiplg="https://m.media-amazon.com/images/I/41BMddDDhxL.jpg"><img src="https://m.media-amazon.com/images/I/41BMddDDhxL._SL75_.jpg" alt="Img - B08JZDVNH9" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B08JZDVNH9" href="#" data-appiplg="https://m.media-amazon.com/images/I/51SajWaIMuL.jpg"><img src="https://m.media-amazon.com/images/I/51SajWaIMuL._SL75_.jpg" alt="Img - B08JZDVNH9" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08JZDVNH9" href="#" data-appiplg="https://m.media-amazon.com/images/I/41mc2iwiitL.jpg"><img src="https://m.media-amazon.com/images/I/41mc2iwiitL._SL75_.jpg" alt="Img - B08JZDVNH9" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B08JZDVNH9" href="#" data-appiplg="https://m.media-amazon.com/images/I/41zasYCH30L.jpg"><img src="https://m.media-amazon.com/images/I/41zasYCH30L._SL75_.jpg" alt="Img - B08JZDVNH9" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08JZDVNH9" href="#" data-appiplg="https://m.media-amazon.com/images/I/41HtUTmYU3L.jpg"><img src="https://m.media-amazon.com/images/I/41HtUTmYU3L._SL75_.jpg" alt="Img - B08JZDVNH9" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08JZDVNH9" href="#" data-appiplg="https://m.media-amazon.com/images/I/51dDgGdl-CL.jpg"><img src="https://m.media-amazon.com/images/I/51dDgGdl-CL._SL75_.jpg" alt="Img - B08JZDVNH9" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B08JZDVNH9" href="#" data-appiplg="https://m.media-amazon.com/images/I/51YuZ6J0t3L.jpg"><img src="https://m.media-amazon.com/images/I/51YuZ6J0t3L._SL75_.jpg" alt="Img - B08JZDVNH9" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08JZDVNH9" href="#" data-appiplg="https://m.media-amazon.com/images/I/41mc2iwiitL.jpg"><img src="https://m.media-amazon.com/images/I/41mc2iwiitL._SL75_.jpg" alt="Img - B08JZDVNH9" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08JZDVNH9" href="#" data-appiplg="https://m.media-amazon.com/images/I/51dDgGdl-CL.jpg"><img src="https://m.media-amazon.com/images/I/51dDgGdl-CL._SL75_.jpg" alt="Img - B08JZDVNH9" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08JZDVNH9" href="#" data-appiplg="https://m.media-amazon.com/images/I/41HtUTmYU3L.jpg"><img src="https://m.media-amazon.com/images/I/41HtUTmYU3L._SL75_.jpg" alt="Img - B08JZDVNH9" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -733,12 +733,12 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B07T15X5H6?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41aX22jtu1L.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B07T15X5H6?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41aX22jtu1L.jpg" alt="ASUS TUF (2019) Gaming Laptop, 15.6” 120Hz Full HD IPS-Type, AMD Ryzen 7 3750H, GeForce GTX 1650, 8GB DDR4, 512GB PCIe SSD, Gigabit Wi-Fi 5, Windows 10 Home, FX505DT-EB73 (Renewed) (Personal Computers)" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B07T15X5H6" href="#" data-appiplg="https://m.media-amazon.com/images/I/41aX22jtu1L.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07T15X5H6" href="#" data-appiplg="https://m.media-amazon.com/images/I/41QfXBDqA1L.jpg"><img src="https://m.media-amazon.com/images/I/41QfXBDqA1L._SL75_.jpg" alt="Img - B07T15X5H6" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07T15X5H6" href="#" data-appiplg="https://m.media-amazon.com/images/I/41O+Ph2uicL.jpg"><img src="https://m.media-amazon.com/images/I/41O+Ph2uicL._SL75_.jpg" alt="Img - B07T15X5H6" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07T15X5H6" href="#" data-appiplg="https://m.media-amazon.com/images/I/31I5OtkCp7L.jpg"><img src="https://m.media-amazon.com/images/I/31I5OtkCp7L._SL75_.jpg" alt="Img - B07T15X5H6" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07T15X5H6" href="#" data-appiplg="https://m.media-amazon.com/images/I/41QfXBDqA1L.jpg"><img src="https://m.media-amazon.com/images/I/41QfXBDqA1L._SL75_.jpg" alt="Img - B07T15X5H6" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07T15X5H6" href="#" data-appiplg="https://m.media-amazon.com/images/I/41fpHkTM3NL.jpg"><img src="https://m.media-amazon.com/images/I/41fpHkTM3NL._SL75_.jpg" alt="Img - B07T15X5H6" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07T15X5H6" href="#" data-appiplg="https://m.media-amazon.com/images/I/41O+Ph2uicL.jpg"><img src="https://m.media-amazon.com/images/I/41O+Ph2uicL._SL75_.jpg" alt="Img - B07T15X5H6" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07T15X5H6" href="#" data-appiplg="https://m.media-amazon.com/images/I/41-r0L2MopL.jpg"><img src="https://m.media-amazon.com/images/I/41-r0L2MopL._SL75_.jpg" alt="Img - B07T15X5H6" class="apipp-additional-image"></a>
 </div>
 	</div>
@@ -793,14 +793,14 @@ body.custom-background { background-color: #ffffff; }
 <div class="appip-block-wrapper">
 <div class="amazon-template--light template-img-top amazon--is_block">
 	<div class="amazon-image-wrapper">
-		<a href="https://www.amazon.com/dp/B07VN66JMW?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41Dz-X6RMlL.jpg" alt="Buy Now" class="amazon-image amazon-image-large"></a>
+		<a href="https://www.amazon.com/dp/B07VN66JMW?tag=computersta08-20&linkCode=ogi&th=1&psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41Dz-X6RMlL.jpg" alt="2020 Lenovo Yoga C930 2-in-1 13.9 Inch 4K Ultra HD Touchscreen Laptop (Intel Core i7-8550U, Quad Cores, 16GB DDR4 RAM, 512GB SSD, Backlit Keyboard, WiFi, Bluetooth, HDMI, Windows 10 Home) (Mica) (Personal Computers)" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B07VN66JMW" href="#" data-appiplg="https://m.media-amazon.com/images/I/41Dz-X6RMlL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
 	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07VN66JMW" href="#" data-appiplg="https://m.media-amazon.com/images/I/31DaKeJAy0L.jpg"><img src="https://m.media-amazon.com/images/I/31DaKeJAy0L._SL75_.jpg" alt="Img - B07VN66JMW" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07VN66JMW" href="#" data-appiplg="https://m.media-amazon.com/images/I/41KP0mNquQL.jpg"><img src="https://m.media-amazon.com/images/I/41KP0mNquQL._SL75_.jpg" alt="Img - B07VN66JMW" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07VN66JMW" href="#" data-appiplg="https://m.media-amazon.com/images/I/51KCsaERCEL.jpg"><img src="https://m.media-amazon.com/images/I/51KCsaERCEL._SL75_.jpg" alt="Img - B07VN66JMW" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07VN66JMW" href="#" data-appiplg="https://m.media-amazon.com/images/I/51xF7UXIdKL.jpg"><img src="https://m.media-amazon.com/images/I/51xF7UXIdKL._SL75_.jpg" alt="Img - B07VN66JMW" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07VN66JMW" href="#" data-appiplg="https://m.media-amazon.com/images/I/41GV+w3q21L.jpg"><img src="https://m.media-amazon.com/images/I/41GV+w3q21L._SL75_.jpg" alt="Img - B07VN66JMW" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07VN66JMW" href="#" data-appiplg="https://m.media-amazon.com/images/I/31dOw0hDV6L._SL500_.jpg"><img src="https://m.media-amazon.com/images/I/31dOw0hDV6L._SL75_.jpg" alt="Img - B07VN66JMW" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07VN66JMW" href="#" data-appiplg="https://m.media-amazon.com/images/I/41GV+w3q21L.jpg"><img src="https://m.media-amazon.com/images/I/41GV+w3q21L._SL75_.jpg" alt="Img - B07VN66JMW" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07VN66JMW" href="#" data-appiplg="https://m.media-amazon.com/images/I/41KP0mNquQL.jpg"><img src="https://m.media-amazon.com/images/I/41KP0mNquQL._SL75_.jpg" alt="Img - B07VN66JMW" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07VN66JMW" href="#" data-appiplg="https://m.media-amazon.com/images/I/51xF7UXIdKL.jpg"><img src="https://m.media-amazon.com/images/I/51xF7UXIdKL._SL75_.jpg" alt="Img - B07VN66JMW" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -1029,8 +1029,8 @@ window.FPConfig= {
     hoverDelay: 50
 };
 </script><script src="https://computerstationnation.com/wp-content/plugins/flying-pages/flying-pages.min.js" id="flying-pages-js" defer></script><script id="kk-star-ratings-js-extra">
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"cb2f915703"};
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"cb2f915703"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"d39717524e"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"d39717524e"};
 </script><script src="https://computerstationnation.com/wp-content/plugins/kk-star-ratings/public/js/kk-star-ratings.js" id="kk-star-ratings-js"></script><script src="https://computerstationnation.com/wp-content/plugins/table-of-contents-plus/front.min.js" id="toc-front-js"></script><script>
 	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 	</script></body></html>
