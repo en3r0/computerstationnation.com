@@ -44,7 +44,7 @@
 		
 							<script src="//www.googletagmanager.com/gtag/js?id=UA-195618-40" type="text/javascript" data-cfasync="false"></script>
 			<script type="text/javascript" data-cfasync="false">
-				var mi_version = '7.16.2';
+				var mi_version = '7.17.0';
 				var mi_track_user = true;
 				var mi_no_track_reason = '';
 				
@@ -122,6 +122,9 @@
 										}
 										if ( typeof arguments[2] === 'object' ) {
 											hitObject = arguments[2];
+										}
+										if ( typeof arguments[5] === 'object' ) {
+											Object.assign( hitObject, arguments[5] );
 										}
 										if ( 'undefined' !== typeof (
 											arguments[1].hitType
@@ -201,7 +204,6 @@
 <link rel="stylesheet" id="page-list-style-css" href="https://computerstationnation.com/wp-content/plugins/page-list/css/page-list.css" media="all">
 <link rel="stylesheet" id="toc-screen-css" href="https://computerstationnation.com/wp-content/plugins/table-of-contents-plus/screen.min.css" media="all">
 <link rel="stylesheet" id="table-sorter-custom-css-css" href="https://computerstationnation.com/wp-content/plugins/table-sorter/wp-style.css" media="all">
-<link rel="stylesheet" id="monsterinsights-popular-posts-style-css" href="https://computerstationnation.com/wp-content/plugins/google-analytics-for-wordpress/assets/css/frontend.min.css" media="all">
 <link rel="stylesheet" id="twentytwenty-style-css" href="https://computerstationnation.com/wp-content/themes/twentytwenty/style.css" media="all">
 <style id="twentytwenty-style-inline-css">
 .color-accent,.color-accent-hover:hover,.color-accent-hover:focus,:root .has-accent-color,.has-drop-cap:not(:focus):first-letter,.wp-block-button.is-style-outline,a { color: #ee0606; }blockquote,.border-color-accent,.border-color-accent-hover:hover,.border-color-accent-hover:focus { border-color: #ee0606; }button,.button,.faux-button,.wp-block-button__link,.wp-block-file .wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.bg-accent,.bg-accent-hover:hover,.bg-accent-hover:focus,:root .has-accent-background-color,.comment-reply-link { background-color: #ee0606; }.fill-children-accent,.fill-children-accent * { fill: #ee0606; }:root .has-background-color,button,.button,.faux-button,.wp-block-button__link,.wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.wp-block-button,.comment-reply-link,.has-background.has-primary-background-color:not(.has-text-color),.has-background.has-primary-background-color *:not(.has-text-color),.has-background.has-accent-background-color:not(.has-text-color),.has-background.has-accent-background-color *:not(.has-text-color) { color: #ffffff; }:root .has-background-background-color { background-color: #ffffff; }body,.entry-title a,:root .has-primary-color { color: #000000; }:root .has-primary-background-color { background-color: #000000; }cite,figcaption,.wp-caption-text,.post-meta,.entry-content .wp-block-archives li,.entry-content .wp-block-categories li,.entry-content .wp-block-latest-posts li,.wp-block-latest-comments__comment-date,.wp-block-latest-posts__post-date,.wp-block-embed figcaption,.wp-block-image figcaption,.wp-block-pullquote cite,.comment-metadata,.comment-respond .comment-notes,.comment-respond .logged-in-as,.pagination .dots,.entry-content hr:not(.has-background),hr.styled-separator,:root .has-secondary-color { color: #6d6d6d; }:root .has-secondary-background-color { background-color: #6d6d6d; }pre,fieldset,input,textarea,table,table *,hr { border-color: #dbdbdb; }caption,code,code,kbd,samp,.wp-block-table.is-style-stripes tbody tr:nth-child(odd),:root .has-subtle-background-background-color { background-color: #dbdbdb; }.wp-block-table.is-style-stripes { border-bottom-color: #dbdbdb; }.wp-block-latest-posts.is-grid li { border-top-color: #dbdbdb; }:root .has-subtle-background-color { color: #dbdbdb; }body:not(.overlay-header) .primary-menu > li > a,body:not(.overlay-header) .primary-menu > li > .icon,.modal-menu a,.footer-menu a, .footer-widgets a,#site-footer .wp-block-button.is-style-outline,.wp-block-pullquote:before,.singular:not(.overlay-header) .entry-header a,.archive-header a,.header-footer-group .color-accent,.header-footer-group .color-accent-hover:hover { color: #e00a0a; }.social-icons a,#site-footer button:not(.toggle),#site-footer .button,#site-footer .faux-button,#site-footer .wp-block-button__link,#site-footer .wp-block-file__button,#site-footer input[type="button"],#site-footer input[type="reset"],#site-footer input[type="submit"] { background-color: #e00a0a; }.social-icons a,body:not(.overlay-header) .primary-menu ul,.header-footer-group button,.header-footer-group .button,.header-footer-group .faux-button,.header-footer-group .wp-block-button:not(.is-style-outline) .wp-block-button__link,.header-footer-group .wp-block-file__button,.header-footer-group input[type="button"],.header-footer-group input[type="reset"],.header-footer-group input[type="submit"] { color: #f4f4f4; }#site-header,.footer-nav-widgets-wrapper,#site-footer,.menu-modal,.menu-modal-inner,.search-modal-inner,.archive-header,.singular .entry-header,.singular .featured-media:before,.wp-block-pullquote:before { background-color: #f4f4f4; }.header-footer-group,body:not(.overlay-header) #site-header .toggle,.menu-modal .toggle { color: #000000; }body:not(.overlay-header) .primary-menu ul { background-color: #000000; }body:not(.overlay-header) .primary-menu > li > ul:after { border-bottom-color: #000000; }body:not(.overlay-header) .primary-menu ul ul:after { border-left-color: #000000; }.site-description,body:not(.overlay-header) .toggle-inner .toggle-text,.widget .post-date,.widget .rss-date,.widget_archive li,.widget_categories li,.widget cite,.widget_pages li,.widget_meta li,.widget_nav_menu li,.powered-by-wordpress,.to-the-top,.singular .entry-header .post-meta,.singular:not(.overlay-header) .entry-header .post-meta a { color: #686868; }.header-footer-group pre,.header-footer-group fieldset,.header-footer-group input,.header-footer-group textarea,.header-footer-group table,.header-footer-group table *,.footer-nav-widgets-wrapper,#site-footer,.menu-modal nav *,.footer-widgets-outer-wrapper,.footer-top { border-color: #d3d3d3; }.header-footer-group table caption,body:not(.overlay-header) .header-inner .toggle-wrapper::before { background-color: #d3d3d3; }
@@ -821,14 +823,14 @@ body.custom-background { background-color: #ffffff; }
 	<div class="amazon-image-wrapper">
 		<a href="https://www.amazon.com/dp/B084JD96TB?tag=computersta08-20&amp;linkCode=ogi&amp;th=1&amp;psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41C6jOPGwfL.jpg" alt="ErGear 22-35&rdquo; Premium Dual Monitor Stand Mount w/USB, Ultrawide Computer Screen Desk Mount w/Full Motion Gas Spring Arm, Height/Tilt/Swivel/Rotation Adjustable, Holds from 6.6lbs to 26.5lbs / arm (Office Product)" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B084JD96TB" href="#" data-appiplg="https://m.media-amazon.com/images/I/41C6jOPGwfL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B084JD96TB" href="#" data-appiplg="https://m.media-amazon.com/images/I/51GvBR+FGWL.jpg"><img src="https://m.media-amazon.com/images/I/51GvBR+FGWL._SL75_.jpg" alt="Img - B084JD96TB" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B084JD96TB" href="#" data-appiplg="https://m.media-amazon.com/images/I/51B70Rh5QzL.jpg"><img src="https://m.media-amazon.com/images/I/51B70Rh5QzL._SL75_.jpg" alt="Img - B084JD96TB" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B084JD96TB" href="#" data-appiplg="https://m.media-amazon.com/images/I/51lSSdptVHL.jpg"><img src="https://m.media-amazon.com/images/I/51lSSdptVHL._SL75_.jpg" alt="Img - B084JD96TB" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B084JD96TB" href="#" data-appiplg="https://m.media-amazon.com/images/I/51N5JfzjKTL.jpg"><img src="https://m.media-amazon.com/images/I/51N5JfzjKTL._SL75_.jpg" alt="Img - B084JD96TB" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B084JD96TB" href="#" data-appiplg="https://m.media-amazon.com/images/I/51j-3RZXHNL.jpg"><img src="https://m.media-amazon.com/images/I/51j-3RZXHNL._SL75_.jpg" alt="Img - B084JD96TB" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B084JD96TB" href="#" data-appiplg="https://m.media-amazon.com/images/I/51j-3RZXHNL.jpg"><img src="https://m.media-amazon.com/images/I/51j-3RZXHNL._SL75_.jpg" alt="Img - B084JD96TB" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B084JD96TB" href="#" data-appiplg="https://m.media-amazon.com/images/I/41KNwAOymQL.jpg"><img src="https://m.media-amazon.com/images/I/41KNwAOymQL._SL75_.jpg" alt="Img - B084JD96TB" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B084JD96TB" href="#" data-appiplg="https://m.media-amazon.com/images/I/51B70Rh5QzL.jpg"><img src="https://m.media-amazon.com/images/I/51B70Rh5QzL._SL75_.jpg" alt="Img - B084JD96TB" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B084JD96TB" href="#" data-appiplg="https://m.media-amazon.com/images/I/51bG2jiK9YL.jpg"><img src="https://m.media-amazon.com/images/I/51bG2jiK9YL._SL75_.jpg" alt="Img - B084JD96TB" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B084JD96TB" href="#" data-appiplg="https://m.media-amazon.com/images/I/51GvBR+FGWL.jpg"><img src="https://m.media-amazon.com/images/I/51GvBR+FGWL._SL75_.jpg" alt="Img - B084JD96TB" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B084JD96TB" href="#" data-appiplg="https://m.media-amazon.com/images/I/51lSSdptVHL.jpg"><img src="https://m.media-amazon.com/images/I/51lSSdptVHL._SL75_.jpg" alt="Img - B084JD96TB" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B084JD96TB" href="#" data-appiplg="https://m.media-amazon.com/images/I/51ZFl9Pc61L.jpg"><img src="https://m.media-amazon.com/images/I/51ZFl9Pc61L._SL75_.jpg" alt="Img - B084JD96TB" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B084JD96TB" href="#" data-appiplg="https://m.media-amazon.com/images/I/51N5JfzjKTL.jpg"><img src="https://m.media-amazon.com/images/I/51N5JfzjKTL._SL75_.jpg" alt="Img - B084JD96TB" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -890,13 +892,13 @@ body.custom-background { background-color: #ffffff; }
 	<div class="amazon-image-wrapper">
 		<a href="https://www.amazon.com/dp/B07QS7BM8W?tag=computersta08-20&amp;linkCode=ogi&amp;th=1&amp;psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41aW7ygwJyL.jpg" alt="Triple Monitor Stand - Full Motion Articulating Aluminum Gas Spring Monitor Mount Fit Three 17 to 32 inch Lcd Computer Screens with Clamp, Grommet Kit (Electronics)" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B07QS7BM8W" href="#" data-appiplg="https://m.media-amazon.com/images/I/41aW7ygwJyL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07QS7BM8W" href="#" data-appiplg="https://m.media-amazon.com/images/I/51Orrpna4IL.jpg"><img src="https://m.media-amazon.com/images/I/51Orrpna4IL._SL75_.jpg" alt="Img - B07QS7BM8W" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07QS7BM8W" href="#" data-appiplg="https://m.media-amazon.com/images/I/513QMKvwXiL.jpg"><img src="https://m.media-amazon.com/images/I/513QMKvwXiL._SL75_.jpg" alt="Img - B07QS7BM8W" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07QS7BM8W" href="#" data-appiplg="https://m.media-amazon.com/images/I/41duogTdtPL.jpg"><img src="https://m.media-amazon.com/images/I/41duogTdtPL._SL75_.jpg" alt="Img - B07QS7BM8W" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07QS7BM8W" href="#" data-appiplg="https://m.media-amazon.com/images/I/51G3MQN7MdL.jpg"><img src="https://m.media-amazon.com/images/I/51G3MQN7MdL._SL75_.jpg" alt="Img - B07QS7BM8W" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07QS7BM8W" href="#" data-appiplg="https://m.media-amazon.com/images/I/51Orrpna4IL.jpg"><img src="https://m.media-amazon.com/images/I/51Orrpna4IL._SL75_.jpg" alt="Img - B07QS7BM8W" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07QS7BM8W" href="#" data-appiplg="https://m.media-amazon.com/images/I/51BcWshnOcL.jpg"><img src="https://m.media-amazon.com/images/I/51BcWshnOcL._SL75_.jpg" alt="Img - B07QS7BM8W" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07QS7BM8W" href="#" data-appiplg="https://m.media-amazon.com/images/I/51ph-NDSh2L.jpg"><img src="https://m.media-amazon.com/images/I/51ph-NDSh2L._SL75_.jpg" alt="Img - B07QS7BM8W" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07QS7BM8W" href="#" data-appiplg="https://m.media-amazon.com/images/I/513QMKvwXiL.jpg"><img src="https://m.media-amazon.com/images/I/513QMKvwXiL._SL75_.jpg" alt="Img - B07QS7BM8W" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07QS7BM8W" href="#" data-appiplg="https://m.media-amazon.com/images/I/51oF3uaPtoL.jpg"><img src="https://m.media-amazon.com/images/I/51oF3uaPtoL._SL75_.jpg" alt="Img - B07QS7BM8W" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07QS7BM8W" href="#" data-appiplg="https://m.media-amazon.com/images/I/51G3MQN7MdL.jpg"><img src="https://m.media-amazon.com/images/I/51G3MQN7MdL._SL75_.jpg" alt="Img - B07QS7BM8W" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07QS7BM8W" href="#" data-appiplg="https://m.media-amazon.com/images/I/41duogTdtPL.jpg"><img src="https://m.media-amazon.com/images/I/41duogTdtPL._SL75_.jpg" alt="Img - B07QS7BM8W" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -957,10 +959,10 @@ body.custom-background { background-color: #ffffff; }
 		<a href="https://www.amazon.com/dp/B086WRC3XJ?tag=computersta08-20&amp;linkCode=ogi&amp;th=1&amp;psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/314mdV2-YlL.jpg" alt="TechOrbits Quad Monitor Stand - Four Screens Heavy Duty Aluminum Monitor Arms - 4 Monitor Premium Mount (Electronics)" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B086WRC3XJ" href="#" data-appiplg="https://m.media-amazon.com/images/I/314mdV2-YlL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
 	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B086WRC3XJ" href="#" data-appiplg="https://m.media-amazon.com/images/I/31JHA5oD8HL.jpg"><img src="https://m.media-amazon.com/images/I/31JHA5oD8HL._SL75_.jpg" alt="Img - B086WRC3XJ" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B086WRC3XJ" href="#" data-appiplg="https://m.media-amazon.com/images/I/317dgYSW2vL.jpg"><img src="https://m.media-amazon.com/images/I/317dgYSW2vL._SL75_.jpg" alt="Img - B086WRC3XJ" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B086WRC3XJ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41DNc1MZAeL.jpg"><img src="https://m.media-amazon.com/images/I/41DNc1MZAeL._SL75_.jpg" alt="Img - B086WRC3XJ" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B086WRC3XJ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41wqrUNv6-L.jpg"><img src="https://m.media-amazon.com/images/I/41wqrUNv6-L._SL75_.jpg" alt="Img - B086WRC3XJ" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B086WRC3XJ" href="#" data-appiplg="https://m.media-amazon.com/images/I/317dgYSW2vL.jpg"><img src="https://m.media-amazon.com/images/I/317dgYSW2vL._SL75_.jpg" alt="Img - B086WRC3XJ" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B086WRC3XJ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41vSsawAGUL.jpg"><img src="https://m.media-amazon.com/images/I/41vSsawAGUL._SL75_.jpg" alt="Img - B086WRC3XJ" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B086WRC3XJ" href="#" data-appiplg="https://m.media-amazon.com/images/I/41DNc1MZAeL.jpg"><img src="https://m.media-amazon.com/images/I/41DNc1MZAeL._SL75_.jpg" alt="Img - B086WRC3XJ" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -1183,8 +1185,8 @@ window.FPConfig= {
 </script>
 <script src="https://computerstationnation.com/wp-content/plugins/flying-pages/flying-pages.min.js" id="flying-pages-js" defer></script>
 <script id="kk-star-ratings-js-extra">
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"f67f7d9117"};
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"f67f7d9117"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"c918832efc"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"c918832efc"};
 </script>
 <script src="https://computerstationnation.com/wp-content/plugins/kk-star-ratings/public/js/kk-star-ratings.js" id="kk-star-ratings-js"></script>
 <script src="https://computerstationnation.com/wp-content/plugins/table-of-contents-plus/front.min.js" id="toc-front-js"></script>
