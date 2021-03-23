@@ -53,7 +53,7 @@
 		
 							<script src="//www.googletagmanager.com/gtag/js?id=UA-195618-40" type="text/javascript" data-cfasync="false"></script>
 			<script type="text/javascript" data-cfasync="false">
-				var mi_version = '7.16.2';
+				var mi_version = '7.17.0';
 				var mi_track_user = true;
 				var mi_no_track_reason = '';
 				
@@ -131,6 +131,9 @@
 										}
 										if ( typeof arguments[2] === 'object' ) {
 											hitObject = arguments[2];
+										}
+										if ( typeof arguments[5] === 'object' ) {
+											Object.assign( hitObject, arguments[5] );
 										}
 										if ( 'undefined' !== typeof (
 											arguments[1].hitType
@@ -210,7 +213,6 @@
 <link rel="stylesheet" id="page-list-style-css" href="https://computerstationnation.com/wp-content/plugins/page-list/css/page-list.css" media="all">
 <link rel="stylesheet" id="toc-screen-css" href="https://computerstationnation.com/wp-content/plugins/table-of-contents-plus/screen.min.css" media="all">
 <link rel="stylesheet" id="table-sorter-custom-css-css" href="https://computerstationnation.com/wp-content/plugins/table-sorter/wp-style.css" media="all">
-<link rel="stylesheet" id="monsterinsights-popular-posts-style-css" href="https://computerstationnation.com/wp-content/plugins/google-analytics-for-wordpress/assets/css/frontend.min.css" media="all">
 <link rel="stylesheet" id="twentytwenty-style-css" href="https://computerstationnation.com/wp-content/themes/twentytwenty/style.css" media="all">
 <style id="twentytwenty-style-inline-css">
 .color-accent,.color-accent-hover:hover,.color-accent-hover:focus,:root .has-accent-color,.has-drop-cap:not(:focus):first-letter,.wp-block-button.is-style-outline,a { color: #ee0606; }blockquote,.border-color-accent,.border-color-accent-hover:hover,.border-color-accent-hover:focus { border-color: #ee0606; }button,.button,.faux-button,.wp-block-button__link,.wp-block-file .wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.bg-accent,.bg-accent-hover:hover,.bg-accent-hover:focus,:root .has-accent-background-color,.comment-reply-link { background-color: #ee0606; }.fill-children-accent,.fill-children-accent * { fill: #ee0606; }:root .has-background-color,button,.button,.faux-button,.wp-block-button__link,.wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.wp-block-button,.comment-reply-link,.has-background.has-primary-background-color:not(.has-text-color),.has-background.has-primary-background-color *:not(.has-text-color),.has-background.has-accent-background-color:not(.has-text-color),.has-background.has-accent-background-color *:not(.has-text-color) { color: #ffffff; }:root .has-background-background-color { background-color: #ffffff; }body,.entry-title a,:root .has-primary-color { color: #000000; }:root .has-primary-background-color { background-color: #000000; }cite,figcaption,.wp-caption-text,.post-meta,.entry-content .wp-block-archives li,.entry-content .wp-block-categories li,.entry-content .wp-block-latest-posts li,.wp-block-latest-comments__comment-date,.wp-block-latest-posts__post-date,.wp-block-embed figcaption,.wp-block-image figcaption,.wp-block-pullquote cite,.comment-metadata,.comment-respond .comment-notes,.comment-respond .logged-in-as,.pagination .dots,.entry-content hr:not(.has-background),hr.styled-separator,:root .has-secondary-color { color: #6d6d6d; }:root .has-secondary-background-color { background-color: #6d6d6d; }pre,fieldset,input,textarea,table,table *,hr { border-color: #dbdbdb; }caption,code,code,kbd,samp,.wp-block-table.is-style-stripes tbody tr:nth-child(odd),:root .has-subtle-background-background-color { background-color: #dbdbdb; }.wp-block-table.is-style-stripes { border-bottom-color: #dbdbdb; }.wp-block-latest-posts.is-grid li { border-top-color: #dbdbdb; }:root .has-subtle-background-color { color: #dbdbdb; }body:not(.overlay-header) .primary-menu > li > a,body:not(.overlay-header) .primary-menu > li > .icon,.modal-menu a,.footer-menu a, .footer-widgets a,#site-footer .wp-block-button.is-style-outline,.wp-block-pullquote:before,.singular:not(.overlay-header) .entry-header a,.archive-header a,.header-footer-group .color-accent,.header-footer-group .color-accent-hover:hover { color: #e00a0a; }.social-icons a,#site-footer button:not(.toggle),#site-footer .button,#site-footer .faux-button,#site-footer .wp-block-button__link,#site-footer .wp-block-file__button,#site-footer input[type="button"],#site-footer input[type="reset"],#site-footer input[type="submit"] { background-color: #e00a0a; }.social-icons a,body:not(.overlay-header) .primary-menu ul,.header-footer-group button,.header-footer-group .button,.header-footer-group .faux-button,.header-footer-group .wp-block-button:not(.is-style-outline) .wp-block-button__link,.header-footer-group .wp-block-file__button,.header-footer-group input[type="button"],.header-footer-group input[type="reset"],.header-footer-group input[type="submit"] { color: #f4f4f4; }#site-header,.footer-nav-widgets-wrapper,#site-footer,.menu-modal,.menu-modal-inner,.search-modal-inner,.archive-header,.singular .entry-header,.singular .featured-media:before,.wp-block-pullquote:before { background-color: #f4f4f4; }.header-footer-group,body:not(.overlay-header) #site-header .toggle,.menu-modal .toggle { color: #000000; }body:not(.overlay-header) .primary-menu ul { background-color: #000000; }body:not(.overlay-header) .primary-menu > li > ul:after { border-bottom-color: #000000; }body:not(.overlay-header) .primary-menu ul ul:after { border-left-color: #000000; }.site-description,body:not(.overlay-header) .toggle-inner .toggle-text,.widget .post-date,.widget .rss-date,.widget_archive li,.widget_categories li,.widget cite,.widget_pages li,.widget_meta li,.widget_nav_menu li,.powered-by-wordpress,.to-the-top,.singular .entry-header .post-meta,.singular:not(.overlay-header) .entry-header .post-meta a { color: #686868; }.header-footer-group pre,.header-footer-group fieldset,.header-footer-group input,.header-footer-group textarea,.header-footer-group table,.header-footer-group table *,.footer-nav-widgets-wrapper,#site-footer,.menu-modal nav *,.footer-widgets-outer-wrapper,.footer-top { border-color: #d3d3d3; }.header-footer-group table caption,body:not(.overlay-header) .header-inner .toggle-wrapper::before { background-color: #d3d3d3; }
@@ -854,9 +856,9 @@ body.custom-background { background-color: #ffffff; }
 	<div class="amazon-image-wrapper">
 		<a href="https://www.amazon.com/dp/B07WDDBS7R?tag=computersta08-20&amp;linkCode=ogi&amp;th=1&amp;psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41Ni+jEnOsL.jpg" alt="Asus ROG Strix Scar III (2019) Gaming Laptop, 15.6&rdquo; 240Hz IPS Type FHD, NVIDIA GeForce RTX 2060, Intel Core i7-9750H, 16GB DDR4, 1TB PCIe Nvme SSD, Per-Key RGB KB, Windows 10, G531GV-DB76 (Renewed) (Personal Computers)" class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B07WDDBS7R" href="#" data-appiplg="https://m.media-amazon.com/images/I/41Ni+jEnOsL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07WDDBS7R" href="#" data-appiplg="https://m.media-amazon.com/images/I/415+AcAQHmL.jpg"><img src="https://m.media-amazon.com/images/I/415+AcAQHmL._SL75_.jpg" alt="Img - B07WDDBS7R" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B07WDDBS7R" href="#" data-appiplg="https://m.media-amazon.com/images/I/41kXxanY1YL.jpg"><img src="https://m.media-amazon.com/images/I/41kXxanY1YL._SL75_.jpg" alt="Img - B07WDDBS7R" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B07WDDBS7R" href="#" data-appiplg="https://m.media-amazon.com/images/I/415+AcAQHmL.jpg"><img src="https://m.media-amazon.com/images/I/415+AcAQHmL._SL75_.jpg" alt="Img - B07WDDBS7R" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07WDDBS7R" href="#" data-appiplg="https://m.media-amazon.com/images/I/419qt6oKlTL.jpg"><img src="https://m.media-amazon.com/images/I/419qt6oKlTL._SL75_.jpg" alt="Img - B07WDDBS7R" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B07WDDBS7R" href="#" data-appiplg="https://m.media-amazon.com/images/I/41kXxanY1YL.jpg"><img src="https://m.media-amazon.com/images/I/41kXxanY1YL._SL75_.jpg" alt="Img - B07WDDBS7R" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B07WDDBS7R" href="#" data-appiplg="https://m.media-amazon.com/images/I/41TYwF8YEvL.jpg"><img src="https://m.media-amazon.com/images/I/41TYwF8YEvL._SL75_.jpg" alt="Img - B07WDDBS7R" class="apipp-additional-image"></a>
 </div>
 	</div>
@@ -925,11 +927,11 @@ body.custom-background { background-color: #ffffff; }
 	<div class="amazon-image-wrapper">
 		<a href="https://www.amazon.com/dp/B085B3GFRL?tag=computersta08-20&amp;linkCode=ogi&amp;th=1&amp;psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/41IxNpjdJAL.jpg" alt="MSI GL65 Leopard 10SFK-062 15.6" fhd thin bezel gaming laptop intel core i7-10750h rtx2070 nvme ssd win computers class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B085B3GFRL" href="#" data-appiplg="https://m.media-amazon.com/images/I/41IxNpjdJAL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B085B3GFRL" href="#" data-appiplg="https://m.media-amazon.com/images/I/51ke-AVKaiL.jpg"><img src="https://m.media-amazon.com/images/I/51ke-AVKaiL._SL75_.jpg" alt="Img - B085B3GFRL" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B085B3GFRL" href="#" data-appiplg="https://m.media-amazon.com/images/I/41rosDre6gL.jpg"><img src="https://m.media-amazon.com/images/I/41rosDre6gL._SL75_.jpg" alt="Img - B085B3GFRL" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B085B3GFRL" href="#" data-appiplg="https://m.media-amazon.com/images/I/419QoS7sltL.jpg"><img src="https://m.media-amazon.com/images/I/419QoS7sltL._SL75_.jpg" alt="Img - B085B3GFRL" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B085B3GFRL" href="#" data-appiplg="https://m.media-amazon.com/images/I/51QycisZMLL.jpg"><img src="https://m.media-amazon.com/images/I/51QycisZMLL._SL75_.jpg" alt="Img - B085B3GFRL" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B085B3GFRL" href="#" data-appiplg="https://m.media-amazon.com/images/I/419QoS7sltL.jpg"><img src="https://m.media-amazon.com/images/I/419QoS7sltL._SL75_.jpg" alt="Img - B085B3GFRL" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B085B3GFRL" href="#" data-appiplg="https://m.media-amazon.com/images/I/51ke-AVKaiL.jpg"><img src="https://m.media-amazon.com/images/I/51ke-AVKaiL._SL75_.jpg" alt="Img - B085B3GFRL" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B085B3GFRL" href="#" data-appiplg="https://m.media-amazon.com/images/I/41x3OzL6DML.jpg"><img src="https://m.media-amazon.com/images/I/41x3OzL6DML._SL75_.jpg" alt="Img - B085B3GFRL" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B085B3GFRL" href="#" data-appiplg="https://m.media-amazon.com/images/I/41rosDre6gL.jpg"><img src="https://m.media-amazon.com/images/I/41rosDre6gL._SL75_.jpg" alt="Img - B085B3GFRL" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B085B3GFRL" href="#" data-appiplg="https://m.media-amazon.com/images/I/51QycisZMLL.jpg"><img src="https://m.media-amazon.com/images/I/51QycisZMLL._SL75_.jpg" alt="Img - B085B3GFRL" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B085B3GFRL" href="#" data-appiplg="https://m.media-amazon.com/images/I/31on25pOz8L.jpg"><img src="https://m.media-amazon.com/images/I/31on25pOz8L._SL75_.jpg" alt="Img - B085B3GFRL" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B085B3GFRL" href="#" data-appiplg="https://m.media-amazon.com/images/I/416MkgSUmML.jpg"><img src="https://m.media-amazon.com/images/I/416MkgSUmML._SL75_.jpg" alt="Img - B085B3GFRL" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B085B3GFRL" href="#" data-appiplg="https://m.media-amazon.com/images/I/41ZAaoYIK6L.jpg"><img src="https://m.media-amazon.com/images/I/41ZAaoYIK6L._SL75_.jpg" alt="Img - B085B3GFRL" class="apipp-additional-image"></a>
@@ -1000,23 +1002,23 @@ body.custom-background { background-color: #ffffff; }
 	<div class="amazon-image-wrapper">
 		<a href="https://www.amazon.com/dp/B08842D7JS?tag=computersta08-20&amp;linkCode=ogi&amp;th=1&amp;psc=1" target="amazonwin"><img src="https://m.media-amazon.com/images/I/51UQDEuqoiL.jpg" alt="Acer Predator Helios 300 Gaming Laptop, Intel i7-10750H, NVIDIA GeForce RTX 2060 6GB, 15.6" full hd ips display dual-channel ddr4 nvme ssd wi-fi rgb keyboard ph315-53-72xd computers class="amazon-image amazon-image-large"></a>
 		<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51UQDEuqoiL.jpg" target="amazonwin"><span class="amazon-tiny">See larger image</span></a>
-	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/415n6jY+neL.jpg"><img src="https://m.media-amazon.com/images/I/415n6jY+neL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51b7QQaaINL.jpg"><img src="https://m.media-amazon.com/images/I/51b7QQaaINL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
+	<div class="amazon-additional-images-wrapper"><span class="amazon-additional-images-text">Additional Images</span><a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51b7QQaaINL.jpg"><img src="https://m.media-amazon.com/images/I/51b7QQaaINL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/415n6jY+neL.jpg"><img src="https://m.media-amazon.com/images/I/415n6jY+neL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/519iUvfh1zL.jpg"><img src="https://m.media-amazon.com/images/I/519iUvfh1zL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/519T-SSjI6L.jpg"><img src="https://m.media-amazon.com/images/I/519T-SSjI6L._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51+D0z4nLML.jpg"><img src="https://m.media-amazon.com/images/I/51+D0z4nLML._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51ZNF6fr5CL.jpg"><img src="https://m.media-amazon.com/images/I/51ZNF6fr5CL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51IzAIYCe9L.jpg"><img src="https://m.media-amazon.com/images/I/51IzAIYCe9L._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51ipHq7xmEL.jpg"><img src="https://m.media-amazon.com/images/I/51ipHq7xmEL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/519T-SSjI6L.jpg"><img src="https://m.media-amazon.com/images/I/519T-SSjI6L._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/419EhWXlE-L.jpg"><img src="https://m.media-amazon.com/images/I/419EhWXlE-L._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/41kOKiX8-zL.jpg"><img src="https://m.media-amazon.com/images/I/41kOKiX8-zL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51IzAIYCe9L.jpg"><img src="https://m.media-amazon.com/images/I/51IzAIYCe9L._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51+D0z4nLML.jpg"><img src="https://m.media-amazon.com/images/I/51+D0z4nLML._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51jIBKNy3bL.jpg"><img src="https://m.media-amazon.com/images/I/51jIBKNy3bL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/41kOKiX8-zL.jpg"><img src="https://m.media-amazon.com/images/I/41kOKiX8-zL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/51ipHq7xmEL.jpg"><img src="https://m.media-amazon.com/images/I/51ipHq7xmEL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/31HsaMIJJEL.jpg"><img src="https://m.media-amazon.com/images/I/31HsaMIJJEL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/31VgIac5tVL.jpg"><img src="https://m.media-amazon.com/images/I/31VgIac5tVL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/31slnPYyTpL.jpg"><img src="https://m.media-amazon.com/images/I/31slnPYyTpL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/31VgVTsa1GL.jpg"><img src="https://m.media-amazon.com/images/I/31VgVTsa1GL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/31HsaMIJJEL.jpg"><img src="https://m.media-amazon.com/images/I/31HsaMIJJEL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
-<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/317AobMQGaL.jpg"><img src="https://m.media-amazon.com/images/I/317AobMQGaL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
 <a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/41ORoC-DaLL.jpg"><img src="https://m.media-amazon.com/images/I/41ORoC-DaLL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/31VgVTsa1GL.jpg"><img src="https://m.media-amazon.com/images/I/31VgVTsa1GL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
+<a rel="appiplightbox-B08842D7JS" href="#" data-appiplg="https://m.media-amazon.com/images/I/317AobMQGaL.jpg"><img src="https://m.media-amazon.com/images/I/317AobMQGaL._SL75_.jpg" alt="Img - B08842D7JS" class="apipp-additional-image"></a>
 </div>
 	</div>
 	<div class="amazon-section-wrapper">
@@ -1175,9 +1177,9 @@ body.custom-background { background-color: #ffffff; }
 				</a>
 
 				
-				<a class="next-post" href="https://computerstationnation.com/best-computer-for-animation-2/">
+				<a class="next-post" href="https://computerstationnation.com/best-computer-for-quickbooks/">
 					<span class="arrow" aria-hidden="true">&rarr;</span>
-						<span class="title"><span class="title-inner">Best Computer For Animation</span></span>
+						<span class="title"><span class="title-inner">Best Computer For QuickBooks</span></span>
 				</a>
 				
 		</div>
@@ -1297,8 +1299,8 @@ window.FPConfig= {
 </script>
 <script src="https://computerstationnation.com/wp-content/plugins/flying-pages/flying-pages.min.js" id="flying-pages-js" defer></script>
 <script id="kk-star-ratings-js-extra">
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"f67f7d9117"};
-var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"f67f7d9117"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"c918832efc"};
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/computerstationnation.com\/wp-admin\/admin-ajax.php","nonce":"c918832efc"};
 </script>
 <script src="https://computerstationnation.com/wp-content/plugins/kk-star-ratings/public/js/kk-star-ratings.js" id="kk-star-ratings-js"></script>
 <script src="https://computerstationnation.com/wp-content/plugins/table-of-contents-plus/front.min.js" id="toc-front-js"></script>
